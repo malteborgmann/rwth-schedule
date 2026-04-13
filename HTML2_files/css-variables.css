@@ -1,0 +1,166 @@
+/* Setting Variables used in theme and client and can be overwritten */
+
+:root {
+
+  /* COLOR DEFINITION */
+  --primary-color: #0076d6;
+  --primary-dark-color: #014c8a;
+  --primary-light-color: #2595dd;
+
+  --secondary-color: #2c3e50;
+  --secondary-dark-color: #0b2136;
+  --secondary-light-color: #62738d;
+
+  --white: #fff;
+  --off-white: #f6f6f6;
+
+  --main-content-background-color: var(--white);
+  --panel-background-color: #f5f5f5;
+
+  --text-color: #333333;
+
+  /* LOGO SPECS */
+  --logo-url: url('https://online.rwth-aachen.de/RWTHonline/ee/theme/ca2/images/logos/campusonline_logo-white.svg?theme_64aff7cf957d101675eba93fed2596e1a3fd31d6');
+  --logo-background-size: 90px;
+  --logo-width: 120px;
+  --logo-height: 40px;
+
+  /* LOGO MOBILE */
+  --logo-mobile-url: url('https://online.rwth-aachen.de/RWTHonline/ee/theme/ca2/images/logos/campusonline_logo-white.svg?theme_64aff7cf957d101675eba93fed2596e1a3fd31d6');
+  --logo-mobile-background-size: 90px;
+  --logo-mobile-width: 110px;
+  --logo-mobile-height: 40px;
+
+  /* LOGO EXTRA SMALL DEVICES */
+  --logo-mobile-xs-url: url('https://online.rwth-aachen.de/RWTHonline/ee/theme/ca2/images/logos/campusonline_logo-white.svg?theme_64aff7cf957d101675eba93fed2596e1a3fd31d6');
+  --logo-mobile-xs-background-size: 80px;
+  --logo-mobile-xs-width: 100px;
+  --logo-mobile-xs-height: 40px;
+
+  /* HEADER */
+  --ca-primary-header-row-height: 40px;
+  --ca-primary-header-row-text-color: var(--white);
+  --ca-primary-header-row-background-color: var(--secondary-dark-color);
+  --header-button-background-color-hover: var(--secondary-color);
+  --header-button-text-color-hover: var(--white);
+  --ca-secondary-header-row-background-color: var(--off-white);
+
+  /* LANGUAGE SWITCH */
+  --header-button-toggle-checked: var(--secondary-light-color);
+  --header-button-toggle-text-checked: var(--white);
+
+  /* FOOTER */
+  --footer-background-color: var(--secondary-dark-color);
+  --footer-text-color: var(--white);
+  /* keep aware, there should be enough contrast to --footer-background-color */
+  --footer-link-text-color: var(--primary-light-color);
+
+  /* PRIMARY BUTTON */
+  --primary-button-background-color: var(--primary-color);
+  --primary-button-background-color-hover: var(--primary-dark-color);
+
+  --primary-button-border-color: transparent;
+  --primary-button-border-color-hover: transparent;
+
+  --primary-button-text-color: var(--white);
+  --primary-button-text-color-hover: var(--white);
+
+  /* SECONDARY (DEFAULT) BUTTON */
+  --default-button-background-color: var(--white);
+  --default-button-background-color-hover: var(--secondary-color);
+
+  --default-button-border-color: var(--secondary-color);
+  --default-button-border-color-hover: var(--secondary-color);
+
+  --default-button-text-color: var(--secondary-color);
+  --default-button-text-color-hover: var(--white);
+
+  /* FILTER & SORT BUTTON */
+  --list-tool-button-background-color: var(--secondary-color);
+  --list-tool-button-background-color-hover: var(--secondary-light-color);
+  --list-tool-button-text-color: var(--white);
+  --list-tool-button-text-color-hover: var(--white);
+  --list-tool-button-border-color: var(--list-tool-button-background-color);
+  --list-tool-button-border-color-hover: var(--list-tool-button-background-color-hover);
+
+  /* GLOBAL TEXTUAL LINK COLOR */
+  --link-color: var(--primary-color);
+  --link-color-hover: var(--primary-dark-color);
+  --link-background-color-hover: transparent;
+  --link-text-decoration-hover: underline;
+
+  /* SIDENAV-TOGGLE */
+  --sidebar-logx-text-color: var(--primary-button-text-color);
+  --sidebar-logx-background-color: var(--primary-button-background-color);
+  --sidebar-logx-background-color-hover: var(--primary-button-background-color-hover);
+  --sidebar-logx-text-color-hover: var(--primary-button-text-color-hover);
+
+  /* DETAILVIEW-TOGGLE */
+  --button-toggle-checked: var(--secondary-light-color);
+  --button-toggle-text-checked: var(--white);
+
+  /* LOGIN */
+  --login-background-color: var(--primary-color);
+  --login-background-image: url('https://online.rwth-aachen.de/RWTHonline/ee/theme/ca2/images/loginpage_bg.png?theme_64aff7cf957d101675eba93fed2596e1a3fd31d6');
+  --login-background-image-size: 25vw auto;
+  --login-text-color: var(--primary-button-text-color);
+  --login-button-color: var(--login-background-color);
+  --login-button-background-hover: var(--primary-button-background-color-hover);
+  --login-button-color-hover: var(--primary-buton-text-color-hover);
+
+  /* Home/Desktop - folder background */
+  --folder-background-color: #f5f5f5;
+  --folder-background-color-hover: #eee;
+  --folder-border-color: transparent;
+  --folder-border-color-hover: transparent;
+  --folder-text-color: var(--link-color);
+  --folder-text-color-hover: var(--link-hover-color);
+
+  /* Home/Desktop - Application background */
+  --access-entry-background-color: #f5f5f5;
+  --access-entry-background-color-hover: var(--folder-background-color-hover);
+  --access-entry-border-color: transparent;
+  --access-entry-border-color-hover: var(--primary-color);
+  --access-entry-text-color: var(--link-color);
+  --access-entry-text-color-hover: var(--link-color);
+
+  /* Error Page Illustrations */
+  --error-image-400-url: url('https://online.rwth-aachen.de/RWTHonline/ee/theme/ca2/images/error-illustrations/error-400.png?theme_64aff7cf957d101675eba93fed2596e1a3fd31d6');
+  --error-image-401-url: url('https://online.rwth-aachen.de/RWTHonline/ee/theme/ca2/images/error-illustrations/error-401.png?theme_64aff7cf957d101675eba93fed2596e1a3fd31d6');
+  --error-image-403-url: url('https://online.rwth-aachen.de/RWTHonline/ee/theme/ca2/images/error-illustrations/error-403.png?theme_64aff7cf957d101675eba93fed2596e1a3fd31d6');
+  --error-image-404-url: url('https://online.rwth-aachen.de/RWTHonline/ee/theme/ca2/images/error-illustrations/error-404.png?theme_64aff7cf957d101675eba93fed2596e1a3fd31d6');
+  --error-image-500-url: url('https://online.rwth-aachen.de/RWTHonline/ee/theme/ca2/images/error-illustrations/error-500.png?theme_64aff7cf957d101675eba93fed2596e1a3fd31d6');
+  --error-image-503-url: url('https://online.rwth-aachen.de/RWTHonline/ee/theme/ca2/images/error-illustrations/error-503.png?theme_64aff7cf957d101675eba93fed2596e1a3fd31d6');
+  --error-image-504-url: url('https://online.rwth-aachen.de/RWTHonline/ee/theme/ca2/images/error-illustrations/error-504.png?theme_64aff7cf957d101675eba93fed2596e1a3fd31d6');
+  --error-image-600-url: url('https://online.rwth-aachen.de/RWTHonline/ee/theme/ca2/images/error-illustrations/error-600.png?theme_64aff7cf957d101675eba93fed2596e1a3fd31d6');
+  --error-image-601-url: url('https://online.rwth-aachen.de/RWTHonline/ee/theme/ca2/images/error-illustrations/error-601.png?theme_64aff7cf957d101675eba93fed2596e1a3fd31d6');
+  --error-image-604-url: url('https://online.rwth-aachen.de/RWTHonline/ee/theme/ca2/images/error-illustrations/error-604.png?theme_64aff7cf957d101675eba93fed2596e1a3fd31d6');
+
+/* conx calendar colors */
+  --cal-holiday-container: #e3e2e6;
+  --cal-on-holiday-container: #1a1b1f;
+  --cal-course: #0A6780;
+  --cal-course-container: #B9EAFF;
+  --cal-on-course-container: #001F29;
+  --cal-exam: #ba1a1a;
+  --cal-exam-container: #ffdad6;
+  --cal-on-exam-container: #410002;
+  --cal-personal: #006b54;
+  --cal-personal-container: #80f8d1;
+  --cal-on-personal-container: #002117;
+  --cal-event: #8f4d00;
+  --cal-event-container: #ffdcc2;
+  --cal-on-event-container: #2e1500;
+  --cal-education: #666000;
+  --cal-education-container: #efe66b;
+  --cal-on-education-container: #1e1c00;
+  --cal-organisation: #005cbb;
+  --cal-organisation-container: #d7e3ff;
+  --cal-on-organisation-container: #001b3f;
+  --cal-ressource: #6b4fa2;
+  --cal-ressource-container: #eaddff;
+  --cal-on-ressource-container: #250059;
+  --cal-blocked: #f2f0f4;
+  --cal-blocked-container: #2f3033;
+  --cal-on-blocked-container: #f2f0f4;
+}

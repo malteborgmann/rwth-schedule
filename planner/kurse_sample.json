@@ -1,0 +1,4454 @@
+[
+  {
+    "LV-Nr": "12.00078",
+    "Fachname": "Actions and Planning in AI: Learning, Models, and Algorithms",
+    "Typ": "UE",
+    "Vortragende": "Jansen, Niklas; Reiter, Jonas Laurenz",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563270",
+    "id": "12.00078",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "8:00",
+        "bis": "10:00"
+      },
+      {
+        "tag": "Mi",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00056",
+    "Fachname": "Actions and Planning in AI: Learning, Models, and Algorithms",
+    "Typ": "VO",
+    "Vortragende": "Geffner, Hector",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562834",
+    "id": "12.00056",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00039",
+    "Fachname": "Advanced Algorithmic Differentiation",
+    "Typ": "VU",
+    "Vortragende": "Naumann, Uwe; Kauerauf, Gero Fritz",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Software und Werkzeuge für Computational Engineering",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563150",
+    "id": "12.00039",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00029",
+    "Fachname": "Advanced Algorithms",
+    "Typ": "SE",
+    "Vortragende": "Hoefer, Martin Karl Wilhelm",
+    "Lehrstuhl": "Lehrstuhl für Algorithmen und Komplexität (Informatik 1)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/586995",
+    "id": "12.00029",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "8:00",
+        "bis": "10:00"
+      },
+      {
+        "tag": "Mo",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.31013",
+    "Fachname": "Advanced Coding and Modulation",
+    "Typ": "UE",
+    "Vortragende": "Jax, Peter Johannes; Hahn, Johannes Christofer; Hardenbicker, Till Vincent",
+    "Lehrstuhl": "Lehrstuhl und Institut für Kommunikationssysteme",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560995",
+    "id": "61.31013",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.31012",
+    "Fachname": "Advanced Coding and Modulation",
+    "Typ": "VO",
+    "Vortragende": "Jax, Peter Johannes; Hahn, Johannes Christofer; Hardenbicker, Till Vincent",
+    "Lehrstuhl": "Lehrstuhl und Institut für Kommunikationssysteme",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561296",
+    "id": "61.31012",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "14:15",
+        "bis": "15:45"
+      },
+      {
+        "tag": "Di",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.24002",
+    "Fachname": "Advanced Internet Technology (Übung)",
+    "Typ": "UE",
+    "Vortragende": "Büning, Julian Ruben; Fibich, Arthur Marcel; Hamza, Majd",
+    "Lehrstuhl": "Lehrstuhl für Kommunikation und verteilte Systeme (Informatik 4)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560757",
+    "id": "12.24002",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "10:15",
+        "bis": "11:45"
+      },
+      {
+        "tag": "Di",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.24001",
+    "Fachname": "Advanced Internet Technology (Vorlesung)",
+    "Typ": "VO",
+    "Vortragende": "Wehrle, Klaus",
+    "Lehrstuhl": "Lehrstuhl für Kommunikation und verteilte Systeme (Informatik 4)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560368",
+    "id": "12.24001",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "8:00",
+        "bis": "10:00"
+      },
+      {
+        "tag": "Di",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.34452",
+    "Fachname": "Advanced Machine Learning",
+    "Typ": "VO",
+    "Vortragende": "Leibe, Bastian",
+    "Lehrstuhl": "Lehrstuhl für Computer Vision (Informatik 13)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560900",
+    "id": "12.34452",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.25112",
+    "Fachname": "Advanced Process Mining",
+    "Typ": "UE",
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius; Knopp, Benedikt; Pitsch, Cameron; Peeva, Viki; Brockhoff, Tobias",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562097",
+    "id": "12.25112",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "8:30",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.25111",
+    "Fachname": "Advanced Process Mining",
+    "Typ": "VO",
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562096",
+    "id": "12.25111",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00052",
+    "Fachname": "Advanced Topics in IT-Security and Cryptograpy",
+    "Typ": "SE",
+    "Vortragende": "Drichel, Arthur; Ehrmanntraut, Vincent Cosme; Meyer, Ulrike Michaela",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet IT-Sicherheit",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563873",
+    "id": "12.00052",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "8:30",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00104",
+    "Fachname": "Advanced Topics in IT-Security and Cryptograpy",
+    "Typ": "SE",
+    "Vortragende": "Drichel, Arthur; Ehrmanntraut, Vincent Cosme; Meyer, Ulrike Michaela",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet IT-Sicherheit",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562849",
+    "id": "12.00104",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "8:00",
+        "bis": "10:00"
+      },
+      {
+        "tag": "Do",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00047",
+    "Fachname": "Advanced Topics in Network Science",
+    "Typ": "SE",
+    "Vortragende": "Schaub, Michael Thomas",
+    "Lehrstuhl": "Lehrstuhl für Computational Network Science",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563406",
+    "id": "12.00047",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.02001",
+    "Fachname": "Advanced Topics in Reinforcement Learning and Planning",
+    "Typ": "SE",
+    "Vortragende": "Geffner, Hector",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/575648",
+    "id": "12.02001",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "9:00",
+        "bis": "10:30"
+      },
+      {
+        "tag": "Fr",
+        "von": "8:30",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00109",
+    "Fachname": "Agentic AI in a 2D Video Game",
+    "Typ": "PR",
+    "Vortragende": "Hufnagel, Paul; Netz, Lukas Stephan Michael; Nqiri, Haron Samy; Thillmann, Henrik",
+    "Lehrstuhl": "Lehrstuhl für Software Engineering (Informatik 3)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/587080",
+    "id": "12.00109",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "10:30",
+        "bis": "12:00"
+      },
+      {
+        "tag": "Mo",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00117",
+    "Fachname": "AI as Co-Teacher? Opportunities and Challenges of Generative AI in Schools",
+    "Typ": "SE",
+    "Vortragende": "Ehlenz, Matthias Siegfried",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Lerntechnologien",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/587083",
+    "id": "12.00117",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "16:00",
+        "bis": "18:00"
+      },
+      {
+        "tag": "Mo",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00060",
+    "Fachname": "AI Self-Reflection - Understanding How LLMs Learn from Themselves",
+    "Typ": "SE",
+    "Vortragende": "Decker, Stefan Josef; Moosmann, Paul; Morad, Milad; Reiners, René",
+    "Lehrstuhl": "Lehrstuhl für Informationssysteme und Datenbanken (Informatik 5)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/587003",
+    "id": "12.00060",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00030",
+    "Fachname": "Aktuelle Themen der Effizienten Algorithmen",
+    "Typ": "SE",
+    "Vortragende": "Seibert, Sebastian",
+    "Lehrstuhl": "Lehrstuhl für Algorithmen und Komplexität (Informatik 1)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/586996",
+    "id": "12.00030",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.58042",
+    "Fachname": "Aktuelle Themen in der Fluidsimulation",
+    "Typ": "SE",
+    "Vortragende": "Bender, Jan Stephen",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Computer Animation",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560320",
+    "id": "12.58042",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "11.33691",
+    "Fachname": "Algebra",
+    "Typ": "VO",
+    "Vortragende": "Zerz, Eva Barbara",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Mathematik (Algebra)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561105",
+    "id": "11.33691",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "10:30",
+        "bis": "12:00"
+      },
+      {
+        "tag": "Mo",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "11.33692",
+    "Fachname": "Algebra (Übung)",
+    "Typ": "UE",
+    "Vortragende": "Rohde, Yannic; Zerz, Eva Barbara",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Mathematik (Algebra)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561885",
+    "id": "11.33692",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "14:15",
+        "bis": "15:45"
+      },
+      {
+        "tag": "Do",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00092",
+    "Fachname": "Algorithmische Spieltheorie",
+    "Typ": "VO",
+    "Vortragende": "Hoefer, Martin Karl Wilhelm",
+    "Lehrstuhl": "Lehrstuhl für Algorithmen und Komplexität (Informatik 1)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/574215",
+    "id": "12.00092",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00115",
+    "Fachname": "Algorithms",
+    "Typ": "SE",
+    "Vortragende": "Hoefer, Martin Karl Wilhelm",
+    "Lehrstuhl": "Lehrstuhl für Algorithmen und Komplexität (Informatik 1)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563905",
+    "id": "12.00115",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "8:00",
+        "bis": "10:00"
+      },
+      {
+        "tag": "Di",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "15.00210",
+    "Fachname": "Allgemeine Technische Chemie und Makromolekulare Chemie",
+    "Typ": "VO",
+    "Vortragende": "Hausoul, Peter Jozef; Mourran, Ahmed",
+    "Lehrstuhl": "Lehrstuhl für Makromolekulare Materialien und Systeme",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560825",
+    "id": "15.00210",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.00346",
+    "Fachname": "Angewandte Konstruktion und Produktentwicklung I",
+    "Typ": "VO",
+    "Vortragende": "Behr, Marek; Bosse, Dennis; Corves, Burkhard; Heimes, Heiner Hans; Hüsing, Mathias; Kowalski, Julia; Reisgen, Uwe Kaspar; Schmitz, Katharina; Schröder, Kai-Uwe; Zerwas, Thilo Heiner Anton",
+    "Lehrstuhl": "Lehrstuhl und Institut für Maschinenelemente und Systementwicklung",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563791",
+    "id": "41.00346",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.00347",
+    "Fachname": "Angewandte Konstruktion und Produktentwicklung I Projektgruppe",
+    "Typ": "",
+    "Vortragende": "Behr, Marek; Bosse, Dennis; Corves, Burkhard; Heimes, Heiner Hans; Hüsing, Mathias; Kowalski, Julia; Moers, Frederik; Reisgen, Uwe Kaspar; Schmitz, Katharina; Schröder, Kai-Uwe",
+    "Lehrstuhl": "Lehrstuhl und Institut für Maschinenelemente und Systementwicklung",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/564171",
+    "id": "41.00347",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "14:00",
+        "bis": "16:00"
+      },
+      {
+        "tag": "Do",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00139",
+    "Fachname": "Applications of AI in Games",
+    "Typ": "PR",
+    "Vortragende": "Dettmer, Justin; Dierkes, Julian; Kalkreuth, Roman Tobias; Shavit, Hadar",
+    "Lehrstuhl": "Lehrstuhl für Methodik der Künstlichen Intelligenz (Informatik 14)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562712",
+    "id": "12.00139",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "12:00",
+        "bis": "14:00"
+      },
+      {
+        "tag": "Mi",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00247",
+    "Fachname": "Applied Formal Methods Lab",
+    "Typ": "PR",
+    "Vortragende": "Völker, Marcus",
+    "Lehrstuhl": "Lehrstuhl für Embedded Software (Informatik 11)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/587027",
+    "id": "12.00247",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.04000",
+    "Fachname": "Artificial Intelligence for Robotics",
+    "Typ": "PR",
+    "Vortragende": "Geffner, Hector",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/575649",
+    "id": "12.04000",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.45873",
+    "Fachname": "Ausgesuchte Themen zur Eingebetteten Software",
+    "Typ": "SE",
+    "Vortragende": "Kowalewski, Stefan",
+    "Lehrstuhl": "Lehrstuhl für Embedded Software (Informatik 11)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562114",
+    "id": "12.45873",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "8:30",
+        "bis": "10:00"
+      },
+      {
+        "tag": "Di",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00063",
+    "Fachname": "Automated Planning and Knowledge Representation",
+    "Typ": "SE",
+    "Vortragende": "Helal, Hayyan; Lynn, Matthew James",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Wissensbasierte Systeme",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/587004",
+    "id": "12.00063",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "10:00",
+        "bis": "12:00"
+      },
+      {
+        "tag": "Mo",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00107",
+    "Fachname": "Automatic Speech Recognition Search",
+    "Typ": "VO",
+    "Vortragende": "Schlüter, Ralf; Zeyer, Albert",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563157",
+    "id": "12.00107",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "9:00",
+        "bis": "10:30"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00108",
+    "Fachname": "Automatic Speech Recognition Search",
+    "Typ": "UE",
+    "Vortragende": "Schlüter, Ralf; Yang, Zijian",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563158",
+    "id": "12.00108",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.23106",
+    "Fachname": "Automation of Complex Power Systems",
+    "Typ": "VU",
+    "Vortragende": "Monti, Antonello; Yavuzer, Aytug; Pananchickal Sajeev, Sreejith",
+    "Lehrstuhl": "Lehrstuhl für Automation of Complex Power Systems",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561605",
+    "id": "61.23106",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.02736",
+    "Fachname": "Automotive Engineering II",
+    "Typ": "VO",
+    "Vortragende": "Eckstein, Lutz",
+    "Lehrstuhl": "Lehrstuhl und Institut für Kraftfahrzeuge (ika)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561833",
+    "id": "41.02736",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.06258",
+    "Fachname": "Automotive Engineering II",
+    "Typ": "UE",
+    "Vortragende": "Werner, Dominik; Yordanov, Ventseslav",
+    "Lehrstuhl": "Lehrstuhl und Institut für Kraftfahrzeuge (ika)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560839",
+    "id": "41.06258",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "9:00",
+        "bis": "10:30"
+      },
+      {
+        "tag": "Fr",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00146",
+    "Fachname": "Building Large Language Model Applications",
+    "Typ": "PR",
+    "Vortragende": "Decker, Stefan Josef; Mou, Yongli; Peng, Yixin",
+    "Lehrstuhl": "Lehrstuhl für Informationssysteme und Datenbanken (Informatik 5)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562594",
+    "id": "12.00146",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "10:00",
+        "bis": "12:00"
+      },
+      {
+        "tag": "Do",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.25110",
+    "Fachname": "Business Process Intelligence",
+    "Typ": "UE",
+    "Vortragende": "Graves, Nina Yvette; Küsters, Aaron Ruben; Rennert, Christian; van der Aalst, Willibrordus Martinus Pancratius",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562076",
+    "id": "12.25110",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.25109",
+    "Fachname": "Business Process Intelligence",
+    "Typ": "VO",
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius; Graves, Nina Yvette; Küsters, Aaron Ruben; Rennert, Christian",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562075",
+    "id": "12.25109",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "14:15",
+        "bis": "15:45"
+      },
+      {
+        "tag": "Di",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00058",
+    "Fachname": "Competitive Programming",
+    "Typ": "PR",
+    "Vortragende": "Barth, Naomi; Gehnen, Matthias; Mock, Daniel Alexander; Rossmanith, Peter",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Theoretische Informatik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563437",
+    "id": "12.00058",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "9:00",
+        "bis": "10:30"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00096",
+    "Fachname": "Computational Mathematical Modelling Program (CAMMP)",
+    "Typ": "PR",
+    "Vortragende": "Büsing, Christina Maria Katharina",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Kombinatorische Optimierung",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/587077",
+    "id": "12.00096",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "14:00",
+        "bis": "16:00"
+      },
+      {
+        "tag": "Di",
+        "von": "8:30",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "13.29361",
+    "Fachname": "Computational Physics",
+    "Typ": "VU",
+    "Vortragende": "Weßel, Stefan",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Theoretische Physik (kondensierte Materie)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561542",
+    "id": "13.29361",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.14726",
+    "Fachname": "Computer Vision",
+    "Typ": "VU",
+    "Vortragende": "Leibe, Bastian",
+    "Lehrstuhl": "Lehrstuhl für Computer Vision (Informatik 13)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561315",
+    "id": "12.14726",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "8:30",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "42.00018",
+    "Fachname": "Continuum Mechanical Modeling for Simulation Science",
+    "Typ": "VO",
+    "Vortragende": "Steldermann, Ingo",
+    "Lehrstuhl": "Lehrstuhl für Methoden der Modellbasierten Entwicklung in den Computergestützten Ingenieurwissenschaften",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563196",
+    "id": "42.00018",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "42.35037",
+    "Fachname": "Continuum Mechanical Modeling for Simulation Science",
+    "Typ": "UE",
+    "Vortragende": "Correa, Alan Jason; Chen, Qian",
+    "Lehrstuhl": "Lehrstuhl für Methoden der Modellbasierten Entwicklung in den Computergestützten Ingenieurwissenschaften",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563076",
+    "id": "42.35037",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.56283",
+    "Fachname": "Current Topics in Computer Graphics and Geometry Processing",
+    "Typ": "SE",
+    "Vortragende": "Kobbelt, Leif",
+    "Lehrstuhl": "Lehrstuhl für Computergraphik, Geometrie und Multimedia (Informatik 8)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561276",
+    "id": "12.56283",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.42725",
+    "Fachname": "Current Topics in Media Computing and HCI",
+    "Typ": "VU",
+    "Vortragende": "Borchers, Jan Oliver",
+    "Lehrstuhl": "Lehrstuhl für Medieninformatik und Mensch-Computer-Interaktion (Informatik 10)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561835",
+    "id": "12.42725",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00057",
+    "Fachname": "Current Topics in Software Architecture",
+    "Typ": "SE",
+    "Vortragende": "Seiger, Ronny",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Softwarearchitektur",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/587000",
+    "id": "12.00057",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "KP.00011",
+    "Fachname": "Data Science for Medical Applications",
+    "Typ": "SE",
+    "Vortragende": "Sifa, Rafet",
+    "Lehrstuhl": "Bonn-Aachen International Center for Information Technology",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562874",
+    "id": "KP.00011",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "9:00",
+        "bis": "10:30"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00069",
+    "Fachname": "Data Science in Medicine Seminar",
+    "Typ": "SE",
+    "Vortragende": "Decker, Stefan Josef; Mou, Yongli; Hayat, Sikander; Peng, Yixin",
+    "Lehrstuhl": "Lehrstuhl für Informationssysteme und Datenbanken (Informatik 5)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563309",
+    "id": "12.00069",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00023",
+    "Fachname": "Datenstrommanagement und -analyse",
+    "Typ": "VU",
+    "Vortragende": "Geisler, Sandra; Belova, Anastasiia Albertovna; Kim, Soo-Yon",
+    "Lehrstuhl": "Juniorprofessur für Datenstrom-Management und -Analyse",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563266",
+    "id": "12.00023",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.04001",
+    "Fachname": "Deep Learning for Structured Data",
+    "Typ": "VU",
+    "Vortragende": "Morris, Christopher",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen auf Graphen",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/575806",
+    "id": "12.04001",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.06506",
+    "Fachname": "Designing Interactive Systems II",
+    "Typ": "VU",
+    "Vortragende": "Borchers, Jan Oliver",
+    "Lehrstuhl": "Lehrstuhl für Medieninformatik und Mensch-Computer-Interaktion (Informatik 10)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561746",
+    "id": "12.06506",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "10:30",
+        "bis": "12:00"
+      },
+      {
+        "tag": "Mi",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.24203",
+    "Fachname": "Digitalisierung der Produktion",
+    "Typ": "PR",
+    "Vortragende": "Schroeder, Ulrik; Judel, Sven; Salmen, Frederic",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Lerntechnologien",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562568",
+    "id": "12.24203",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "12:15",
+        "bis": "13:45"
+      },
+      {
+        "tag": "Fr",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.00042",
+    "Fachname": "Digitization of Energy Distribution Grids",
+    "Typ": "VO",
+    "Vortragende": "Ulbig, Andreas; Sen, Ömer; Mahjoob, Amirali",
+    "Lehrstuhl": "Lehrstuhl für Aktive Energieverteilnetze",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562812",
+    "id": "61.00042",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.00041",
+    "Fachname": "Digitization of Energy Distribution Grids",
+    "Typ": "UE",
+    "Vortragende": "Sen, Ömer; Mahjoob, Amirali; Ulbig, Andreas",
+    "Lehrstuhl": "Lehrstuhl für Aktive Energieverteilnetze",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562462",
+    "id": "61.00041",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "11.53160",
+    "Fachname": "Diskrete Mathematik I",
+    "Typ": "UE",
+    "Vortragende": "Eickhoff, Katharina; Pabst, Philipp Tobias",
+    "Lehrstuhl": "Lehrstuhl für Management Science",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562121",
+    "id": "11.53160",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "14:00",
+        "bis": "16:00"
+      },
+      {
+        "tag": "Di",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "11.53158",
+    "Fachname": "Diskrete Mathematik I",
+    "Typ": "VO",
+    "Vortragende": "Peis, Britta",
+    "Lehrstuhl": "Lehrstuhl für Management Science",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561966",
+    "id": "11.53158",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.33737",
+    "Fachname": "DSP Design Methodologies and Tools",
+    "Typ": "VO",
+    "Vortragende": "Leupers, Rainer",
+    "Lehrstuhl": "Lehrstuhl für Software für Systeme auf Silizium",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560578",
+    "id": "61.33737",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "8:30",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.33738",
+    "Fachname": "DSP Design Methodologies and Tools",
+    "Typ": "UE",
+    "Vortragende": "Melarcode Vaidyanathan, Arunkumar; Cubero-Cascante, José Andres",
+    "Lehrstuhl": "Lehrstuhl für Software für Systeme auf Silizium",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560910",
+    "id": "61.33738",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.28942",
+    "Fachname": "Einführung in die Arbeitswissenschaft",
+    "Typ": "VU",
+    "Vortragende": "Nitsch, Verena",
+    "Lehrstuhl": "Lehrstuhl und Institut für Arbeitswissenschaft",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561109",
+    "id": "41.28942",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "92.02555",
+    "Fachname": "Einführung in die Medizinische Informatik: Vorlesung",
+    "Typ": "VO",
+    "Vortragende": "Röhrig, Rainer",
+    "Lehrstuhl": "Institut und Lehrstuhl für Medizinische Informatik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561748",
+    "id": "92.02555",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "10:30",
+        "bis": "12:00"
+      },
+      {
+        "tag": "Fr",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.24196",
+    "Fachname": "Einführung in eingebettete Systeme",
+    "Typ": "VU",
+    "Vortragende": "Kowalewski, Stefan",
+    "Lehrstuhl": "Lehrstuhl für Embedded Software (Informatik 11)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561168",
+    "id": "12.24196",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00018",
+    "Fachname": "Embedded Systems (International Academy)",
+    "Typ": "VU",
+    "Vortragende": "Kowalewski, Stefan",
+    "Lehrstuhl": "Lehrstuhl für Embedded Software (Informatik 11)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563731",
+    "id": "12.00018",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00073",
+    "Fachname": "Emerging Technologies in Educational Technology: AI and Learning Analytics",
+    "Typ": "SE",
+    "Vortragende": "Ali, Lubna Kamel Nazih; Schroeder, Ulrik",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Lerntechnologien",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563220",
+    "id": "12.00073",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "8:30",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "13.38568",
+    "Fachname": "Experimentalphysik IV : Atome, Moleküle, Kerne (Übungsgruppen)",
+    "Typ": "UE",
+    "Vortragende": "von Plessen, Gero",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Physik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560272",
+    "id": "13.38568",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "13.06243",
+    "Fachname": "Experimentalphysik IV : Atome, Moleküle, Kerne (Vorlesung)",
+    "Typ": "VO",
+    "Vortragende": "von Plessen, Gero",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Physik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560350",
+    "id": "13.06243",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "9:00",
+        "bis": "10:30"
+      },
+      {
+        "tag": "Do",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.02431",
+    "Fachname": "Fabrikplanung",
+    "Typ": "VO",
+    "Vortragende": "Dannapfel, Heinrich Matthias; Kapella, Christopher Thomas; Kuck, Moritz; Walter, Alexander",
+    "Lehrstuhl": "Lehrstuhl für Produktionssystematik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561839",
+    "id": "41.02431",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.51521",
+    "Fachname": "Fabrikplanung",
+    "Typ": "UE",
+    "Vortragende": "Kapella, Christopher Thomas; Dannapfel, Heinrich Matthias; Kuck, Moritz; Walter, Alexander",
+    "Lehrstuhl": "Lehrstuhl für Produktionssystematik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560845",
+    "id": "41.51521",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.06947",
+    "Fachname": "Fahrzeugtechnik II",
+    "Typ": "UE",
+    "Vortragende": "Werner, Dominik; Yordanov, Ventseslav",
+    "Lehrstuhl": "Lehrstuhl und Institut für Kraftfahrzeuge (ika)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561281",
+    "id": "41.06947",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.01325",
+    "Fachname": "Fahrzeugtechnik II",
+    "Typ": "VO",
+    "Vortragende": "Eckstein, Lutz",
+    "Lehrstuhl": "Lehrstuhl und Institut für Kraftfahrzeuge (ika)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561058",
+    "id": "41.01325",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.02401",
+    "Fachname": "Faserverbundwerkstoffe I",
+    "Typ": "VO",
+    "Vortragende": "Fischer, Kai; Hopmann, Christian; Schröder, Kai-Uwe",
+    "Lehrstuhl": "Lehrstuhl für Kunststoffverarbeitung",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561634",
+    "id": "41.02401",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.05602",
+    "Fachname": "Faserverbundwerkstoffe I",
+    "Typ": "UE",
+    "Vortragende": "Fischer, Kai; Weber, Maximilian",
+    "Lehrstuhl": "Lehrstuhl für Kunststoffverarbeitung",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561099",
+    "id": "41.05602",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "8:00",
+        "bis": "10:00"
+      },
+      {
+        "tag": "Fr",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.00263",
+    "Fachname": "Fehler und Stabilität in Elektrizitätsversorgungssystemen",
+    "Typ": "UE",
+    "Vortragende": "Moser, Albert; Dohlen, Damian",
+    "Lehrstuhl": "Lehrstuhl für Übertragungsnetze und Energiewirtschaft",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560444",
+    "id": "61.00263",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.06867",
+    "Fachname": "Fehler und Stabilität in Elektrizitätsversorgungssystemen",
+    "Typ": "VO",
+    "Vortragende": "Moser, Albert; Dohlen, Damian",
+    "Lehrstuhl": "Lehrstuhl für Übertragungsnetze und Energiewirtschaft",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561798",
+    "id": "61.06867",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.02660",
+    "Fachname": "Fertigungstechnik II",
+    "Typ": "UE",
+    "Vortragende": "Bergs, Thomas",
+    "Lehrstuhl": "Lehrstuhl für Fertigungstechnologie",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561884",
+    "id": "41.02660",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.05342",
+    "Fachname": "Fertigungstechnik II",
+    "Typ": "VO",
+    "Vortragende": "Bergs, Thomas",
+    "Lehrstuhl": "Lehrstuhl für Fertigungstechnologie",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561883",
+    "id": "41.05342",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.07121",
+    "Fachname": "Fixpoints and Induction in Logic and Computer Science",
+    "Typ": "UE",
+    "Vortragende": "Löding, Christof; Novotny, Tomas",
+    "Lehrstuhl": "Lehrstuhl für Logik und Theorie diskreter Systeme (Informatik 7)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563290",
+    "id": "12.07121",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.07120",
+    "Fachname": "Fixpoints and Induction in Logic and Computer Science",
+    "Typ": "VO",
+    "Vortragende": "Löding, Christof",
+    "Lehrstuhl": "Lehrstuhl für Logik und Theorie diskreter Systeme (Informatik 7)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562418",
+    "id": "12.07120",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00048",
+    "Fachname": "Formal Methods",
+    "Typ": "SE",
+    "Vortragende": "Abraham, Erika; Richter, Pascal",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Theorie Hybrider Systeme",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/586999",
+    "id": "12.00048",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "9:00",
+        "bis": "10:30"
+      },
+      {
+        "tag": "Do",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.53695",
+    "Fachname": "Foundations of Functional Programming",
+    "Typ": "UE",
+    "Vortragende": "Giesl, Jürgen",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Programmiersprachen und Verifikation",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/575145",
+    "id": "12.53695",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.53698",
+    "Fachname": "Foundations of Functional Programming",
+    "Typ": "VO",
+    "Vortragende": "Giesl, Jürgen",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Programmiersprachen und Verifikation",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/575146",
+    "id": "12.53698",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "KP.00018",
+    "Fachname": "Fraunhofer Lab: Design Thinking",
+    "Typ": "PR",
+    "Vortragende": "Decker, Stefan Josef",
+    "Lehrstuhl": "Bonn-Aachen International Center for Information Technology",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562913",
+    "id": "KP.00018",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "10:30",
+        "bis": "12:00"
+      },
+      {
+        "tag": "Mi",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00044",
+    "Fachname": "Full-Stack Development of Advances in Object-Centric Process Mining",
+    "Typ": "PR",
+    "Vortragende": "Leemans, Sander Jacobus Johannes; van Detten, Jan Niklas",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Business Process Management Foundations and Engineering",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562870",
+    "id": "12.00044",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00019",
+    "Fachname": "Fundamentals of Business Process Management - Übung",
+    "Typ": "UE",
+    "Vortragende": "van Detten, Jan Niklas",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Business Process Management Foundations and Engineering",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/575251",
+    "id": "12.00019",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "12:00",
+        "bis": "14:00"
+      },
+      {
+        "tag": "Mo",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00020",
+    "Fachname": "Fundamentals of Business Process Management - Vorlesung",
+    "Typ": "VO",
+    "Vortragende": "Leemans, Sander Jacobus Johannes",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Business Process Management Foundations and Engineering",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/575252",
+    "id": "12.00020",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.04237",
+    "Fachname": "Funktionale Sicherheit und Systemzuverlässigkeit",
+    "Typ": "VU",
+    "Vortragende": "Kowalewski, Stefan",
+    "Lehrstuhl": "Lehrstuhl für Embedded Software (Informatik 11)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560401",
+    "id": "12.04237",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "9:00",
+        "bis": "10:30"
+      },
+      {
+        "tag": "Di",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "11.53666",
+    "Fachname": "Ganzzahlige Lineare Optimierung",
+    "Typ": "VO",
+    "Vortragende": "Koster, Arie Marinus",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Diskrete Optimierung",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561840",
+    "id": "11.53666",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "11.57420",
+    "Fachname": "Ganzzahlige Lineare Optimierung",
+    "Typ": "UE",
+    "Vortragende": "Draeger, Maurice; Schieren, Marius",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Diskrete Optimierung",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560301",
+    "id": "11.57420",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "8:00",
+        "bis": "10:00"
+      },
+      {
+        "tag": "Mo",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.29408",
+    "Fachname": "Geometrieverarbeitung",
+    "Typ": "VO",
+    "Vortragende": "Kobbelt, Leif",
+    "Lehrstuhl": "Lehrstuhl für Computergraphik, Geometrie und Multimedia (Informatik 8)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561595",
+    "id": "12.29408",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "16:15",
+        "bis": "17:45"
+      },
+      {
+        "tag": "Mi",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.29745",
+    "Fachname": "Geometrieverarbeitung",
+    "Typ": "UE",
+    "Vortragende": "Kobbelt, Leif",
+    "Lehrstuhl": "Lehrstuhl für Computergraphik, Geometrie und Multimedia (Informatik 8)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560772",
+    "id": "12.29745",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.30002",
+    "Fachname": "Geometry Processing and 3D Printing",
+    "Typ": "PR",
+    "Vortragende": "Kobbelt, Leif; Möbius, Jan",
+    "Lehrstuhl": "Lehrstuhl für Computergraphik, Geometrie und Multimedia (Informatik 8)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561695",
+    "id": "12.30002",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.17507",
+    "Fachname": "Grundlagen der Biomechanik des Bewegungsapparates",
+    "Typ": "VU",
+    "Vortragende": "Radermacher, Klaus Michael; Stoffel, Marcus",
+    "Lehrstuhl": "Lehrstuhl für Medizintechnik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561408",
+    "id": "41.17507",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "12:15",
+        "bis": "13:45"
+      },
+      {
+        "tag": "Mo",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.30002",
+    "Fachname": "Grundlagen Elektrischer Maschinen",
+    "Typ": "UE",
+    "Vortragende": "Skrobacz, Aurelia",
+    "Lehrstuhl": "Lehrstuhl für Elektrische Maschinen und Antriebe und Institut für Elektrische Maschinen",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560336",
+    "id": "61.30002",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.30001",
+    "Fachname": "Grundlagen Elektrischer Maschinen",
+    "Typ": "VO",
+    "Vortragende": "Steentjes, Simon; Skrobacz, Aurelia",
+    "Lehrstuhl": "Lehrstuhl für Elektrische Maschinen und Antriebe und Institut für Elektrische Maschinen",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561498",
+    "id": "61.30001",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00106",
+    "Fachname": "Hands-On Application Development for Mobile and Web Based 3D Content Creation",
+    "Typ": "PR",
+    "Vortragende": "Rumpe, Bernhard Dieter",
+    "Lehrstuhl": "Lehrstuhl für Software Engineering (Informatik 3)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/587079",
+    "id": "12.00106",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00062",
+    "Fachname": "Hyperparameter Optimisation for Machine Learning",
+    "Typ": "PR",
+    "Vortragende": "Hoos, Holger Hendrik; Kalkreuth, Roman Tobias; Kocher, Nick Valentin; Shavit, Hadar",
+    "Lehrstuhl": "Lehrstuhl für Methodik der Künstlichen Intelligenz (Informatik 14)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562871",
+    "id": "12.00062",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "75.00015",
+    "Fachname": "Individuals and Technology - Advancing Seminar (Technik und Individuum)",
+    "Typ": "SE",
+    "Vortragende": "Schiffer, Stefan",
+    "Lehrstuhl": "Lehrstuhl für Technik und Individuum",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562642",
+    "id": "75.00015",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.54308",
+    "Fachname": "Industrial Data Security (Übung)",
+    "Typ": "UE",
+    "Vortragende": "Henze, Martin",
+    "Lehrstuhl": "Juniorprofessur für Sicherheit und Datenschutz in industrieller Kooperation",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562432",
+    "id": "12.54308",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.54307",
+    "Fachname": "Industrial Data Security (Vorlesung)",
+    "Typ": "VO",
+    "Vortragende": "Henze, Martin",
+    "Lehrstuhl": "Juniorprofessur für Sicherheit und Datenschutz in industrieller Kooperation",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563976",
+    "id": "12.54307",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "16:15",
+        "bis": "17:45"
+      },
+      {
+        "tag": "Fr",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.54303",
+    "Fachname": "Industrial Intrusion Detection Lab",
+    "Typ": "PR",
+    "Vortragende": "Henze, Martin",
+    "Lehrstuhl": "Juniorprofessur für Sicherheit und Datenschutz in industrieller Kooperation",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563817",
+    "id": "12.54303",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "16:00",
+        "bis": "18:00"
+      },
+      {
+        "tag": "Mo",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.44737",
+    "Fachname": "Informationsmanagement",
+    "Typ": "UE",
+    "Vortragende": "Reimers, Kai",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Wirtschaftsinformatik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561846",
+    "id": "81.44737",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.25183",
+    "Fachname": "Informationsmanagement",
+    "Typ": "VO",
+    "Vortragende": "Reimers, Kai",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Wirtschaftsinformatik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561181",
+    "id": "81.25183",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "12:00",
+        "bis": "14:00"
+      },
+      {
+        "tag": "Mi",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00066",
+    "Fachname": "Intelligent Data Management with Generative AI",
+    "Typ": "SE",
+    "Vortragende": "Geisler, Sandra",
+    "Lehrstuhl": "Juniorprofessur für Datenstrom-Management und -Analyse",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/587005",
+    "id": "12.00066",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "10:30",
+        "bis": "12:00"
+      },
+      {
+        "tag": "Mi",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.38297",
+    "Fachname": "Intelligente Sensor Systeme für Robotik Anwendungen",
+    "Typ": "VU",
+    "Vortragende": "Baraka, Ahmed Yasser Abdelghany Mohamed; Schmitt, Robert Heinrich",
+    "Lehrstuhl": "Lehrstuhl für Informations-, Qualitäts- und Sensorsysteme in der Produktion",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560469",
+    "id": "41.38297",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "14:15",
+        "bis": "15:45"
+      },
+      {
+        "tag": "Do",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.00020",
+    "Fachname": "International Economics",
+    "Typ": "VO",
+    "Vortragende": "Lorz, Jens Oliver",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Internationale Wirtschaftsbeziehungen",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563982",
+    "id": "81.00020",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "9:00",
+        "bis": "10:30"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.00027",
+    "Fachname": "International Economics",
+    "Typ": "UE",
+    "Vortragende": "Lux, Samuel Kamal",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Internationale Wirtschaftsbeziehungen",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562559",
+    "id": "81.00027",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00145",
+    "Fachname": "Introduction to Numerical Methods and Software with C++",
+    "Typ": "VU",
+    "Vortragende": "Kichler, Neil Joram; Naumann, Uwe",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Software und Werkzeuge für Computational Engineering",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563589",
+    "id": "12.00145",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00077",
+    "Fachname": "Introduction to Object-Centric Process Mining",
+    "Typ": "SE",
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius; Liß, Lukas",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563907",
+    "id": "12.00077",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "12:00",
+        "bis": "14:00"
+      },
+      {
+        "tag": "Do",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00085",
+    "Fachname": "Introduction to Program Synthesis",
+    "Typ": "VO",
+    "Vortragende": "Hoos, Holger Hendrik",
+    "Lehrstuhl": "Lehrstuhl für Methodik der Künstlichen Intelligenz (Informatik 14)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563516",
+    "id": "12.00085",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "14:15",
+        "bis": "15:45"
+      },
+      {
+        "tag": "Mo",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00086",
+    "Fachname": "Introduction to Program Synthesis",
+    "Typ": "UE",
+    "Vortragende": "Hoos, Holger Hendrik; Kalkreuth, Roman Tobias",
+    "Lehrstuhl": "Lehrstuhl für Methodik der Künstlichen Intelligenz (Informatik 14)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562406",
+    "id": "12.00086",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00102",
+    "Fachname": "Introduction to Quantum Computing",
+    "Typ": "UE",
+    "Vortragende": "Gehnen, Christina; Unruh, Dominique",
+    "Lehrstuhl": "Lehrstuhl für Quanteninformationssysteme (Informatik 15)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562508",
+    "id": "12.00102",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00100",
+    "Fachname": "Introduction to Quantum Computing",
+    "Typ": "VO",
+    "Vortragende": "Unruh, Dominique",
+    "Lehrstuhl": "Lehrstuhl für Quanteninformationssysteme (Informatik 15)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562555",
+    "id": "12.00100",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "10:15",
+        "bis": "11:45"
+      },
+      {
+        "tag": "Mo",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00095",
+    "Fachname": "Introduction to Selected Topics in Process Mining",
+    "Typ": "SE",
+    "Vortragende": "Peeva, Viki",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563649",
+    "id": "12.00095",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "8:30",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.34042",
+    "Fachname": "IT und Organisation",
+    "Typ": "UE",
+    "Vortragende": "Reimers, Kai",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Wirtschaftsinformatik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561143",
+    "id": "81.34042",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "9:00",
+        "bis": "10:30"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.34040",
+    "Fachname": "IT und Organisation",
+    "Typ": "VO",
+    "Vortragende": "Reimers, Kai",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Wirtschaftsinformatik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561841",
+    "id": "81.34040",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.53640",
+    "Fachname": "IT-Sicherheit 2",
+    "Typ": "VU",
+    "Vortragende": "Meyer, Ulrike Michaela; Drichel, Arthur",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet IT-Sicherheit",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/575914",
+    "id": "12.53640",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00032",
+    "Fachname": "Knowledge Graph Lab",
+    "Typ": "PR",
+    "Vortragende": "Decker, Stefan Josef; Lange-Bever, Christoph; Busch, Moritz; Holzheim, Tim Luca; Kißgen, Maximilian Paul; Neumann, Laurenz Alexander",
+    "Lehrstuhl": "Lehrstuhl für Informationssysteme und Datenbanken (Informatik 5)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563399",
+    "id": "12.00032",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00059",
+    "Fachname": "Knowledge Graphs Seminar",
+    "Typ": "SE",
+    "Vortragende": "Decker, Stefan Josef; Mou, Yongli; Peng, Yixin",
+    "Lehrstuhl": "Lehrstuhl für Informationssysteme und Datenbanken (Informatik 5)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562427",
+    "id": "12.00059",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00017",
+    "Fachname": "Konzepte und Modelle der parallelen und datenzentrischen Programmierung",
+    "Typ": "VU",
+    "Vortragende": "Terboven, Christian; Schwitanski, Simon; Thärigen, Ben",
+    "Lehrstuhl": "Lehrstuhl für Hochleistungsrechnen (Informatik 12)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562141",
+    "id": "12.00017",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.06326",
+    "Fachname": "Künstliche Organe für Naturwissenschaftler und Ingenieure I",
+    "Typ": "VO",
+    "Vortragende": "Jansen, Sebastian Victor",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Kardiovaskuläre Technik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561107",
+    "id": "81.06326",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "16:00",
+        "bis": "18:00"
+      },
+      {
+        "tag": "Mo",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.46347",
+    "Fachname": "Kunststoffverarbeitung II",
+    "Typ": "UE",
+    "Vortragende": "Nillius, Uwe Jörg",
+    "Lehrstuhl": "Lehrstuhl für Kunststoffverarbeitung",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560209",
+    "id": "41.46347",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.05156",
+    "Fachname": "Kunststoffverarbeitung II",
+    "Typ": "VO",
+    "Vortragende": "Hopmann, Christian",
+    "Lehrstuhl": "Lehrstuhl für Kunststoffverarbeitung",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560213",
+    "id": "41.05156",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "8:30",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00054",
+    "Fachname": "Lab Course: Graph Learning",
+    "Typ": "PR",
+    "Vortragende": "Javaid, Muhammad Bin; Kisin, Berke",
+    "Lehrstuhl": "Lehrstuhl für Logik und Theorie diskreter Systeme (Informatik 7)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562138",
+    "id": "12.00054",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00071",
+    "Fachname": "Laboratory Deep Learning",
+    "Typ": "PR",
+    "Vortragende": "Leibe, Bastian",
+    "Lehrstuhl": "Lehrstuhl für Computer Vision (Informatik 13)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563071",
+    "id": "12.00071",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00031",
+    "Fachname": "Learning in Verification",
+    "Typ": "SE",
+    "Vortragende": "Noll, Thomas",
+    "Lehrstuhl": "Lehrstuhl für Softwaremodellierung und Verifikation (Informatik 2)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/586997",
+    "id": "12.00031",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.24202",
+    "Fachname": "Learning Technologies",
+    "Typ": "VU",
+    "Vortragende": "Schroeder, Ulrik; Heinemann, Birte; Hartanto, Jasmin",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Lerntechnologien",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562321",
+    "id": "12.24202",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "9:00",
+        "bis": "10:30"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00011",
+    "Fachname": "Leistungs- und Korrektheitsanalyse paralleler Programme",
+    "Typ": "VU",
+    "Vortragende": "Müller, Matthias Stefan; Schwitanski, Simon; Thärigen, Ben",
+    "Lehrstuhl": "Lehrstuhl für Hochleistungsrechnen (Informatik 12)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562216",
+    "id": "12.00011",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "9:00",
+        "bis": "10:30"
+      },
+      {
+        "tag": "Fr",
+        "von": "8:30",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00009",
+    "Fachname": "Linux Kernel Programming",
+    "Typ": "UE",
+    "Vortragende": "Gouicem, Redha",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Betriebssysteme",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563853",
+    "id": "12.00009",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00002",
+    "Fachname": "Linux Kernel Programming",
+    "Typ": "VO",
+    "Vortragende": "Gouicem, Redha",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Betriebssysteme",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562971",
+    "id": "12.00002",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.28982",
+    "Fachname": "Luftverkehrssysteme",
+    "Typ": "VO",
+    "Vortragende": "Stumpf, Eike",
+    "Lehrstuhl": "Lehrstuhl und Institut für Luft- und Raumfahrtsysteme (ILR)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560527",
+    "id": "41.28982",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00091",
+    "Fachname": "Machine Learning for Combinatorial Optimization",
+    "Typ": "PR",
+    "Vortragende": "Qian, Chendi; Siraudin, Antoine Grégoire Jehan Marie",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen auf Graphen",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/587074",
+    "id": "12.00091",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.15000",
+    "Fachname": "Managerial Accounting and Controlling",
+    "Typ": "VO",
+    "Vortragende": "Letmathe, Peter; Baria, Yashvi",
+    "Lehrstuhl": "Lehrstuhl für Controlling",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563842",
+    "id": "81.15000",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.15001",
+    "Fachname": "Managerial Accounting and Controlling",
+    "Typ": "UE",
+    "Vortragende": "Baria, Yashvi",
+    "Lehrstuhl": "Lehrstuhl für Controlling",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563754",
+    "id": "81.15001",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "10:15",
+        "bis": "11:45"
+      },
+      {
+        "tag": "Fr",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00093",
+    "Fachname": "Maschinelles Lernen auf Graphen",
+    "Typ": "SE",
+    "Vortragende": "Morris, Christopher",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen auf Graphen",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/587075",
+    "id": "12.00093",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "42.00004",
+    "Fachname": "Mathematical Concepts of Machine Learning",
+    "Typ": "SE",
+    "Vortragende": "Solowjow, Friedrich",
+    "Lehrstuhl": "Lehrstuhl für Data Science im Maschinenbau",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/564101",
+    "id": "42.00004",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00128",
+    "Fachname": "Mathematische Heuristiken in der diskreten Optimierung",
+    "Typ": "VO",
+    "Vortragende": "Büsing, Christina Maria Katharina",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Kombinatorische Optimierung",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/564133",
+    "id": "12.00128",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "8:30",
+        "bis": "10:00"
+      },
+      {
+        "tag": "Do",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00083",
+    "Fachname": "Mathematische Heuristiken in der diskreten Optimierung",
+    "Typ": "UE",
+    "Vortragende": "Engelhardt, Felix; Lauer, Bianca",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Kombinatorische Optimierung",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563020",
+    "id": "12.00083",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "16:15",
+        "bis": "17:45"
+      },
+      {
+        "tag": "Mo",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.00147",
+    "Fachname": "Mechatronische Systeme in der Fahrzeugtechnik",
+    "Typ": "UE",
+    "Vortragende": "Jaeger, Nils; Swierc, Daniel Ludwig; Zick, Robin Rudi",
+    "Lehrstuhl": "Lehrstuhl und Institut für Kraftfahrzeuge (ika)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560528",
+    "id": "41.00147",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.03896",
+    "Fachname": "Mechatronische Systeme in der Fahrzeugtechnik",
+    "Typ": "VO",
+    "Vortragende": "Eckstein, Lutz; Pfaff, Raphael",
+    "Lehrstuhl": "Lehrstuhl und Institut für Kraftfahrzeuge (ika)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561285",
+    "id": "41.03896",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "8:30",
+        "bis": "10:00"
+      },
+      {
+        "tag": "Mi",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.31814",
+    "Fachname": "Medizintechnik für Studierende der Informatik",
+    "Typ": "VO",
+    "Vortragende": "Radermacher, Klaus Michael",
+    "Lehrstuhl": "Lehrstuhl für Medizintechnik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561293",
+    "id": "41.31814",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.29013",
+    "Fachname": "Mess- und Prüfverfahren in der Textiltechnik",
+    "Typ": "UE",
+    "Vortragende": "Veit, Dieter",
+    "Lehrstuhl": "Lehrstuhl für Textilmaschinenbau und Institut für Textiltechnik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561378",
+    "id": "41.29013",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "9:00",
+        "bis": "10:30"
+      },
+      {
+        "tag": "Di",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.29014",
+    "Fachname": "Mess- und Prüfverfahren in der Textiltechnik",
+    "Typ": "VO",
+    "Vortragende": "Veit, Dieter",
+    "Lehrstuhl": "Lehrstuhl für Textilmaschinenbau und Institut für Textiltechnik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561910",
+    "id": "41.29014",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "10:15",
+        "bis": "11:45"
+      },
+      {
+        "tag": "Fr",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.32767",
+    "Fachname": "Mikrocontrollerprogrammierung und Fehlersuche",
+    "Typ": "VU",
+    "Vortragende": "Stollenwerk, Andre",
+    "Lehrstuhl": "Lehrstuhl für Embedded Software (Informatik 11)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563452",
+    "id": "12.32767",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00043",
+    "Fachname": "Mixed Reality Lab",
+    "Typ": "PR",
+    "Vortragende": "Decker, Stefan Josef; Hensen, Benedikt",
+    "Lehrstuhl": "Lehrstuhl für Informationssysteme und Datenbanken (Informatik 5)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562595",
+    "id": "12.00043",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.24004",
+    "Fachname": "Mobile Internet Technology",
+    "Typ": "VU",
+    "Vortragende": "Thißen, Dirk",
+    "Lehrstuhl": "Lehrstuhl für Kommunikation und verteilte Systeme (Informatik 4)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561307",
+    "id": "12.24004",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "12:15",
+        "bis": "13:45"
+      },
+      {
+        "tag": "Do",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.45305",
+    "Fachname": "Modellierung und Verifikation probabilistischer Systeme",
+    "Typ": "UE",
+    "Vortragende": "Mertens, Hannah; Pühl, Lisa Katharina; Quatmann, Tim",
+    "Lehrstuhl": "Lehrstuhl für Softwaremodellierung und Verifikation (Informatik 2)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560302",
+    "id": "12.45305",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "14:15",
+        "bis": "15:45"
+      },
+      {
+        "tag": "Do",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.45304",
+    "Fachname": "Modellierung und Verifikation probabilistischer Systeme",
+    "Typ": "VO",
+    "Vortragende": "Katoen, Joost-Pieter; Quatmann, Tim",
+    "Lehrstuhl": "Lehrstuhl für Softwaremodellierung und Verifikation (Informatik 2)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561324",
+    "id": "12.45304",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00103",
+    "Fachname": "Near-term Quantum Computation",
+    "Typ": "UE",
+    "Vortragende": "Bluhm, Jörg Hendrik; Stollenwerk, Tobias",
+    "Lehrstuhl": "Lehrstuhl für Experimentalphysik und II. Physikalisches Institut",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562681",
+    "id": "12.00103",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "8:30",
+        "bis": "10:00"
+      },
+      {
+        "tag": "Mo",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00112",
+    "Fachname": "Near-term Quantum Computation",
+    "Typ": "VO",
+    "Vortragende": "Bluhm, Jörg Hendrik; Stollenwerk, Tobias",
+    "Lehrstuhl": "Lehrstuhl für Experimentalphysik und II. Physikalisches Institut",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/564111",
+    "id": "12.00112",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "14:00",
+        "bis": "16:00"
+      },
+      {
+        "tag": "Di",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00021",
+    "Fachname": "Network Analytics",
+    "Typ": "PR",
+    "Vortragende": "Schaub, Michael Thomas",
+    "Lehrstuhl": "Lehrstuhl für Computational Network Science",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/586666",
+    "id": "12.00021",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00119",
+    "Fachname": "Neural Networks for Sequence Modeling",
+    "Typ": "VO",
+    "Vortragende": "Schlüter, Ralf; Zeyer, Albert",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/587386",
+    "id": "12.00119",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00120",
+    "Fachname": "Neural Networks for Sequence Modeling",
+    "Typ": "UE",
+    "Vortragende": "Schlüter, Ralf; Zeyer, Albert",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/587388",
+    "id": "12.00120",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "9:00",
+        "bis": "10:30"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00027",
+    "Fachname": "Object-Centric Process Mining",
+    "Typ": "SE",
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius; Liß, Lukas",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563737",
+    "id": "12.00027",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "10:30",
+        "bis": "12:00"
+      },
+      {
+        "tag": "Do",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.38477",
+    "Fachname": "Operations Research 2",
+    "Typ": "VO",
+    "Vortragende": "Lübbecke, Marco",
+    "Lehrstuhl": "Lehrstuhl für Operations Research",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560960",
+    "id": "81.38477",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.38478",
+    "Fachname": "Operations Research 2",
+    "Typ": "UE",
+    "Vortragende": "Lübbecke, Marco",
+    "Lehrstuhl": "Lehrstuhl für Operations Research",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561696",
+    "id": "81.38478",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "10:00",
+        "bis": "12:00"
+      },
+      {
+        "tag": "Do",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "11.37999",
+    "Fachname": "Optimierung A",
+    "Typ": "VU",
+    "Vortragende": "Günzel, Harald; Seidel, Jonas",
+    "Lehrstuhl": "Lehrstuhl für Analysis und ihre Anwendungen",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560379",
+    "id": "11.37999",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.47000",
+    "Fachname": "Physikalische Simulation im Visual Computing",
+    "Typ": "VU",
+    "Vortragende": "Bender, Jan Stephen",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Computer Animation",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563631",
+    "id": "12.47000",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.11000",
+    "Fachname": "Portfolio Management",
+    "Typ": "UE",
+    "Vortragende": "Uddin, Sami",
+    "Lehrstuhl": "Lehrstuhl für Betriebswirtschaftslehre, insbesondere Betriebliche Finanzwirtschaft",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562267",
+    "id": "81.11000",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.10000",
+    "Fachname": "Portfolio Management",
+    "Typ": "VO",
+    "Vortragende": "Uddin, Sami",
+    "Lehrstuhl": "Lehrstuhl für Betriebswirtschaftslehre, insbesondere Betriebliche Finanzwirtschaft",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562311",
+    "id": "81.10000",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.42728",
+    "Fachname": "Post-Desktop User Interfaces",
+    "Typ": "SE",
+    "Vortragende": "Borchers, Jan Oliver",
+    "Lehrstuhl": "Lehrstuhl für Medieninformatik und Mensch-Computer-Interaktion (Informatik 10)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562130",
+    "id": "12.42728",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "12:15",
+        "bis": "13:45"
+      },
+      {
+        "tag": "Fr",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.49595",
+    "Fachname": "Praktische Optimierung mit Modellierungssprachen",
+    "Typ": "VO",
+    "Vortragende": "Lübbecke, Marco",
+    "Lehrstuhl": "Lehrstuhl für Operations Research",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560866",
+    "id": "81.49595",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "14:15",
+        "bis": "15:45"
+      },
+      {
+        "tag": "Di",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.49597",
+    "Fachname": "Praktische Optimierung mit Modellierungssprachen",
+    "Typ": "",
+    "Vortragende": "Helber, Alexander",
+    "Lehrstuhl": "Lehrstuhl für Operations Research",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561641",
+    "id": "81.49597",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.53583",
+    "Fachname": "Privacy Enhancing Technologies for Data Science",
+    "Typ": "VU",
+    "Vortragende": "Decker, Stefan Josef; Matzutt, Roman; Nitz, Lasse Martin",
+    "Lehrstuhl": "Lehrstuhl für Informationssysteme und Datenbanken (Informatik 5)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562090",
+    "id": "12.53583",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00084",
+    "Fachname": "Process Mining in Celonis",
+    "Typ": "PR",
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius; Berti, Alessandro",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562798",
+    "id": "12.00084",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00053",
+    "Fachname": "Process Mining with Frequencies (BA)",
+    "Typ": "SE",
+    "Vortragende": "Leemans, Sander Jacobus Johannes; Li, Tian",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Business Process Management Foundations and Engineering",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563442",
+    "id": "12.00053",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00046",
+    "Fachname": "Process Mining with Frequencies (MA)",
+    "Typ": "SE",
+    "Vortragende": "Leemans, Sander Jacobus Johannes; Li, Tian",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Business Process Management Foundations and Engineering",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563874",
+    "id": "12.00046",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.04448",
+    "Fachname": "Produktentwicklung in der Verfahrenstechnik",
+    "Typ": "VO",
+    "Vortragende": "Keller, Robert Gregor",
+    "Lehrstuhl": "Lehrstuhl für Chemische Verfahrenstechnik und Institut für Verfahrenstechnik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560921",
+    "id": "41.04448",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.04350",
+    "Fachname": "Produktentwicklung in der Verfahrenstechnik",
+    "Typ": "UE",
+    "Vortragende": "Keller, Robert Gregor",
+    "Lehrstuhl": "Lehrstuhl für Chemische Verfahrenstechnik und Institut für Verfahrenstechnik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560386",
+    "id": "41.04350",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00131",
+    "Fachname": "Programming quantum algorithms",
+    "Typ": "PR",
+    "Vortragende": "Louloudis, Nikolaos",
+    "Lehrstuhl": "Lehrstuhl für Quanteninformationssysteme (Informatik 15)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563653",
+    "id": "12.00131",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00016",
+    "Fachname": "Projektarbeit Software Language Engineering",
+    "Typ": "",
+    "Vortragende": "Rumpe, Bernhard Dieter; Drux, Florian; Jansen, Nico; Rapp, Janik; Stachon, Max Philip",
+    "Lehrstuhl": "Lehrstuhl für Software Engineering (Informatik 3)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562565",
+    "id": "12.00016",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.00047",
+    "Fachname": "Projektmodul: Analytics and Optimization Project",
+    "Typ": "",
+    "Vortragende": "Schneider, Michael David",
+    "Lehrstuhl": "Lehrstuhl für Computational Logistics",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563476",
+    "id": "81.00047",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "8:30",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.39207",
+    "Fachname": "Projektmodul: OR-Praktikum",
+    "Typ": "",
+    "Vortragende": "Lübbecke, Marco",
+    "Lehrstuhl": "Lehrstuhl für Operations Research",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561952",
+    "id": "81.39207",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "10:15",
+        "bis": "11:45"
+      },
+      {
+        "tag": "Mo",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.28865",
+    "Fachname": "Prozessentwicklung in der Verfahrenstechnik",
+    "Typ": "VU",
+    "Vortragende": "Mitsos, Alexander; Ben Hicham, Karim Kristian; Ebeling, Katharina Maria; Seidenberg, Jan Raphael",
+    "Lehrstuhl": "Lehrstuhl für Systemverfahrenstechnik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560797",
+    "id": "41.28865",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "92.00019",
+    "Fachname": "QP Biomedizinische Informatik: How to research? -Eine Reise durch den Werkzeugkasten für die patientenorientierte Forschung (BI014)",
+    "Typ": "VU",
+    "Vortragende": "Lipprandt, Myriam; Röhrig, Rainer",
+    "Lehrstuhl": "Institut und Lehrstuhl für Medizinische Informatik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562494",
+    "id": "92.00019",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "16:15",
+        "bis": "17:45"
+      },
+      {
+        "tag": "Do",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "13.00020",
+    "Fachname": "Quantum Algorithms",
+    "Typ": "VU",
+    "Vortragende": "Wegewijs, Maarten Rolf",
+    "Lehrstuhl": "Lehrstuhl für Theoretische Physik A und Institut für Theorie der statistischen Physik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563705",
+    "id": "13.00020",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00132",
+    "Fachname": "Quantum cryptography",
+    "Typ": "SE",
+    "Vortragende": "Unruh, Dominique",
+    "Lehrstuhl": "Lehrstuhl für Quanteninformationssysteme (Informatik 15)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/564023",
+    "id": "12.00132",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "13.33480",
+    "Fachname": "Quantum Information",
+    "Typ": "VU",
+    "Vortragende": "Berta, Mario Andrea",
+    "Lehrstuhl": "Lehrstuhl für Quanteninformationstheorie",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561214",
+    "id": "13.33480",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "16:15",
+        "bis": "17:45"
+      },
+      {
+        "tag": "Di",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00133",
+    "Fachname": "Quantum Program Verification",
+    "Typ": "SE",
+    "Vortragende": "Gehnen, Christina",
+    "Lehrstuhl": "Lehrstuhl für Quanteninformationssysteme (Informatik 15)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563654",
+    "id": "12.00133",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00159",
+    "Fachname": "Real-Time Systems and Applications",
+    "Typ": "VO",
+    "Vortragende": "Chen, Jian-Jia",
+    "Lehrstuhl": "Lehrstuhl für Cyber-Physische Systeme",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/588253",
+    "id": "12.00159",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00141",
+    "Fachname": "Real-Time Systems and Applications",
+    "Typ": "UE",
+    "Vortragende": "Chen, Jian-Jia",
+    "Lehrstuhl": "Lehrstuhl für Cyber-Physische Systeme",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/588254",
+    "id": "12.00141",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "42.00040",
+    "Fachname": "Reinforcement Learning and Learning-based Control",
+    "Typ": "VO",
+    "Vortragende": "Solowjow, Friedrich; Trimpe, Johann Sebastian",
+    "Lehrstuhl": "Lehrstuhl für Data Science im Maschinenbau",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562983",
+    "id": "42.00040",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "42.00015",
+    "Fachname": "Reinforcement Learning and Learning-based Control",
+    "Typ": "UE",
+    "Vortragende": "Eisele, Artur; Frauenknecht, Bernd; Kruse, Paul Alexander",
+    "Lehrstuhl": "Lehrstuhl für Data Science im Maschinenbau",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562791",
+    "id": "42.00015",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "8:00",
+        "bis": "10:00"
+      },
+      {
+        "tag": "Do",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00127",
+    "Fachname": "Renewable Energy: Simulation on Mobile using Swift",
+    "Typ": "PR",
+    "Vortragende": "Richter, Pascal",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Theorie Hybrider Systeme",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563019",
+    "id": "12.00127",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "10:00",
+        "bis": "12:00"
+      },
+      {
+        "tag": "Do",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00140",
+    "Fachname": "Research Focus Class in Didaktik der Informatik",
+    "Typ": "",
+    "Vortragende": "Bergner, Nadine",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Didaktik der Informatik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563176",
+    "id": "12.00140",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00158",
+    "Fachname": "Research Focus Class: Research Methods and Paradigms in Research Software Engineering for Learning Technologies",
+    "Typ": "",
+    "Vortragende": "Heinemann, Birte",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Lerntechnologien",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/586789",
+    "id": "12.00158",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "8:30",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "76.16200",
+    "Fachname": "Research Lab Computational Social Science (Applied Computational Social Sciences)",
+    "Typ": "PR",
+    "Vortragende": "Wagner, Claudia",
+    "Lehrstuhl": "Lehrstuhl für Angewandte computerbasierte Sozialwissenschaften",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/586945",
+    "id": "76.16200",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "8:30",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00111",
+    "Fachname": "Research Software Engineering Management and Communication",
+    "Typ": "SE",
+    "Vortragende": "Schmidt, Marc",
+    "Lehrstuhl": "Lehrstuhl für Software Engineering (Informatik 3)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/587081",
+    "id": "12.00111",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00125",
+    "Fachname": "Robust Deep Learning",
+    "Typ": "SE",
+    "Vortragende": "Kaulen, Konstantin; Münz, Anna Louisa",
+    "Lehrstuhl": "Lehrstuhl für Methodik der Künstlichen Intelligenz (Informatik 14)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563222",
+    "id": "12.00125",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.04485",
+    "Fachname": "RWTH: Computerunterstützte Chirurgietechnik",
+    "Typ": "VO",
+    "Vortragende": "Radermacher, Klaus Michael",
+    "Lehrstuhl": "Lehrstuhl für Medizintechnik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561213",
+    "id": "41.04485",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.38226",
+    "Fachname": "Satisfiability Checking",
+    "Typ": "SE",
+    "Vortragende": "Giesl, Jürgen; Abraham, Erika",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Programmiersprachen und Verifikation",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560637",
+    "id": "12.38226",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "8:30",
+        "bis": "10:00"
+      },
+      {
+        "tag": "Di",
+        "von": "9:00",
+        "bis": "10:30"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.35202",
+    "Fachname": "Security Lab",
+    "Typ": "PR",
+    "Vortragende": "Meyer, Ulrike Michaela; Bönnen, Clemens; Ehrmanntraut, Vincent Cosme; Löbel, Alexander",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet IT-Sicherheit",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/564206",
+    "id": "12.35202",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.19465",
+    "Fachname": "Selected Topics in Machine Learning and Human Language Technology (Bachelor)",
+    "Typ": "SE",
+    "Vortragende": "Schlüter, Ralf; Wu, Haotian",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561466",
+    "id": "12.19465",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.10003",
+    "Fachname": "Selected Topics in Machine Learning and Human Language Technology (Master)",
+    "Typ": "SE",
+    "Vortragende": "Schlüter, Ralf; Wu, Haotian",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561465",
+    "id": "12.10003",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "14:00",
+        "bis": "16:00"
+      },
+      {
+        "tag": "Do",
+        "von": "9:00",
+        "bis": "10:30"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.25104",
+    "Fachname": "Selected Topics in Process Mining",
+    "Typ": "SE",
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius; Peeva, Viki",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562062",
+    "id": "12.25104",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.24009",
+    "Fachname": "Seminar: Advanced Internet Technology",
+    "Typ": "SE",
+    "Vortragende": "Wehrle, Klaus; Thißen, Dirk",
+    "Lehrstuhl": "Lehrstuhl für Kommunikation und verteilte Systeme (Informatik 4)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560803",
+    "id": "12.24009",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "8:30",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "KP.00006",
+    "Fachname": "Seminar: Advanced Topics in Cryptography",
+    "Typ": "SE",
+    "Vortragende": "Nüsken, Michael",
+    "Lehrstuhl": "Bonn-Aachen International Center for Information Technology",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562781",
+    "id": "KP.00006",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "KP.00016",
+    "Fachname": "Seminar: AI Ethics",
+    "Typ": "SE",
+    "Vortragende": "Flek, Lucie",
+    "Lehrstuhl": "Bonn-Aachen International Center for Information Technology",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563500",
+    "id": "KP.00016",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "12:00",
+        "bis": "14:00"
+      },
+      {
+        "tag": "Mi",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.53769",
+    "Fachname": "Seminar: Aktuellen Themen im Bereich Hochleistungsrechnen (HPC)",
+    "Typ": "SE",
+    "Vortragende": "Wienke, Sandra Juliane; Müller, Matthias Stefan; Thärigen, Ben",
+    "Lehrstuhl": "Lehrstuhl für Hochleistungsrechnen (Informatik 12)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560909",
+    "id": "12.53769",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "16:00",
+        "bis": "18:00"
+      },
+      {
+        "tag": "Fr",
+        "von": "9:00",
+        "bis": "10:30"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.42436",
+    "Fachname": "Seminar: Complexity Theory",
+    "Typ": "SE",
+    "Vortragende": "Grohe, Martin; Feith, Julia Catherine",
+    "Lehrstuhl": "Lehrstuhl für Logik und Theorie diskreter Systeme (Informatik 7)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562133",
+    "id": "12.42436",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "71.10002",
+    "Fachname": "Seminar Ethics of Economics (Angewandte Ethik)",
+    "Typ": "SE",
+    "Vortragende": "Conradie, Niel Henk; Nagel, Saskia Kathi",
+    "Lehrstuhl": "Lehrstuhl für Angewandte Ethik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562228",
+    "id": "71.10002",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.24008",
+    "Fachname": "Seminar: Internet Technology",
+    "Typ": "SE",
+    "Vortragende": "Wehrle, Klaus; Thißen, Dirk",
+    "Lehrstuhl": "Lehrstuhl für Kommunikation und verteilte Systeme (Informatik 4)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560331",
+    "id": "12.24008",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "10:00",
+        "bis": "12:00"
+      },
+      {
+        "tag": "Mi",
+        "von": "9:00",
+        "bis": "10:30"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "75.00096",
+    "Fachname": "Seminar Introduction to Human-Robot-Interaction (Current Topics in Media Psychology)   (Technik und Individuum)",
+    "Typ": "SE",
+    "Vortragende": "Abrams, Anna Maria Helene; Schenk, Ann-Sophie Lien",
+    "Lehrstuhl": "Lehrstuhl für Technik und Individuum",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562241",
+    "id": "75.00096",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "16:15",
+        "bis": "17:45"
+      },
+      {
+        "tag": "Mi",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.40002",
+    "Fachname": "Seminar Komplexitätstheorie II",
+    "Typ": "SE",
+    "Vortragende": "Grohe, Martin",
+    "Lehrstuhl": "Lehrstuhl für Logik und Theorie diskreter Systeme (Informatik 7)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562131",
+    "id": "12.40002",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.40003",
+    "Fachname": "Seminar Komplexitätstheorie III",
+    "Typ": "SE",
+    "Vortragende": "Grohe, Martin",
+    "Lehrstuhl": "Lehrstuhl für Logik und Theorie diskreter Systeme (Informatik 7)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562132",
+    "id": "12.40003",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "8:00",
+        "bis": "10:00"
+      },
+      {
+        "tag": "Do",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "71.10014",
+    "Fachname": "Seminar Methods for Moral Philosophy: the ethicist’s toolbox (Angewandte Ethik)",
+    "Typ": "SE",
+    "Vortragende": "Colombo, Camilla Francesca",
+    "Lehrstuhl": "Lehrstuhl für Angewandte Ethik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562142",
+    "id": "71.10014",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "8:30",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "71.20038",
+    "Fachname": "Seminar \"Modelling for Policy\" (Wissenschaftstheorie und Technikphilosophie)",
+    "Typ": "SE",
+    "Vortragende": "Pantsar, Markus",
+    "Lehrstuhl": "Lehrstuhl für Wissenschaftstheorie und Technikphilosophie und Philosophisches Institut",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562184",
+    "id": "71.20038",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "10:30",
+        "bis": "12:00"
+      },
+      {
+        "tag": "Di",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "71.10018",
+    "Fachname": "Seminar Reading Club: Advanced Topics in Applied Ethics (Angewandte Ethik)",
+    "Typ": "SE",
+    "Vortragende": "Nagel, Saskia Kathi",
+    "Lehrstuhl": "Lehrstuhl für Angewandte Ethik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/573601",
+    "id": "71.10018",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "9:00",
+        "bis": "10:30"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00036",
+    "Fachname": "Seminar: Social Virtual Reality: Agenten, Avatare und Interaktionsdynamiken",
+    "Typ": "SE",
+    "Vortragende": "Bönsch, Andrea; Kuhlen, Torsten",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Virtuelle Realität und Immersive Visualisierung",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563993",
+    "id": "12.00036",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "KP.00010",
+    "Fachname": "Seminar: Text Mining",
+    "Typ": "SE",
+    "Vortragende": "Sifa, Rafet",
+    "Lehrstuhl": "Bonn-Aachen International Center for Information Technology",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562740",
+    "id": "KP.00010",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.24010",
+    "Fachname": "Seminars on Internet Technology and Advanced Internet Technology",
+    "Typ": "SE",
+    "Vortragende": "Pennekamp, Jan Niklas; Wehrle, Klaus",
+    "Lehrstuhl": "Lehrstuhl für Kommunikation und verteilte Systeme (Informatik 4)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563067",
+    "id": "12.24010",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "16:00",
+        "bis": "18:00"
+      },
+      {
+        "tag": "Mi",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.29410",
+    "Fachname": "Shape Analysis and 3D Deep Learning",
+    "Typ": "VO",
+    "Vortragende": "Lim, Isaak",
+    "Lehrstuhl": "Lehrstuhl für Computergraphik, Geometrie und Multimedia (Informatik 8)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563712",
+    "id": "12.29410",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.29411",
+    "Fachname": "Shape Analysis and 3D Deep Learning",
+    "Typ": "UE",
+    "Vortragende": "Lim, Isaak",
+    "Lehrstuhl": "Lehrstuhl für Computergraphik, Geometrie und Multimedia (Informatik 8)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563520",
+    "id": "12.29411",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00114",
+    "Fachname": "Smart Offline Caching for Immersive 360° Learning Environments",
+    "Typ": "PR",
+    "Vortragende": "Ehlenz, Matthias Siegfried",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Lerntechnologien",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/587082",
+    "id": "12.00114",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "8:30",
+        "bis": "10:00"
+      },
+      {
+        "tag": "Mo",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "92.19003",
+    "Fachname": "Software Lab in Bioinformatics",
+    "Typ": "PR",
+    "Vortragende": "Gesteira Costa Filho, Ivan",
+    "Lehrstuhl": "Institut und Lehrstuhl für Computergestützte Genomik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563404",
+    "id": "92.19003",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00022",
+    "Fachname": "Software Language Engineering",
+    "Typ": "VU",
+    "Vortragende": "Rumpe, Bernhard Dieter; Drux, Florian; Jansen, Nico; Rapp, Janik; Stachon, Max Philip",
+    "Lehrstuhl": "Lehrstuhl für Software Engineering (Informatik 3)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562325",
+    "id": "12.00022",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.20320",
+    "Fachname": "Softwareentwicklung in der Medizintechnik",
+    "Typ": "UE",
+    "Vortragende": "de la Fuente Klein, Matias",
+    "Lehrstuhl": "Lehrstuhl für Medizintechnik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560635",
+    "id": "41.20320",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.35666",
+    "Fachname": "Software-Projektmanagement",
+    "Typ": "UE",
+    "Vortragende": "Lichter, Horst; Slupczynski, Ada Magdalena",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Softwarekonstruktion",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560438",
+    "id": "12.35666",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "14:15",
+        "bis": "15:45"
+      },
+      {
+        "tag": "Mo",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.03703",
+    "Fachname": "Software-Projektmanagement",
+    "Typ": "VO",
+    "Vortragende": "Lichter, Horst",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Softwarekonstruktion",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561859",
+    "id": "12.03703",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "54.04489",
+    "Fachname": "Spezielle Aspekte der Biowerkstoffkunde",
+    "Typ": "VO",
+    "Vortragende": "Fischer, Horst",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Zahnärztliche Werkstoffkunde und Biomaterialforschung",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561127",
+    "id": "54.04489",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "12:15",
+        "bis": "13:45"
+      },
+      {
+        "tag": "Fr",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.53694",
+    "Fachname": "Spezielle Themen der Virtuellen Realität (VR II)",
+    "Typ": "VU",
+    "Vortragende": "Kuhlen, Torsten; Weißker, Tim Wayan",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Virtuelle Realität und Immersive Visualisierung",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561572",
+    "id": "12.53694",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "9:00",
+        "bis": "10:30"
+      },
+      {
+        "tag": "Mo",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.34277",
+    "Fachname": "Statische Programmanalyse",
+    "Typ": "UE",
+    "Vortragende": "Michnia, Jan-Gustav; Winkler, Tobias",
+    "Lehrstuhl": "Lehrstuhl für Softwaremodellierung und Verifikation (Informatik 2)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/575559",
+    "id": "12.34277",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.34278",
+    "Fachname": "Statische Programmanalyse",
+    "Typ": "VO",
+    "Vortragende": "Noll, Thomas",
+    "Lehrstuhl": "Lehrstuhl für Softwaremodellierung und Verifikation (Informatik 2)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/575560",
+    "id": "12.34278",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "16:00",
+        "bis": "18:00"
+      },
+      {
+        "tag": "Fr",
+        "von": "8:30",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "16.05646",
+    "Fachname": "Stoffproduktionen und Omics-Technologien",
+    "Typ": "VO",
+    "Vortragende": "Reiss, Monika",
+    "Lehrstuhl": "Lehrstuhl für Biotechnologie",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561636",
+    "id": "16.05646",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.24703",
+    "Fachname": "Strömungsmechanik I (Bachelor-Studium)",
+    "Typ": "VO",
+    "Vortragende": "Krug, Dominik Johannes",
+    "Lehrstuhl": "Lehrstuhl für Strömungsmechanik und Aerodynamisches Institut",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560352",
+    "id": "41.24703",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.24705",
+    "Fachname": "Strömungsmechanik I (Bachelor-Studium)",
+    "Typ": "UE",
+    "Vortragende": "Krug, Dominik Johannes",
+    "Lehrstuhl": "Lehrstuhl für Strömungsmechanik und Aerodynamisches Institut",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560339",
+    "id": "41.24705",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "8:30",
+        "bis": "10:00"
+      },
+      {
+        "tag": "Do",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.36311",
+    "Fachname": "Strömungsmechanik I (Bachelor-Studium)",
+    "Typ": "",
+    "Vortragende": "Krug, Dominik Johannes",
+    "Lehrstuhl": "Lehrstuhl für Strömungsmechanik und Aerodynamisches Institut",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561402",
+    "id": "41.36311",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.25108",
+    "Fachname": "Supervised Process Intelligence",
+    "Typ": "PR",
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius; Berti, Alessandro",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561989",
+    "id": "12.25108",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "8:30",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00134",
+    "Fachname": "Systems Evaluation and Reproducibility",
+    "Typ": "SE",
+    "Vortragende": "Gouicem, Redha",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Betriebssysteme",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/564046",
+    "id": "12.00134",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.23028",
+    "Fachname": "Systemtheorie 1",
+    "Typ": "VO",
+    "Vortragende": "Ebenbauer, Christian Johannes; Reyer, Michael",
+    "Lehrstuhl": "Lehrstuhl für Intelligente Regelungssysteme",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561165",
+    "id": "61.23028",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.23030",
+    "Fachname": "Systemtheorie 1",
+    "Typ": "UE",
+    "Vortragende": "Reyer, Michael; Weber, Marc",
+    "Lehrstuhl": "Lehrstuhl für Intelligente Regelungssysteme",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561003",
+    "id": "61.23030",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "16:00",
+        "bis": "18:00"
+      },
+      {
+        "tag": "Fr",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.47434",
+    "Fachname": "Systemtheorie 1 - Kleingruppenübung",
+    "Typ": "TU",
+    "Vortragende": "Reyer, Michael; Weber, Marc",
+    "Lehrstuhl": "Lehrstuhl für Intelligente Regelungssysteme",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560244",
+    "id": "61.47434",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "10:00",
+        "bis": "12:00"
+      },
+      {
+        "tag": "Di",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.54155",
+    "Fachname": "Theoretische Grundlagen der Hochfrequenztechnik (deutsch)",
+    "Typ": "UE",
+    "Vortragende": "Negra, Renato; Thiel, Björn Thorsten",
+    "Lehrstuhl": "Lehrstuhl für Höchstfrequenzelektronik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560903",
+    "id": "61.54155",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "12:00",
+        "bis": "14:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.50001",
+    "Fachname": "Theoretische Grundlagen der Hochfrequenztechnik (deutsch)",
+    "Typ": "VO",
+    "Vortragende": "Negra, Renato; Wei, Muh-Dey",
+    "Lehrstuhl": "Lehrstuhl für Höchstfrequenzelektronik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561732",
+    "id": "61.50001",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.02424",
+    "Fachname": "Theoretische Informationstechnik 2",
+    "Typ": "VO",
+    "Vortragende": "Schmeink, Anke",
+    "Lehrstuhl": "Lehrstuhl für Informationstheorie und Datenanalytik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561180",
+    "id": "61.02424",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "16:00",
+        "bis": "18:00"
+      },
+      {
+        "tag": "Mo",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.06535",
+    "Fachname": "Theoretische Informationstechnik 2",
+    "Typ": "UE",
+    "Vortragende": "Schmeink, Anke; El Hadj Khalifa, Hazem; Walger, Felix Peter Heinrich Gerhard; Zhang, Huanyu",
+    "Lehrstuhl": "Lehrstuhl für Informationstheorie und Datenanalytik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561940",
+    "id": "61.06535",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "10:30",
+        "bis": "12:00"
+      },
+      {
+        "tag": "Di",
+        "von": "9:00",
+        "bis": "10:30"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.99001",
+    "Fachname": "Theory of Machine Learning on Graphs",
+    "Typ": "SE",
+    "Vortragende": "Morris, Christopher",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen auf Graphen",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563172",
+    "id": "12.99001",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00098",
+    "Fachname": "Topics in Network Science",
+    "Typ": "SE",
+    "Vortragende": "Schaub, Michael Thomas",
+    "Lehrstuhl": "Lehrstuhl für Computational Network Science",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562599",
+    "id": "12.00098",
+    "Termine": [
+      {
+        "tag": "Mi",
+        "von": "12:15",
+        "bis": "13:45"
+      },
+      {
+        "tag": "Do",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00110",
+    "Fachname": "Trends in Model Checking",
+    "Typ": "SE",
+    "Vortragende": "Katoen, Joost-Pieter; Noll, Thomas; Quatmann, Tim",
+    "Lehrstuhl": "Lehrstuhl für Softwaremodellierung und Verifikation (Informatik 2)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563565",
+    "id": "12.00110",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "8:00",
+        "bis": "10:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.03237",
+    "Fachname": "Übung Bioreaktortechnik",
+    "Typ": "UE",
+    "Vortragende": "Magnus, Jørgen Barsett",
+    "Lehrstuhl": "Lehrstuhl für Bioverfahrenstechnik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561374",
+    "id": "41.03237",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "75.00097",
+    "Fachname": "Übung Individuals and Technology - Advancing Seminar (Technik und Individuum)",
+    "Typ": "UE",
+    "Vortragende": "Schiffer, Stefan",
+    "Lehrstuhl": "Lehrstuhl für Technik und Individuum",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562148",
+    "id": "75.00097",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.25105",
+    "Fachname": "Unsupervised Process Mining",
+    "Typ": "PR",
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius; Beyel, Harry Herbert",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561988",
+    "id": "12.25105",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "9:00",
+        "bis": "10:30"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.45931",
+    "Fachname": "Unternehmensbewertung",
+    "Typ": "VO",
+    "Vortragende": "Breuer, Wolfgang",
+    "Lehrstuhl": "Lehrstuhl für Betriebswirtschaftslehre, insbesondere Betriebliche Finanzwirtschaft",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560514",
+    "id": "81.45931",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "12:00",
+        "bis": "14:00"
+      },
+      {
+        "tag": "Di",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "81.45934",
+    "Fachname": "Unternehmensbewertung",
+    "Typ": "UE",
+    "Vortragende": "Algazzar, Ahmed Amr Mohamed",
+    "Lehrstuhl": "Lehrstuhl für Betriebswirtschaftslehre, insbesondere Betriebliche Finanzwirtschaft",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561082",
+    "id": "81.45934",
+    "Termine": [
+      {
+        "tag": "Mo",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "12.00113",
+    "Fachname": "Visualisierung von Dienstplänen im Krankenhaus",
+    "Typ": "PR",
+    "Vortragende": "Büsing, Christina Maria Katharina; Leweke, Johanna Lina",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Kombinatorische Optimierung",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/563970",
+    "id": "12.00113",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.30004",
+    "Fachname": "VLSI-Schaltungen und -Architekturen",
+    "Typ": "VO",
+    "Vortragende": "Gemmeke, Tobias",
+    "Lehrstuhl": "Lehrstuhl für Integrierte digitale Systeme und Schaltungsentwurf",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/561162",
+    "id": "61.30004",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "16:15",
+        "bis": "17:45"
+      },
+      {
+        "tag": "Di",
+        "von": "14:15",
+        "bis": "15:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "61.30010",
+    "Fachname": "VLSI-Schaltungen und -Architekturen",
+    "Typ": "UE",
+    "Vortragende": "Gemmeke, Tobias",
+    "Lehrstuhl": "Lehrstuhl für Integrierte digitale Systeme und Schaltungsentwurf",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560513",
+    "id": "61.30010",
+    "Termine": [
+      {
+        "tag": "Do",
+        "von": "12:15",
+        "bis": "13:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.02705",
+    "Fachname": "Vorlesung Bioreaktortechnik",
+    "Typ": "VO",
+    "Vortragende": "Magnus, Jørgen Barsett",
+    "Lehrstuhl": "Lehrstuhl für Bioverfahrenstechnik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560776",
+    "id": "41.02705",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "10:15",
+        "bis": "11:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "41.04487",
+    "Fachname": "Vorlesung Online-Analytik von Fermentationsprozessen",
+    "Typ": "VO",
+    "Vortragende": "Steier, Valentin; Magnus, Jørgen Barsett; Mann, Marcel",
+    "Lehrstuhl": "Lehrstuhl für Bioverfahrenstechnik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/560657",
+    "id": "41.04487",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "16:15",
+        "bis": "17:45"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "71.20016",
+    "Fachname": "Vorlesung \"Philosophy of Computational Sciences\" (Wissenschaftstheorie und Technikphilosophie)",
+    "Typ": "VO",
+    "Vortragende": "Pantsar, Markus",
+    "Lehrstuhl": "Lehrstuhl für Wissenschaftstheorie und Technikphilosophie und Philosophisches Institut",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562183",
+    "id": "71.20016",
+    "Termine": [
+      {
+        "tag": "Fr",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ]
+  },
+  {
+    "LV-Nr": "71.10010",
+    "Fachname": "Vorlesung/Lecture Ethics, Technology and Data (Angewandte Ethik/ Applied Ethics)",
+    "Typ": "VO",
+    "Vortragende": "Nagel, Saskia Kathi",
+    "Lehrstuhl": "Lehrstuhl für Angewandte Ethik",
+    "Link": "https://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/562726",
+    "id": "71.10010",
+    "Termine": [
+      {
+        "tag": "Di",
+        "von": "9:00",
+        "bis": "10:30"
+      }
+    ]
+  }
+]

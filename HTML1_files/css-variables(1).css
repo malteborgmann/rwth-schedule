@@ -1,0 +1,108 @@
+/* Setting Variables used in theme and client and can be overwritten */
+
+:root {
+    /* COLOR DEFINITION */
+    --primary-color: #00549f;
+    --primary-dark-color: var(--primary-color);
+    --primary-light-color: #EAF1F7;
+    --secondary-color: #333;
+    --secondary-dark-color: var(--off-black);
+    --secondary-light-color: var(--primary-color);
+    --text-color: #333;
+    --white: #fff;
+    --black: #000;
+    --grey: #646567;
+    --lightest-grey: #f7f7f7;
+    --lighter-grey: #ddd;
+    --light-grey: #9C9E9F;
+    --off-black: #333;
+    --main-content-background-color: var(--white);
+    --panel-background-color: #ededed;
+    /* LOGO SPECS */
+    --logo-url: url('https://online.rwth-aachen.de/RWTHonline/ee/theme/ca2/images/logos/rwth_logo_small_devices.png?theme_64aff7cf957d101675eba93fed2596e1a3fd31d6');
+    --logo-background-size: 185px 40px;
+    --logo-width: 185px;
+    --logo-height: 40px;
+    /* LOGO MOBILE */
+    --logo-mobile-url: url('https://online.rwth-aachen.de/RWTHonline/ee/theme/ca2/images/logos/rwth_logo_small_devices.png?theme_64aff7cf957d101675eba93fed2596e1a3fd31d6');
+    --logo-mobile-background-size: auto 40px;
+    --logo-mobile-width: 185px;
+    --logo-mobile-height: 40px;
+    /* LOGO EXTRA SMALL DEVICES */
+    --logo-mobile-xs-url: url('https://online.rwth-aachen.de/RWTHonline/ee/theme/ca2/images/logos/rwth_logo_small_devices.png?theme_64aff7cf957d101675eba93fed2596e1a3fd31d6');
+    --logo-mobile-xs-background-size: auto 40px;
+    --logo-mobile-xs-width: 185px;
+    --logo-mobile-xs-height: 40px;
+    /* HEADER */
+    --ca-primary-header-row-height: 40px;
+    --ca-primary-header-row-text-color: var(--white);
+    --ca-primary-header-row-background-color: var(--black);
+    --header-button-background-color-hover: var(--grey);
+    --header-button-text-color-hover: var(--white);
+    --ca-secondary-header-row-background-color: var(--lightest-grey);
+    /* LANGUAGE SWITCH */
+    --header-button-toggle-checked: var(--grey);
+    --header-button-toggle-text-checked: var(--white);
+    /* FOOTER */
+    --footer-background-color: var(--off-black);
+    --footer-text-color: var(--lighter-grey);
+    /* keep aware, there should be enough contrast to --footer-background-color */
+    --footer-link-text-color: var(--lighter-grey);
+    /* PRIMARY BUTTON */
+    --primary-button-background-color: var(--primary-color);
+    --primary-button-background-color-hover: var(--lighter-grey);
+    --primary-button-border-color: transparent;
+    --primary-button-border-color-hover: transparent;
+    --primary-button-text-color: var(--white);
+    --primary-button-text-color-hover: var(--black);
+    /* SECONDARY (DEFAULT) BUTTON */
+    --default-button-background-color: var(--lighter-grey);
+    --default-button-background-color-hover: var(--primary-color);
+    --default-button-border-color: transparent;
+    --default-button-border-color-hover: transparent;
+    --default-button-text-color: var(--black);
+    --default-button-text-color-hover: var(--white);
+    /* FILTER & SORT BUTTON */
+    --list-tool-button-background-color: var(--lighter-grey);
+    --list-tool-button-background-color-hover: var(--primary-color);
+    --list-tool-button-text-color: var(--black);
+    --list-tool-button-text-color-hover: var(--white);
+    --list-tool-button-border-color: var(--list-tool-button-background-color);
+    --list-tool-button-border-color-hover: var(--list-tool-button-background-color-hover);
+    /* GLOBAL TEXTUAL LINK COLOR */
+    --link-color: var(--primary-color);
+    --link-color-hover: var(--primary-dark-color);
+    --link-background-color-hover: transparent;
+    --link-text-decoration-hover: underline;
+    /* SIDENAV-TOGGLE */
+    --sidebar-logx-text-color: var(--primary-button-text-color);
+    --sidebar-logx-background-color: var(--primary-button-background-color);
+    --sidebar-logx-background-color-hover: var(--primary-button-background-color-hover);
+    --sidebar-logx-text-color-hover: var(--primary-button-text-color-hover);
+    /* DETAILVIEW-TOGGLE */
+    --button-toggle-checked: var(--secondary-light-color);
+    --button-toggle-text-checked: var(--white);
+    /* LOGIN */
+    --login-background-color: var(--primary-color);
+    --login-background-image: none;
+    --login-text-color: var(--white);
+    --login-button-color: var(--primary-color);
+    --login-button-background-hover: var(--secondary-color);
+    --login-button-color-hover: var(--black);
+    /* Home/Desktop - folder background */
+    --folder-background-color: var(--lightest-grey);
+    --folder-background-color-hover: var(--lighter-grey);
+    --folder-border-color: var(--lightest-grey);
+    --folder-border-color-hover: var(--lighter-grey);
+    --folder-text-color: var(--primary-color);
+    --folder-text-color-hover: var(--primary-color);
+    /* Home/Desktop - Application background */
+    --access-entry-background-color: var(--lightest-grey);
+    --access-entry-background-color-hover: var(--lighter-grey);
+    --access-entry-border-color: var(--lightest-grey);
+    --access-entry-border-color-hover: var(--lighter-grey);
+    --access-entry-text-color: var(--primary-color);
+    --access-entry-text-color-hover: var(--primary-color);
+    /* Font Family*/
+    --font-family-base: Open Sans, Arial, Sans-Serif !important;
+}
