@@ -1,0 +1,5247 @@
+[
+  {
+    "LV-Nr": "11.33691",
+    "Fachname": "Algebra",
+    "Typ": "VO",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Zerz, Eva Barbara",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Mathematik (Algebra)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "21.07.2026",
+        "raum": "IV (1010|141)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "IV (1010|141)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "22.07.2026",
+        "end_datum": "22.07.2026",
+        "raum": "IV (1010|141)"
+      }
+    ],
+    "id": "11.33691"
+  },
+  {
+    "LV-Nr": "11.33692_Algebra",
+    "Fachname": "Algebra (Übung)",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Rohde, Yannic; Zerz, Eva Barbara",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Mathematik (Algebra)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "22.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "IV (1010|141)"
+      }
+    ],
+    "id": "11.33692_Algebra"
+  },
+  {
+    "LV-Nr": "11.37999_Optimierung",
+    "Fachname": "Optimierung A",
+    "Typ": "VU",
+    "SWS": 4,
+    "Vortragende": "Günzel, Harald; Seidel, Jonas",
+    "Lehrstuhl": "Lehrstuhl für Analysis und ihre Anwendungen",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "20.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "V (1010|213)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "I (1010|101)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "II (1010|201)"
+      }
+    ],
+    "id": "11.37999_Optimierung"
+  },
+  {
+    "LV-Nr": "11.53158_Diskrete_Mathematik",
+    "Fachname": "Diskrete Mathematik I",
+    "Typ": "VO",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Peis, Britta",
+    "Lehrstuhl": "Lehrstuhl für Management Science",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "Phil (1070|113)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "V (1010|213)"
+      }
+    ],
+    "id": "11.53158_Diskrete_Mathematik"
+  },
+  {
+    "LV-Nr": "11.53160_Diskrete_Mathematik",
+    "Fachname": "Diskrete Mathematik I",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Eickhoff, Katharina; Pabst, Philipp Tobias",
+    "Lehrstuhl": "Lehrstuhl für Management Science",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "Phil (1070|113)"
+      }
+    ],
+    "id": "11.53160_Diskrete_Mathematik"
+  },
+  {
+    "LV-Nr": "11.53666_Ganzzahlige_Lineare",
+    "Fachname": "Ganzzahlige Lineare Optimierung",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Koster, Arie Marinus",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Diskrete Optimierung",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "20.07.2026",
+        "raum": "SeMath (1950|008)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "H 212 (1400|212)"
+      }
+    ],
+    "id": "11.53666_Ganzzahlige_Lineare"
+  },
+  {
+    "LV-Nr": "11.57420_Ganzzahlige_Lineare",
+    "Fachname": "Ganzzahlige Lineare Optimierung",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Draeger, Maurice; Schieren, Marius",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Diskrete Optimierung",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "20.07.2026",
+        "raum": "SeMath (1950|008)"
+      }
+    ],
+    "id": "11.57420_Ganzzahlige_Lineare"
+  },
+  {
+    "LV-Nr": "12.00002_Linux_Kernel",
+    "Fachname": "Linux Kernel Programming",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Gouicem, Redha; Coquisart, Jerome",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Betriebssysteme",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "H11 (1385|218)"
+      }
+    ],
+    "id": "12.00002_Linux_Kernel"
+  },
+  {
+    "LV-Nr": "12.00009_Linux_Kernel",
+    "Fachname": "Linux Kernel Programming",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Gouicem, Redha; Coquisart, Jerome",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Betriebssysteme",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "UMIC_025 (2165|025)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "20.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "UMIC_025 (2165|025)"
+      }
+    ],
+    "id": "12.00009_Linux_Kernel"
+  },
+  {
+    "LV-Nr": "12.00011_Leistungs._und_Korrektheitsanalyse_paralleler",
+    "Fachname": "Leistungs- und Korrektheitsanalyse paralleler Programme",
+    "Typ": "VU",
+    "SWS": 3,
+    "Vortragende": "Müller, Matthias Stefan; Schwitanski, Simon; Thärigen, Ben",
+    "Lehrstuhl": "Lehrstuhl für Hochleistungsrechnen (Informatik 12)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "5056 (2356|056)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "5056 (2356|056)"
+      }
+    ],
+    "id": "12.00011_Leistungs._und_Korrektheitsanalyse_paralleler"
+  },
+  {
+    "LV-Nr": "12.00016_Projektarbeit_Software_Language",
+    "Fachname": "Projektarbeit Software Language Engineering",
+    "SWS": 0,
+    "ECTS": 0.0,
+    "Vortragende": "Rumpe, Bernhard Dieter; Drux, Florian; Jansen, Nico; Rapp, Janik; Stachon, Max Philip",
+    "Lehrstuhl": "Lehrstuhl für Software Engineering (Informatik 3)",
+    "Termine": [],
+    "id": "12.00016_Projektarbeit_Software_Language"
+  },
+  {
+    "LV-Nr": "12.00017_Konzepte_und_Modelle_der_parallelen_und_datenzentrischen",
+    "Fachname": "Konzepte und Modelle der parallelen und datenzentrischen Programmierung",
+    "Typ": "VU",
+    "SWS": 3,
+    "Vortragende": "Terboven, Christian; Schwitanski, Simon; Thärigen, Ben",
+    "Lehrstuhl": "Lehrstuhl für Hochleistungsrechnen (Informatik 12)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "20.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "Knorr-Bremse-Hörsaal (H04) (1385|103)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "24.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "H05 (1385|105)"
+      }
+    ],
+    "id": "12.00017_Konzepte_und_Modelle_der_parallelen_und_datenzentrischen"
+  },
+  {
+    "LV-Nr": "12.00018_Embedded_Systems",
+    "Fachname": "Embedded Systems (International Academy)",
+    "SWS": 3,
+    "Vortragende": "Kowalewski, Stefan; Kahle, Julius Karl Gustav",
+    "Lehrstuhl": "Lehrstuhl für Embedded Software (Informatik 11)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "20.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "H07 (1385|104)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "21.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "H07 (1385|104)"
+      }
+    ],
+    "id": "12.00018_Embedded_Systems"
+  },
+  {
+    "LV-Nr": "12.00019_Fundamentals_of_Business_Process_Management_.",
+    "Fachname": "Fundamentals of Business Process Management - Übung",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "van Detten, Jan Niklas",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Business Process Management Foundations and Engineering",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "23.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "AH VI (2356|051)"
+      }
+    ],
+    "id": "12.00019_Fundamentals_of_Business_Process_Management_."
+  },
+  {
+    "LV-Nr": "12.00020_Fundamentals_of_Business_Process_Management_.",
+    "Fachname": "Fundamentals of Business Process Management - Vorlesung",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Leemans, Sander Jacobus Johannes",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Business Process Management Foundations and Engineering",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "12.05.2026",
+        "raum": "AH VI (2356|051)"
+      }
+    ],
+    "id": "12.00020_Fundamentals_of_Business_Process_Management_."
+  },
+  {
+    "LV-Nr": "12.00021_Network",
+    "Fachname": "Network Analytics",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Schaub, Michael Thomas",
+    "Lehrstuhl": "Lehrstuhl für Computational Network Science",
+    "Termine": [],
+    "id": "12.00021_Network"
+  },
+  {
+    "LV-Nr": "12.00022_Software_Language",
+    "Fachname": "Software Language Engineering",
+    "SWS": 3,
+    "Vortragende": "Rumpe, Bernhard Dieter; Drux, Florian; Jansen, Nico; Rapp, Janik; Stachon, Max Philip",
+    "Lehrstuhl": "Lehrstuhl für Software Engineering (Informatik 3)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "AH VI (2356|051)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "AH VI (2356|051)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "AH VI (2356|051)"
+      }
+    ],
+    "id": "12.00022_Software_Language"
+  },
+  {
+    "LV-Nr": "12.00023_Datenstrommanagement_und",
+    "Fachname": "Datenstrommanagement und -analyse",
+    "SWS": 3,
+    "Vortragende": "Geisler, Sandra; Belova, Anastasiia Albertovna; Kim, Soo-Yon",
+    "Lehrstuhl": "",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "AH II (2350|111)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "20.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "AH VI (2356|051)"
+      }
+    ],
+    "id": "12.00023_Datenstrommanagement_und"
+  },
+  {
+    "LV-Nr": "12.00027_Object.Centric_Process",
+    "Fachname": "Object-Centric Process Mining",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius; Liß, Lukas",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Termine": [],
+    "id": "12.00027_Object.Centric_Process"
+  },
+  {
+    "LV-Nr": "12.00029_Advanced",
+    "Fachname": "Advanced Algorithms",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Hoefer, Martin Karl Wilhelm",
+    "Lehrstuhl": "Lehrstuhl für Algorithmen und Komplexität (Informatik 1)",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Mittwoch",
+        "von": "14:30",
+        "bis": "16:00"
+      }
+    ],
+    "id": "12.00029_Advanced"
+  },
+  {
+    "LV-Nr": "12.00030_Aktuelle_Themen_der_Effizienten",
+    "Fachname": "Aktuelle Themen der Effizienten Algorithmen",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Seibert, Sebastian",
+    "Lehrstuhl": "Lehrstuhl für Algorithmen und Komplexität (Informatik 1)",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Donnerstag",
+        "von": "16:00",
+        "bis": "19:00"
+      }
+    ],
+    "id": "12.00030_Aktuelle_Themen_der_Effizienten"
+  },
+  {
+    "LV-Nr": "12.00031_Learning_in",
+    "Fachname": "Learning in Verification",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Noll, Thomas",
+    "Lehrstuhl": "Lehrstuhl für Softwaremodellierung und Verifikation (Informatik 2)",
+    "Termine": [],
+    "id": "12.00031_Learning_in"
+  },
+  {
+    "LV-Nr": "12.00032_Knowledge_Graph",
+    "Fachname": "Knowledge Graph Lab",
+    "Typ": "PR",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Decker, Stefan Josef; Lange-Bever, Christoph; Busch, Moritz; Holzheim, Tim Luca; Kißgen, Maximilian Paul; Neumann, Laurenz Alexander",
+    "Lehrstuhl": "Lehrstuhl für Informationssysteme und Datenbanken (Informatik 5)",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Donnerstag",
+        "von": "12:30",
+        "bis": "14:00"
+      }
+    ],
+    "id": "12.00032_Knowledge_Graph"
+  },
+  {
+    "LV-Nr": "12.00036_Seminar_Social_Virtual_Reality",
+    "Fachname": "Seminar: Social Virtual Reality: Agenten, Avatare und Interaktionsdynamiken",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Bönsch, Andrea; Kuhlen, Torsten",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Virtuelle Realität und Immersive Visualisierung",
+    "Termine": [],
+    "id": "12.00036_Seminar_Social_Virtual_Reality"
+  },
+  {
+    "LV-Nr": "12.00039_Advanced_Algorithmic",
+    "Fachname": "Advanced Algorithmic Differentiation",
+    "SWS": 2,
+    "Vortragende": "Naumann, Uwe; Kauerauf, Gero Fritz",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Software und Werkzeuge für Computational Engineering",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "28.04.2026",
+        "raum": "AH III (2350|314.1)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "AH III (2350|314.1)"
+      }
+    ],
+    "id": "12.00039_Advanced_Algorithmic"
+  },
+  {
+    "LV-Nr": "12.00043_Mixed_Reality",
+    "Fachname": "Mixed Reality Lab",
+    "Typ": "PR",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Decker, Stefan Josef; Hensen, Benedikt",
+    "Lehrstuhl": "Lehrstuhl für Informationssysteme und Datenbanken (Informatik 5)",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Montag",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ],
+    "id": "12.00043_Mixed_Reality"
+  },
+  {
+    "LV-Nr": "12.00044_Full.Stack_Development_of_Advances_in_Object.Centric_Process",
+    "Fachname": "Full-Stack Development of Advances in Object-Centric Process Mining",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Leemans, Sander Jacobus Johannes; van Detten, Jan Niklas",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Business Process Management Foundations and Engineering",
+    "Termine": [],
+    "id": "12.00044_Full.Stack_Development_of_Advances_in_Object.Centric_Process"
+  },
+  {
+    "LV-Nr": "12.00046_Process_Mining_with_Frequencies",
+    "Fachname": "Process Mining with Frequencies (MA)",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Leemans, Sander Jacobus Johannes; Li, Tian",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Business Process Management Foundations and Engineering",
+    "Termine": [],
+    "id": "12.00046_Process_Mining_with_Frequencies"
+  },
+  {
+    "LV-Nr": "12.00047_Advanced_Topics_in_Network",
+    "Fachname": "Advanced Topics in Network Science",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Schaub, Michael Thomas",
+    "Lehrstuhl": "Lehrstuhl für Computational Network Science",
+    "Termine": [],
+    "id": "12.00047_Advanced_Topics_in_Network"
+  },
+  {
+    "LV-Nr": "12.00048_Formal",
+    "Fachname": "Formal Methods",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Abraham, Erika; Richter, Pascal",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Theorie Hybrider Systeme",
+    "Termine": [],
+    "id": "12.00048_Formal"
+  },
+  {
+    "LV-Nr": "12.00052_Advanced_Topics_in_IT.Security_and",
+    "Fachname": "Advanced Topics in IT-Security and Cryptograpy",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Drichel, Arthur; Ehrmanntraut, Vincent Cosme; Meyer, Ulrike Michaela",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet IT-Sicherheit",
+    "Termine": [],
+    "id": "12.00052_Advanced_Topics_in_IT.Security_and"
+  },
+  {
+    "LV-Nr": "12.00053_Process_Mining_with_Frequencies",
+    "Fachname": "Process Mining with Frequencies (BA)",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Leemans, Sander Jacobus Johannes; Li, Tian",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Business Process Management Foundations and Engineering",
+    "Termine": [],
+    "id": "12.00053_Process_Mining_with_Frequencies"
+  },
+  {
+    "LV-Nr": "12.00054_Lab_Course_Graph",
+    "Fachname": "Lab Course: Graph Learning",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Javaid, Muhammad Bin; Kisin, Berke",
+    "Lehrstuhl": "Lehrstuhl für Logik und Theorie diskreter Systeme (Informatik 7)",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Dienstag",
+        "von": "12:30",
+        "bis": "14:00"
+      }
+    ],
+    "id": "12.00054_Lab_Course_Graph"
+  },
+  {
+    "LV-Nr": "12.00056_Actions_and_Planning_in_AI",
+    "Fachname": "Actions and Planning in AI: Learning, Models, and Algorithms",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Geffner, Hector; Jansen, Niklas; Reiter, Jonas Laurenz",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "21.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "Phil (1070|113)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "23.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "SG 513 (1810|513)"
+      }
+    ],
+    "id": "12.00056_Actions_and_Planning_in_AI"
+  },
+  {
+    "LV-Nr": "12.00057_Current_Topics_in_Software",
+    "Fachname": "Current Topics in Software Architecture",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Seiger, Ronny",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Softwarearchitektur",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "21.07.2026",
+        "raum": "5052 (2356|052)"
+      }
+    ],
+    "id": "12.00057_Current_Topics_in_Software"
+  },
+  {
+    "LV-Nr": "12.00058_Competitive",
+    "Fachname": "Competitive Programming",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Barth, Naomi; Gehnen, Matthias; Mock, Daniel Alexander; Rossmanith, Peter",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Theoretische Informatik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "13:00",
+        "bis": "16:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "23.07.2026",
+        "raum": "Seminarraum i1, Raum 4013 (2353|013)"
+      }
+    ],
+    "id": "12.00058_Competitive"
+  },
+  {
+    "LV-Nr": "12.00059_Knowledge_Graphs",
+    "Fachname": "Knowledge Graphs Seminar",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Decker, Stefan Josef; Mou, Yongli; Peng, Yixin",
+    "Lehrstuhl": "Lehrstuhl für Informationssysteme und Datenbanken (Informatik 5)",
+    "Termine": [],
+    "id": "12.00059_Knowledge_Graphs"
+  },
+  {
+    "LV-Nr": "12.00060_AI_Self.Reflection_._Understanding_How_LLMs_Learn_from",
+    "Fachname": "AI Self-Reflection - Understanding How LLMs Learn from Themselves",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Decker, Stefan Josef; Moosmann, Paul; Morad, Milad; Reiners, René",
+    "Lehrstuhl": "Lehrstuhl für Informationssysteme und Datenbanken (Informatik 5)",
+    "Termine": [],
+    "id": "12.00060_AI_Self.Reflection_._Understanding_How_LLMs_Learn_from"
+  },
+  {
+    "LV-Nr": "12.00062_Hyperparameter_Optimisation_for_Machine",
+    "Fachname": "Hyperparameter Optimisation for Machine Learning",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Hoos, Holger Hendrik; Kalkreuth, Roman Tobias; Kocher, Nick Valentin; Shavit, Hadar",
+    "Lehrstuhl": "Lehrstuhl für Methodik der Künstlichen Intelligenz (Informatik 14)",
+    "Termine": [],
+    "id": "12.00062_Hyperparameter_Optimisation_for_Machine"
+  },
+  {
+    "LV-Nr": "12.00063_Automated_Planning_and_Knowledge",
+    "Fachname": "Automated Planning and Knowledge Representation",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Helal, Hayyan; Lynn, Matthew James",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Wissensbasierte Systeme",
+    "Termine": [],
+    "id": "12.00063_Automated_Planning_and_Knowledge"
+  },
+  {
+    "LV-Nr": "12.00066_Intelligent_Data_Management_with_Generative",
+    "Fachname": "Intelligent Data Management with Generative AI",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Geisler, Sandra; Quix, Christoph Josef; Kißgen, Maximilian Paul; Holzheim, Tim Luca; Neumann, Laurenz Alexander; Mustafa, Daham Mohammed; Hensen, Benedikt; Basavanapura Raju, Thriveni; Hamiti, Florim; Peng, Yixin",
+    "Lehrstuhl": "",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Donnerstag",
+        "von": "09:00",
+        "bis": "10:30"
+      }
+    ],
+    "id": "12.00066_Intelligent_Data_Management_with_Generative"
+  },
+  {
+    "LV-Nr": "12.00069_Data_Science_in_Medicine",
+    "Fachname": "Data Science in Medicine Seminar",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Decker, Stefan Josef; Mou, Yongli; Hayat, Sikander; Peng, Yixin",
+    "Lehrstuhl": "Lehrstuhl für Informationssysteme und Datenbanken (Informatik 5)",
+    "Termine": [],
+    "id": "12.00069_Data_Science_in_Medicine"
+  },
+  {
+    "LV-Nr": "12.00071_Laboratory_Deep",
+    "Fachname": "Laboratory Deep Learning",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Leibe, Bastian",
+    "Lehrstuhl": "Lehrstuhl für Computer Vision (Informatik 13)",
+    "Termine": [],
+    "id": "12.00071_Laboratory_Deep"
+  },
+  {
+    "LV-Nr": "12.00073_Emerging_Technologies_in_Educational_Technology_AI_and_Learning",
+    "Fachname": "Emerging Technologies in Educational Technology: AI and Learning Analytics",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Ali, Lubna Kamel Nazih; Schroeder, Ulrik",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Lerntechnologien",
+    "Termine": [],
+    "id": "12.00073_Emerging_Technologies_in_Educational_Technology_AI_and_Learning"
+  },
+  {
+    "LV-Nr": "12.00077_Introduction_to_Object.Centric_Process",
+    "Fachname": "Introduction to Object-Centric Process Mining",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius; Liß, Lukas",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Termine": [],
+    "id": "12.00077_Introduction_to_Object.Centric_Process"
+  },
+  {
+    "LV-Nr": "12.00078_Actions_and_Planning_in_AI",
+    "Fachname": "Actions and Planning in AI: Learning, Models, and Algorithms",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Jansen, Niklas; Reiter, Jonas Laurenz",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "H 212 (1400|212)"
+      }
+    ],
+    "id": "12.00078_Actions_and_Planning_in_AI"
+  },
+  {
+    "LV-Nr": "12.00083_Mathematische_Heuristiken_in_der_diskreten",
+    "Fachname": "Mathematische Heuristiken in der diskreten Optimierung",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Engelhardt, Felix; Lauer, Bianca",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Kombinatorische Optimierung",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "5056 (2356|056)"
+      }
+    ],
+    "id": "12.00083_Mathematische_Heuristiken_in_der_diskreten"
+  },
+  {
+    "LV-Nr": "12.00084_Process_Mining_in",
+    "Fachname": "Process Mining in Celonis",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius; Berti, Alessandro",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Termine": [],
+    "id": "12.00084_Process_Mining_in"
+  },
+  {
+    "LV-Nr": "12.00085_Introduction_to_Program",
+    "Fachname": "Introduction to Program Synthesis",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Hoos, Holger Hendrik",
+    "Lehrstuhl": "Lehrstuhl für Methodik der Künstlichen Intelligenz (Informatik 14)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "12:30",
+        "bis": "14:30",
+        "start_datum": "15.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "Extern Anmerkung: Theaterstr. 35-39, room 325"
+      }
+    ],
+    "id": "12.00085_Introduction_to_Program"
+  },
+  {
+    "LV-Nr": "12.00086_Introduction_to_Program",
+    "Fachname": "Introduction to Program Synthesis",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Hoos, Holger Hendrik; Kalkreuth, Roman Tobias",
+    "Lehrstuhl": "Lehrstuhl für Methodik der Künstlichen Intelligenz (Informatik 14)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "23.07.2026",
+        "raum": "Extern Anmerkung: Theaterstr. 35-39, room 325"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "23.07.2026",
+        "raum": "Extern Anmerkung: Theaterstr. 35-39, room 325"
+      }
+    ],
+    "id": "12.00086_Introduction_to_Program"
+  },
+  {
+    "LV-Nr": "12.00091_Machine_Learning_for_Combinatorial",
+    "Fachname": "Machine Learning for Combinatorial Optimization",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Qian, Chendi; Siraudin, Antoine Grégoire Jehan Marie",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen auf Graphen",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Dienstag",
+        "von": "11:00",
+        "bis": "12:00"
+      }
+    ],
+    "id": "12.00091_Machine_Learning_for_Combinatorial"
+  },
+  {
+    "LV-Nr": "12.00092_Algorithmische",
+    "Fachname": "Algorithmische Spieltheorie",
+    "Typ": "VO",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Hoefer, Martin Karl Wilhelm",
+    "Lehrstuhl": "Lehrstuhl für Algorithmen und Komplexität (Informatik 1)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "20.07.2026",
+        "raum": "5056 (2356|056)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "5055 (2356|055)"
+      }
+    ],
+    "id": "12.00092_Algorithmische"
+  },
+  {
+    "LV-Nr": "12.00093_Maschinelles_Lernen_auf",
+    "Fachname": "Maschinelles Lernen auf Graphen",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Morris, Christopher",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen auf Graphen",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Donnerstag",
+        "von": "10:00",
+        "bis": "11:30"
+      },
+      {
+        "typ": "Einzel",
+        "tag": "Dienstag",
+        "von": "10:00",
+        "bis": "11:30"
+      }
+    ],
+    "id": "12.00093_Maschinelles_Lernen_auf"
+  },
+  {
+    "LV-Nr": "12.00095_Introduction_to_Selected_Topics_in_Process",
+    "Fachname": "Introduction to Selected Topics in Process Mining",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Peeva, Viki",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Donnerstag",
+        "von": "09:00",
+        "bis": "10:00"
+      }
+    ],
+    "id": "12.00095_Introduction_to_Selected_Topics_in_Process"
+  },
+  {
+    "LV-Nr": "12.00096_Computational_Mathematical_Modelling_Program",
+    "Fachname": "Computational Mathematical Modelling Program (CAMMP)",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Büsing, Christina Maria Katharina",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Kombinatorische Optimierung",
+    "Termine": [],
+    "id": "12.00096_Computational_Mathematical_Modelling_Program"
+  },
+  {
+    "LV-Nr": "12.00098_Topics_in_Network",
+    "Fachname": "Topics in Network Science",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Schaub, Michael Thomas",
+    "Lehrstuhl": "Lehrstuhl für Computational Network Science",
+    "Termine": [],
+    "id": "12.00098_Topics_in_Network"
+  },
+  {
+    "LV-Nr": "12.00100_Introduction_to_Quantum",
+    "Fachname": "Introduction to Quantum Computing",
+    "Typ": "VO",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Unruh, Dominique",
+    "Lehrstuhl": "Lehrstuhl für Quanteninformationssysteme (Informatik 15)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "28.04.2026",
+        "raum": "Otto Fuchs-Hörsaal (H03) (1385|003)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "TEMP2 (1515|002)"
+      }
+    ],
+    "id": "12.00100_Introduction_to_Quantum"
+  },
+  {
+    "LV-Nr": "12.00102_Introduction_to_Quantum",
+    "Fachname": "Introduction to Quantum Computing",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Gehnen, Christina; Unruh, Dominique",
+    "Lehrstuhl": "Lehrstuhl für Quanteninformationssysteme (Informatik 15)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "24.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "Grüner Hörsaal AM (Gr) (1420|001)"
+      }
+    ],
+    "id": "12.00102_Introduction_to_Quantum"
+  },
+  {
+    "LV-Nr": "12.00103_Near.term_Quantum",
+    "Fachname": "Near-term Quantum Computation",
+    "Typ": "UE",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Bluhm, Jörg Hendrik; Stollenwerk, Tobias",
+    "Lehrstuhl": "Lehrstuhl für Experimentalphysik und II. Physikalisches Institut",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.07.2026",
+        "raum": "Eph (1090|321)"
+      }
+    ],
+    "id": "12.00103_Near.term_Quantum"
+  },
+  {
+    "LV-Nr": "12.00104_Advanced_Topics_in_IT.Security_and",
+    "Fachname": "Advanced Topics in IT-Security and Cryptograpy",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Drichel, Arthur; Ehrmanntraut, Vincent Cosme; Meyer, Ulrike Michaela",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet IT-Sicherheit",
+    "Termine": [],
+    "id": "12.00104_Advanced_Topics_in_IT.Security_and"
+  },
+  {
+    "LV-Nr": "12.00106_Hands.On_Application_Development_for_Mobile_and_Web_Based_3D_Content",
+    "Fachname": "Hands-On Application Development for Mobile and Web Based 3D Content Creation",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Rumpe, Bernhard Dieter",
+    "Lehrstuhl": "Lehrstuhl für Software Engineering (Informatik 3)",
+    "Termine": [],
+    "id": "12.00106_Hands.On_Application_Development_for_Mobile_and_Web_Based_3D_Content"
+  },
+  {
+    "LV-Nr": "12.00107_Automatic_Speech_Recognition",
+    "Fachname": "Automatic Speech Recognition Search",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Schlüter, Ralf; Zeyer, Albert",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "23.07.2026",
+        "raum": "AH I (2350|028)"
+      }
+    ],
+    "id": "12.00107_Automatic_Speech_Recognition"
+  },
+  {
+    "LV-Nr": "12.00108_Automatic_Speech_Recognition",
+    "Fachname": "Automatic Speech Recognition Search",
+    "Typ": "UE",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Schlüter, Ralf; Yang, Zijian",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "22.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "CN1 (2280|011)"
+      }
+    ],
+    "id": "12.00108_Automatic_Speech_Recognition"
+  },
+  {
+    "LV-Nr": "12.00109_Agentic_AI_in_a_2D_Video",
+    "Fachname": "Agentic AI in a 2D Video Game",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Hufnagel, Paul; Netz, Lukas Stephan Michael; Nqiri, Haron Samy; Thillmann, Henrik",
+    "Lehrstuhl": "Lehrstuhl für Software Engineering (Informatik 3)",
+    "Termine": [],
+    "id": "12.00109_Agentic_AI_in_a_2D_Video"
+  },
+  {
+    "LV-Nr": "12.00110_Trends_in_Model",
+    "Fachname": "Trends in Model Checking",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Katoen, Joost-Pieter; Noll, Thomas; Quatmann, Tim",
+    "Lehrstuhl": "Lehrstuhl für Softwaremodellierung und Verifikation (Informatik 2)",
+    "Termine": [],
+    "id": "12.00110_Trends_in_Model"
+  },
+  {
+    "LV-Nr": "12.00111_Research_Software_Engineering_Management_and",
+    "Fachname": "Research Software Engineering Management and Communication",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Schmidt, Marc",
+    "Lehrstuhl": "Lehrstuhl für Software Engineering (Informatik 3)",
+    "Termine": [],
+    "id": "12.00111_Research_Software_Engineering_Management_and"
+  },
+  {
+    "LV-Nr": "12.00112_Near.term_Quantum",
+    "Fachname": "Near-term Quantum Computation",
+    "Typ": "VO",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Bluhm, Jörg Hendrik; Stollenwerk, Tobias",
+    "Lehrstuhl": "Lehrstuhl für Experimentalphysik und II. Physikalisches Institut",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "23.07.2026",
+        "raum": "Eph (1090|321)"
+      }
+    ],
+    "id": "12.00112_Near.term_Quantum"
+  },
+  {
+    "LV-Nr": "12.00113_Visualisierung_von_Dienstplänen_im",
+    "Fachname": "Visualisierung von Dienstplänen im Krankenhaus",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Büsing, Christina Maria Katharina; Leweke, Johanna Lina",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Kombinatorische Optimierung",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Freitag",
+        "von": "08:30",
+        "bis": "10:00"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "21.04.2026",
+        "end_datum": "14.07.2026",
+        "raum": "SE 002 (1580|002)"
+      },
+      {
+        "typ": "Einzel",
+        "tag": "Montag",
+        "von": "10:00",
+        "bis": "12:00"
+      }
+    ],
+    "id": "12.00113_Visualisierung_von_Dienstplänen_im"
+  },
+  {
+    "LV-Nr": "12.00114_Smart_Offline_Caching_for_Immersive",
+    "Fachname": "Smart Offline Caching for Immersive 360° Learning Environments",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Ehlenz, Matthias Siegfried",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Lerntechnologien",
+    "Termine": [],
+    "id": "12.00114_Smart_Offline_Caching_for_Immersive"
+  },
+  {
+    "LV-Nr": "12.00115",
+    "Fachname": "Algorithms",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Hoefer, Martin Karl Wilhelm",
+    "Lehrstuhl": "Lehrstuhl für Algorithmen und Komplexität (Informatik 1)",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Mittwoch",
+        "von": "14:30",
+        "bis": "16:00"
+      }
+    ],
+    "id": "12.00115"
+  },
+  {
+    "LV-Nr": "12.00117_AI_as_Co.Teacher_Opportunities_and_Challenges_of_Generative_AI_in",
+    "Fachname": "AI as Co-Teacher? Opportunities and Challenges of Generative AI in Schools",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Ehlenz, Matthias Siegfried",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Lerntechnologien",
+    "Termine": [],
+    "id": "12.00117_AI_as_Co.Teacher_Opportunities_and_Challenges_of_Generative_AI_in"
+  },
+  {
+    "LV-Nr": "12.00119_Neural_Networks_for_Sequence",
+    "Fachname": "Neural Networks for Sequence Modeling",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Schlüter, Ralf; Zeyer, Albert",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Termine": [],
+    "id": "12.00119_Neural_Networks_for_Sequence"
+  },
+  {
+    "LV-Nr": "12.00120_Neural_Networks_for_Sequence",
+    "Fachname": "Neural Networks for Sequence Modeling",
+    "Typ": "UE",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Schlüter, Ralf; Zeyer, Albert",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Termine": [],
+    "id": "12.00120_Neural_Networks_for_Sequence"
+  },
+  {
+    "LV-Nr": "12.00125_Robust_Deep",
+    "Fachname": "Robust Deep Learning",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Kaulen, Konstantin; Münz, Anna Louisa",
+    "Lehrstuhl": "Lehrstuhl für Methodik der Künstlichen Intelligenz (Informatik 14)",
+    "Termine": [],
+    "id": "12.00125_Robust_Deep"
+  },
+  {
+    "LV-Nr": "12.00127_Renewable_Energy_Simulation_on_Mobile_using",
+    "Fachname": "Renewable Energy: Simulation on Mobile using Swift",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Richter, Pascal",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Theorie Hybrider Systeme",
+    "Termine": [],
+    "id": "12.00127_Renewable_Energy_Simulation_on_Mobile_using"
+  },
+  {
+    "LV-Nr": "12.00128_Mathematische_Heuristiken_in_der_diskreten",
+    "Fachname": "Mathematische Heuristiken in der diskreten Optimierung",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Büsing, Christina Maria Katharina",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Kombinatorische Optimierung",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "5056 (2356|056)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "5056 (2356|056)"
+      }
+    ],
+    "id": "12.00128_Mathematische_Heuristiken_in_der_diskreten"
+  },
+  {
+    "LV-Nr": "12.00131_Programming_quantum",
+    "Fachname": "Programming quantum algorithms",
+    "Typ": "PR",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Louloudis, Nikolaos",
+    "Lehrstuhl": "Lehrstuhl für Quanteninformationssysteme (Informatik 15)",
+    "Termine": [],
+    "id": "12.00131_Programming_quantum"
+  },
+  {
+    "LV-Nr": "12.00132_Quantum",
+    "Fachname": "Quantum cryptography",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Unruh, Dominique",
+    "Lehrstuhl": "Lehrstuhl für Quanteninformationssysteme (Informatik 15)",
+    "Termine": [],
+    "id": "12.00132_Quantum"
+  },
+  {
+    "LV-Nr": "12.00133_Quantum_Program",
+    "Fachname": "Quantum Program Verification",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Gehnen, Christina",
+    "Lehrstuhl": "Lehrstuhl für Quanteninformationssysteme (Informatik 15)",
+    "Termine": [],
+    "id": "12.00133_Quantum_Program"
+  },
+  {
+    "LV-Nr": "12.00134_Systems_Evaluation_and",
+    "Fachname": "Systems Evaluation and Reproducibility",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Gouicem, Redha",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Betriebssysteme",
+    "Termine": [],
+    "id": "12.00134_Systems_Evaluation_and"
+  },
+  {
+    "LV-Nr": "12.00139_Applications_of_AI_in",
+    "Fachname": "Applications of AI in Games",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Dettmer, Justin; Dierkes, Julian; Kalkreuth, Roman Tobias; Shavit, Hadar",
+    "Lehrstuhl": "Lehrstuhl für Methodik der Künstlichen Intelligenz (Informatik 14)",
+    "Termine": [],
+    "id": "12.00139_Applications_of_AI_in"
+  },
+  {
+    "LV-Nr": "12.00140_Research_Focus_Class_in_Didaktik_der",
+    "Fachname": "Research Focus Class in Didaktik der Informatik",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Bergner, Nadine",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Didaktik der Informatik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "08:30",
+        "bis": "12:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "21.07.2026",
+        "raum": "2165|225"
+      }
+    ],
+    "id": "12.00140_Research_Focus_Class_in_Didaktik_der"
+  },
+  {
+    "LV-Nr": "12.00141_Real.Time_Systems_and",
+    "Fachname": "Real-Time Systems and Applications",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Chen, Jian-Jia",
+    "Lehrstuhl": "Lehrstuhl für Cyber-Physische Systeme",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "10:15",
+        "bis": "11:45",
+        "start_datum": "29.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "3220|259"
+      }
+    ],
+    "id": "12.00141_Real.Time_Systems_and"
+  },
+  {
+    "LV-Nr": "12.00145_Introduction_to_Numerical_Methods_and_Software_with",
+    "Fachname": "Introduction to Numerical Methods and Software with C++",
+    "Typ": "VU",
+    "SWS": 3,
+    "Vortragende": "Kichler, Neil Joram; Naumann, Uwe",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Software und Werkzeuge für Computational Engineering",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "AH III (2350|314.1)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "AH III (2350|314.1)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "AH VI (2356|051)"
+      }
+    ],
+    "id": "12.00145_Introduction_to_Numerical_Methods_and_Software_with"
+  },
+  {
+    "LV-Nr": "12.00146_Building_Large_Language_Model",
+    "Fachname": "Building Large Language Model Applications",
+    "Typ": "PR",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Decker, Stefan Josef; Mou, Yongli; Peng, Yixin",
+    "Lehrstuhl": "Lehrstuhl für Informationssysteme und Datenbanken (Informatik 5)",
+    "Termine": [],
+    "id": "12.00146_Building_Large_Language_Model"
+  },
+  {
+    "LV-Nr": "12.00158_Research_Focus_Class_Research_Methods_and_Paradigms_in_Research_Software",
+    "Fachname": "Research Focus Class: Research Methods and Paradigms in Research Software Engineering for Learning Technologies",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Heinemann, Birte",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Lerntechnologien",
+    "Termine": [],
+    "id": "12.00158_Research_Focus_Class_Research_Methods_and_Paradigms_in_Research_Software"
+  },
+  {
+    "LV-Nr": "12.00159_Real.Time_Systems_and",
+    "Fachname": "Real-Time Systems and Applications",
+    "Typ": "VO",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Chen, Jian-Jia",
+    "Lehrstuhl": "Lehrstuhl für Cyber-Physische Systeme",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "14:15",
+        "bis": "17:45",
+        "start_datum": "21.04.2026",
+        "end_datum": "21.07.2026",
+        "raum": "3220|259"
+      }
+    ],
+    "id": "12.00159_Real.Time_Systems_and"
+  },
+  {
+    "LV-Nr": "12.00247_Applied_Formal_Methods",
+    "Fachname": "Applied Formal Methods Lab",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Völker, Marcus; Söthe, Luca",
+    "Lehrstuhl": "Lehrstuhl für Embedded Software (Informatik 11)",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Montag",
+        "von": "14:00",
+        "bis": "16:00"
+      }
+    ],
+    "id": "12.00247_Applied_Formal_Methods"
+  },
+  {
+    "LV-Nr": "12.02001_Advanced_Topics_in_Reinforcement_Learning_and",
+    "Fachname": "Advanced Topics in Reinforcement Learning and Planning",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Geffner, Hector; Theisen, Martin",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "16:00",
+        "bis": "18:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "21.07.2026",
+        "raum": "6074|228"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "16:00",
+        "bis": "18:00",
+        "start_datum": "09.07.2026",
+        "end_datum": "09.07.2026",
+        "raum": "6074|228"
+      }
+    ],
+    "id": "12.02001_Advanced_Topics_in_Reinforcement_Learning_and"
+  },
+  {
+    "LV-Nr": "12.03703",
+    "Fachname": "Software-Projektmanagement",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Lichter, Horst",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Softwarekonstruktion",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "AH II (2350|111)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "AH VI (2356|051)"
+      }
+    ],
+    "id": "12.03703"
+  },
+  {
+    "LV-Nr": "12.04000_Artificial_Intelligence_for",
+    "Fachname": "Artificial Intelligence for Robotics",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Geffner, Hector; Rakhman, Ulzhalgas; Swoboda, Daniel Maximilian",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "22.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "6074|228"
+      }
+    ],
+    "id": "12.04000_Artificial_Intelligence_for"
+  },
+  {
+    "LV-Nr": "12.04001_Deep_Learning_for_Structured",
+    "Fachname": "Deep Learning for Structured Data",
+    "Typ": "VU",
+    "SWS": 3,
+    "Vortragende": "Morris, Christopher",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen auf Graphen",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "22.04.2026",
+        "raum": "AH I (2350|028)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "AH III (2350|314.1)"
+      }
+    ],
+    "id": "12.04001_Deep_Learning_for_Structured"
+  },
+  {
+    "LV-Nr": "12.04237_Funktionale_Sicherheit_und",
+    "Fachname": "Funktionale Sicherheit und Systemzuverlässigkeit",
+    "Typ": "VU",
+    "SWS": 3,
+    "ECTS": 6.0,
+    "Vortragende": "Kowalewski, Stefan; Lauterbach Oprea, Camelia",
+    "Lehrstuhl": "Lehrstuhl für Embedded Software (Informatik 11)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "21.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "H06 (1385|004)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "23.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "H06 (1385|004)"
+      }
+    ],
+    "id": "12.04237_Funktionale_Sicherheit_und"
+  },
+  {
+    "LV-Nr": "12.06506_Designing_Interactive_Systems",
+    "Fachname": "Designing Interactive Systems II",
+    "Typ": "VU",
+    "SWS": 3,
+    "ECTS": 6.0,
+    "Vortragende": "Borchers, Jan Oliver; Schirp, Lea Emilia",
+    "Lehrstuhl": "Lehrstuhl für Medieninformatik und Mensch-Computer-Interaktion (Informatik 10)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "AH VI (2356|051)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "09:30",
+        "bis": "12:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "Extern Anmerkung: Seminarraum vom i10, Raum 2.74, Im Süsterfeld 9"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "AH V (2356|050)"
+      }
+    ],
+    "id": "12.06506_Designing_Interactive_Systems"
+  },
+  {
+    "LV-Nr": "12.07120_Fixpoints_and_Induction_in_Logic_and_Computer",
+    "Fachname": "Fixpoints and Induction in Logic and Computer Science",
+    "Typ": "VO",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Löding, Christof",
+    "Lehrstuhl": "Lehrstuhl für Logik und Theorie diskreter Systeme (Informatik 7)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "20.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "5056 (2356|056)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "23.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "5056 (2356|056)"
+      }
+    ],
+    "id": "12.07120_Fixpoints_and_Induction_in_Logic_and_Computer"
+  },
+  {
+    "LV-Nr": "12.07121_Fixpoints_and_Induction_in_Logic_and_Computer",
+    "Fachname": "Fixpoints and Induction in Logic and Computer Science",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Löding, Christof; Novotny, Tomas",
+    "Lehrstuhl": "Lehrstuhl für Logik und Theorie diskreter Systeme (Informatik 7)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "24.04.2026",
+        "end_datum": "24.07.2026",
+        "raum": "5056 (2356|056)"
+      },
+      {
+        "typ": "Einzel",
+        "tag": "Montag",
+        "von": "12:30",
+        "bis": "14:00"
+      }
+    ],
+    "id": "12.07121_Fixpoints_and_Induction_in_Logic_and_Computer"
+  },
+  {
+    "LV-Nr": "12.10003_Selected_Topics_in_Machine_Learning_and_Human_Language_Technology",
+    "Fachname": "Selected Topics in Machine Learning and Human Language Technology (Master)",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Schlüter, Ralf; Wu, Haotian",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Freitag",
+        "von": "16:00",
+        "bis": "18:00"
+      }
+    ],
+    "id": "12.10003_Selected_Topics_in_Machine_Learning_and_Human_Language_Technology"
+  },
+  {
+    "LV-Nr": "12.14726_Computer",
+    "Fachname": "Computer Vision",
+    "SWS": 3,
+    "ECTS": 6.0,
+    "Vortragende": "Leibe, Bastian",
+    "Lehrstuhl": "Lehrstuhl für Computer Vision (Informatik 13)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "Roter Hörsaal AM (Ro) (1420|002)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "20.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "Roter Hörsaal AM (Ro) (1420|002)"
+      }
+    ],
+    "id": "12.14726_Computer"
+  },
+  {
+    "LV-Nr": "12.19465_Selected_Topics_in_Machine_Learning_and_Human_Language_Technology",
+    "Fachname": "Selected Topics in Machine Learning and Human Language Technology (Bachelor)",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Schlüter, Ralf; Wu, Haotian",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen und Inferenz (Informatik 6)",
+    "Termine": [],
+    "id": "12.19465_Selected_Topics_in_Machine_Learning_and_Human_Language_Technology"
+  },
+  {
+    "LV-Nr": "12.24001_Advanced_Internet_Technology",
+    "Fachname": "Advanced Internet Technology (Vorlesung)",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Wehrle, Klaus",
+    "Lehrstuhl": "Lehrstuhl für Kommunikation und verteilte Systeme (Informatik 4)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "20.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "AH I (2350|028)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "21.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "AH I (2350|028)"
+      }
+    ],
+    "id": "12.24001_Advanced_Internet_Technology"
+  },
+  {
+    "LV-Nr": "12.24002_Advanced_Internet_Technology",
+    "Fachname": "Advanced Internet Technology (Übung)",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Büning, Julian Ruben; Fibich, Arthur Marcel; Hamza, Majd",
+    "Lehrstuhl": "Lehrstuhl für Kommunikation und verteilte Systeme (Informatik 4)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "24.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "AH I (2350|028)"
+      }
+    ],
+    "id": "12.24002_Advanced_Internet_Technology"
+  },
+  {
+    "LV-Nr": "12.24004_Mobile_Internet",
+    "Fachname": "Mobile Internet Technology",
+    "SWS": 3,
+    "ECTS": 6.0,
+    "Vortragende": "Thißen, Dirk",
+    "Lehrstuhl": "Lehrstuhl für Kommunikation und verteilte Systeme (Informatik 4)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "AH I (2350|028)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "20.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "AH I (2350|028)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "22.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "AH I (2350|028)"
+      }
+    ],
+    "id": "12.24004_Mobile_Internet"
+  },
+  {
+    "LV-Nr": "12.24008_Seminar_Internet",
+    "Fachname": "Seminar: Internet Technology",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Wehrle, Klaus; Thißen, Dirk",
+    "Lehrstuhl": "Lehrstuhl für Kommunikation und verteilte Systeme (Informatik 4)",
+    "Termine": [],
+    "id": "12.24008_Seminar_Internet"
+  },
+  {
+    "LV-Nr": "12.24009_Seminar_Advanced_Internet",
+    "Fachname": "Seminar: Advanced Internet Technology",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Wehrle, Klaus; Thißen, Dirk",
+    "Lehrstuhl": "Lehrstuhl für Kommunikation und verteilte Systeme (Informatik 4)",
+    "Termine": [],
+    "id": "12.24009_Seminar_Advanced_Internet"
+  },
+  {
+    "LV-Nr": "12.24010_Seminars_on_Internet_Technology_and_Advanced_Internet",
+    "Fachname": "Seminars on Internet Technology and Advanced Internet Technology",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Pennekamp, Jan Niklas; Wehrle, Klaus; Thißen, Dirk",
+    "Lehrstuhl": "Lehrstuhl für Kommunikation und verteilte Systeme (Informatik 4)",
+    "Termine": [],
+    "id": "12.24010_Seminars_on_Internet_Technology_and_Advanced_Internet"
+  },
+  {
+    "LV-Nr": "12.24196_Einführung_in_eingebettete",
+    "Fachname": "Einführung in eingebettete Systeme",
+    "SWS": 3,
+    "ECTS": 6.0,
+    "Vortragende": "Kowalewski, Stefan; Kahle, Julius Karl Gustav",
+    "Lehrstuhl": "Lehrstuhl für Embedded Software (Informatik 11)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "21.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "H07 (1385|104)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "22.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "H07 (1385|104)"
+      }
+    ],
+    "id": "12.24196_Einführung_in_eingebettete"
+  },
+  {
+    "LV-Nr": "12.24202_Learning",
+    "Fachname": "Learning Technologies",
+    "Typ": "VU",
+    "SWS": 4,
+    "Vortragende": "Schroeder, Ulrik; Heinemann, Birte; Hartanto, Jasmin",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Lerntechnologien",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Dienstag",
+        "von": "14:30",
+        "bis": "16:00"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "23.07.2026",
+        "raum": "AH VI (2356|051)"
+      }
+    ],
+    "id": "12.24202_Learning"
+  },
+  {
+    "LV-Nr": "12.24203_Digitalisierung_der",
+    "Fachname": "Digitalisierung der Produktion",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Schroeder, Ulrik; Judel, Sven; Salmen, Frederic",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Lerntechnologien",
+    "Termine": [],
+    "id": "12.24203_Digitalisierung_der"
+  },
+  {
+    "LV-Nr": "12.25104_Selected_Topics_in_Process",
+    "Fachname": "Selected Topics in Process Mining",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius; Peeva, Viki",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Donnerstag",
+        "von": "09:00",
+        "bis": "10:00"
+      }
+    ],
+    "id": "12.25104_Selected_Topics_in_Process"
+  },
+  {
+    "LV-Nr": "12.25105_Unsupervised_Process",
+    "Fachname": "Unsupervised Process Mining",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius; Beyel, Harry Herbert",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Termine": [],
+    "id": "12.25105_Unsupervised_Process"
+  },
+  {
+    "LV-Nr": "12.25108_Supervised_Process",
+    "Fachname": "Supervised Process Intelligence",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius; Berti, Alessandro",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Termine": [],
+    "id": "12.25108_Supervised_Process"
+  },
+  {
+    "LV-Nr": "12.25109_Business_Process",
+    "Fachname": "Business Process Intelligence",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius; Graves, Nina Yvette; Küsters, Aaron Ruben; Rennert, Christian",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Montag",
+        "von": "12:30",
+        "bis": "14:00"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "AH V (2356|050)"
+      }
+    ],
+    "id": "12.25109_Business_Process"
+  },
+  {
+    "LV-Nr": "12.25110_Business_Process",
+    "Fachname": "Business Process Intelligence",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Graves, Nina Yvette; Küsters, Aaron Ruben; Rennert, Christian; van der Aalst, Willibrordus Martinus Pancratius",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "AH V (2356|050)"
+      }
+    ],
+    "id": "12.25110_Business_Process"
+  },
+  {
+    "LV-Nr": "12.25111_Advanced_Process",
+    "Fachname": "Advanced Process Mining",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius; Brockhoff, Tobias; Knopp, Benedikt; Peeva, Viki; Pitsch, Cameron",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "AH VI (2356|051)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "28.04.2026",
+        "raum": "AH VI (2356|051)"
+      }
+    ],
+    "id": "12.25111_Advanced_Process"
+  },
+  {
+    "LV-Nr": "12.25112_Advanced_Process",
+    "Fachname": "Advanced Process Mining",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "van der Aalst, Willibrordus Martinus Pancratius; Knopp, Benedikt; Pitsch, Cameron; Peeva, Viki; Brockhoff, Tobias",
+    "Lehrstuhl": "Lehrstuhl für Process and Data Science (Informatik 9)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "24.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "AH III (2350|314.1)"
+      }
+    ],
+    "id": "12.25112_Advanced_Process"
+  },
+  {
+    "LV-Nr": "12.29408",
+    "Fachname": "Geometrieverarbeitung",
+    "Typ": "VO",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Kobbelt, Leif",
+    "Lehrstuhl": "Lehrstuhl für Computergraphik, Geometrie und Multimedia (Informatik 8)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "AH V (2356|050)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "28.04.2026",
+        "raum": "AH V (2356|050)"
+      }
+    ],
+    "id": "12.29408"
+  },
+  {
+    "LV-Nr": "12.29410_Shape_Analysis_and_3D_Deep",
+    "Fachname": "Shape Analysis and 3D Deep Learning",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Lim, Isaak",
+    "Lehrstuhl": "Lehrstuhl für Computergraphik, Geometrie und Multimedia (Informatik 8)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "AH V (2356|050)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "30.04.2026",
+        "raum": "AH V (2356|050)"
+      }
+    ],
+    "id": "12.29410_Shape_Analysis_and_3D_Deep"
+  },
+  {
+    "LV-Nr": "12.29411_Shape_Analysis_and_3D_Deep",
+    "Fachname": "Shape Analysis and 3D Deep Learning",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Lim, Isaak",
+    "Lehrstuhl": "Lehrstuhl für Computergraphik, Geometrie und Multimedia (Informatik 8)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "AH V (2356|050)"
+      }
+    ],
+    "id": "12.29411_Shape_Analysis_and_3D_Deep"
+  },
+  {
+    "LV-Nr": "12.29745",
+    "Fachname": "Geometrieverarbeitung",
+    "Typ": "UE",
+    "SWS": 0,
+    "ECTS": 0.0,
+    "Vortragende": "Kobbelt, Leif",
+    "Lehrstuhl": "Lehrstuhl für Computergraphik, Geometrie und Multimedia (Informatik 8)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "AH VI (2356|051)"
+      }
+    ],
+    "id": "12.29745"
+  },
+  {
+    "LV-Nr": "12.30002_Geometry_Processing_and_3D",
+    "Fachname": "Geometry Processing and 3D Printing",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Kobbelt, Leif; Möbius, Jan",
+    "Lehrstuhl": "Lehrstuhl für Computergraphik, Geometrie und Multimedia (Informatik 8)",
+    "Termine": [],
+    "id": "12.30002_Geometry_Processing_and_3D"
+  },
+  {
+    "LV-Nr": "12.32767_Mikrocontrollerprogrammierung_und",
+    "Fachname": "Mikrocontrollerprogrammierung und Fehlersuche",
+    "SWS": 3,
+    "Vortragende": "Stollenwerk, Andre; Hegerath, Lucas",
+    "Lehrstuhl": "Lehrstuhl für Embedded Software (Informatik 11)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "H11 (1385|218)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "H10 (1385|217)"
+      }
+    ],
+    "id": "12.32767_Mikrocontrollerprogrammierung_und"
+  },
+  {
+    "LV-Nr": "12.34277_Statische",
+    "Fachname": "Statische Programmanalyse",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Michnia, Jan-Gustav; Winkler, Tobias",
+    "Lehrstuhl": "Lehrstuhl für Softwaremodellierung und Verifikation (Informatik 2)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "06.05.2026",
+        "end_datum": "20.05.2026",
+        "raum": "AH II (2350|111)"
+      }
+    ],
+    "id": "12.34277_Statische"
+  },
+  {
+    "LV-Nr": "12.34278_Statische",
+    "Fachname": "Statische Programmanalyse",
+    "Typ": "VO",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Noll, Thomas; Michnia, Jan-Gustav; Winkler, Tobias",
+    "Lehrstuhl": "Lehrstuhl für Softwaremodellierung und Verifikation (Informatik 2)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "23.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "AH I (2350|028)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "28.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "AH III (2350|314.1)"
+      }
+    ],
+    "id": "12.34278_Statische"
+  },
+  {
+    "LV-Nr": "12.34452_Advanced_Machine",
+    "Fachname": "Advanced Machine Learning",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Leibe, Bastian",
+    "Lehrstuhl": "Lehrstuhl für Computer Vision (Informatik 13)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "28.04.2026",
+        "raum": "AH II (2350|111)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "AH III (2350|314.1)"
+      }
+    ],
+    "id": "12.34452_Advanced_Machine"
+  },
+  {
+    "LV-Nr": "12.35202_Security",
+    "Fachname": "Security Lab",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Meyer, Ulrike Michaela; Bönnen, Clemens; Ehrmanntraut, Vincent Cosme; Löbel, Alexander",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet IT-Sicherheit",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "13:00",
+        "bis": "16:00",
+        "start_datum": "07.04.2026",
+        "end_datum": "21.07.2026",
+        "raum": "UMIC_025 (2165|025)"
+      },
+      {
+        "typ": "Einzel",
+        "tag": "Dienstag",
+        "von": "14:15",
+        "bis": "16:00"
+      }
+    ],
+    "id": "12.35202_Security"
+  },
+  {
+    "LV-Nr": "12.35666",
+    "Fachname": "Software-Projektmanagement",
+    "Typ": "UE",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Lichter, Horst; Slupczynski, Ada Magdalena",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Softwarekonstruktion",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "AH II (2350|111)"
+      }
+    ],
+    "id": "12.35666"
+  },
+  {
+    "LV-Nr": "12.38226_Satisfiability",
+    "Fachname": "Satisfiability Checking",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Giesl, Jürgen; Frohn, Florian; Kassing, Jan-Christoph; Leven Rosarius, Moritz; Meyer, Éléanore Marie; Abraham, Erika; Antal, László; Nalbach, Jasper Kurt Ferdinand; Promies, Valentin Maxim",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Programmiersprachen und Verifikation",
+    "Termine": [],
+    "id": "12.38226_Satisfiability"
+  },
+  {
+    "LV-Nr": "12.40002_Seminar_Komplexitätstheorie",
+    "Fachname": "Seminar Komplexitätstheorie II",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Grohe, Martin; Feith, Julia Catherine",
+    "Lehrstuhl": "Lehrstuhl für Logik und Theorie diskreter Systeme (Informatik 7)",
+    "Termine": [],
+    "id": "12.40002_Seminar_Komplexitätstheorie"
+  },
+  {
+    "LV-Nr": "12.40003_Seminar_Komplexitätstheorie",
+    "Fachname": "Seminar Komplexitätstheorie III",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Grohe, Martin; Feith, Julia Catherine",
+    "Lehrstuhl": "Lehrstuhl für Logik und Theorie diskreter Systeme (Informatik 7)",
+    "Termine": [],
+    "id": "12.40003_Seminar_Komplexitätstheorie"
+  },
+  {
+    "LV-Nr": "12.42436_Seminar_Complexity",
+    "Fachname": "Seminar: Complexity Theory",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Grohe, Martin; Feith, Julia Catherine",
+    "Lehrstuhl": "Lehrstuhl für Logik und Theorie diskreter Systeme (Informatik 7)",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Donnerstag",
+        "von": "14:00",
+        "bis": "15:30"
+      }
+    ],
+    "id": "12.42436_Seminar_Complexity"
+  },
+  {
+    "LV-Nr": "12.42725_Current_Topics_in_Media_Computing_and",
+    "Fachname": "Current Topics in Media Computing and HCI",
+    "SWS": 3,
+    "ECTS": 6.0,
+    "Vortragende": "Borchers, Jan Oliver; Hörrmann, Kristina",
+    "Lehrstuhl": "Lehrstuhl für Medieninformatik und Mensch-Computer-Interaktion (Informatik 10)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "21.04.2026",
+        "end_datum": "21.07.2026",
+        "raum": "Extern Anmerkung: Im Süsterfeld 9\nSeminarraum 273"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "22.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "Extern Anmerkung: Im Süsterfeld 9\nSeminarraum 273"
+      }
+    ],
+    "id": "12.42725_Current_Topics_in_Media_Computing_and"
+  },
+  {
+    "LV-Nr": "12.42728_Post.Desktop_User",
+    "Fachname": "Post-Desktop User Interfaces",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Borchers, Jan Oliver; Nowak, Oliver; Sahabi, Sarah",
+    "Lehrstuhl": "Lehrstuhl für Medieninformatik und Mensch-Computer-Interaktion (Informatik 10)",
+    "Termine": [],
+    "id": "12.42728_Post.Desktop_User"
+  },
+  {
+    "LV-Nr": "12.45304_Modellierung_und_Verifikation_probabilistischer",
+    "Fachname": "Modellierung und Verifikation probabilistischer Systeme",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Katoen, Joost-Pieter; Quatmann, Tim; Mertens, Hannah; Pühl, Lisa Katharina",
+    "Lehrstuhl": "Lehrstuhl für Softwaremodellierung und Verifikation (Informatik 2)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "22.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "5056 (2356|056)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "23.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "5056 (2356|056)"
+      }
+    ],
+    "id": "12.45304_Modellierung_und_Verifikation_probabilistischer"
+  },
+  {
+    "LV-Nr": "12.45305_Modellierung_und_Verifikation_probabilistischer",
+    "Fachname": "Modellierung und Verifikation probabilistischer Systeme",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Mertens, Hannah; Pühl, Lisa Katharina; Quatmann, Tim",
+    "Lehrstuhl": "Lehrstuhl für Softwaremodellierung und Verifikation (Informatik 2)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "24.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "5056 (2356|056)"
+      }
+    ],
+    "id": "12.45305_Modellierung_und_Verifikation_probabilistischer"
+  },
+  {
+    "LV-Nr": "12.45873_Ausgesuchte_Themen_zur_Eingebetteten",
+    "Fachname": "Ausgesuchte Themen zur Eingebetteten Software",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Kowalewski, Stefan; Molz, Marius Niklas",
+    "Lehrstuhl": "Lehrstuhl für Embedded Software (Informatik 11)",
+    "Termine": [],
+    "id": "12.45873_Ausgesuchte_Themen_zur_Eingebetteten"
+  },
+  {
+    "LV-Nr": "12.47000_Physikalische_Simulation_im_Visual",
+    "Fachname": "Physikalische Simulation im Visual Computing",
+    "SWS": 3,
+    "Vortragende": "Bender, Jan Stephen",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Computer Animation",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "5056 (2356|056)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "5055 (2356|055)"
+      }
+    ],
+    "id": "12.47000_Physikalische_Simulation_im_Visual"
+  },
+  {
+    "LV-Nr": "12.53583_Privacy_Enhancing_Technologies_for_Data",
+    "Fachname": "Privacy Enhancing Technologies for Data Science",
+    "SWS": 2,
+    "ECTS": 4.0,
+    "Vortragende": "Decker, Stefan Josef; Matzutt, Roman; Nitz, Lasse Martin",
+    "Lehrstuhl": "Lehrstuhl für Informationssysteme und Datenbanken (Informatik 5)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "AH III (2350|314.1)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "AH VI (2356|051)"
+      }
+    ],
+    "id": "12.53583_Privacy_Enhancing_Technologies_for_Data"
+  },
+  {
+    "LV-Nr": "12.53640_IT.Sicherheit",
+    "Fachname": "IT-Sicherheit 2",
+    "Typ": "VU",
+    "SWS": 3,
+    "ECTS": 6.0,
+    "Vortragende": "Meyer, Ulrike Michaela; Drichel, Arthur",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet IT-Sicherheit",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "28.04.2026",
+        "raum": "AH I (2350|028)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "H06 (1385|004)"
+      }
+    ],
+    "id": "12.53640_IT.Sicherheit"
+  },
+  {
+    "LV-Nr": "12.53694_Spezielle_Themen_der_Virtuellen_Realität",
+    "Fachname": "Spezielle Themen der Virtuellen Realität (VR II)",
+    "Typ": "VU",
+    "SWS": 3,
+    "ECTS": 6.0,
+    "Vortragende": "Kuhlen, Torsten; Weißker, Tim Wayan",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Virtuelle Realität und Immersive Visualisierung",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "20.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "AH V (2356|050)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "23.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "AH V (2356|050)"
+      }
+    ],
+    "id": "12.53694_Spezielle_Themen_der_Virtuellen_Realität"
+  },
+  {
+    "LV-Nr": "12.53695_Foundations_of_Functional",
+    "Fachname": "Foundations of Functional Programming",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Giesl, Jürgen; Kassing, Jan-Christoph",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Programmiersprachen und Verifikation",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "22.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "AH V (2356|050) Anmerkung: Tutorium 1"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "23.04.2026",
+        "end_datum": "23.07.2026",
+        "raum": "AH I (2350|028) Anmerkung: Tutorium 2"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "23.04.2026",
+        "end_datum": "23.07.2026",
+        "raum": "AH I (2350|028) Anmerkung: Tutorium 3"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "08.05.2026",
+        "end_datum": "15.05.2026",
+        "raum": "AH II (2350|111)"
+      }
+    ],
+    "id": "12.53695_Foundations_of_Functional"
+  },
+  {
+    "LV-Nr": "12.53698_Foundations_of_Functional",
+    "Fachname": "Foundations of Functional Programming",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Giesl, Jürgen",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Programmiersprachen und Verifikation",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "20.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "AH II (2350|111)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "21.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "AH I (2350|028)"
+      },
+      {
+        "typ": "Einzel",
+        "tag": "Freitag",
+        "von": "14:30",
+        "bis": "16:00"
+      }
+    ],
+    "id": "12.53698_Foundations_of_Functional"
+  },
+  {
+    "LV-Nr": "12.53769_Seminar_Aktuellen_Themen_im_Bereich_Hochleistungsrechnen",
+    "Fachname": "Seminar: Aktuellen Themen im Bereich Hochleistungsrechnen (HPC)",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Wienke, Sandra Juliane; Müller, Matthias Stefan; Thärigen, Ben",
+    "Lehrstuhl": "Lehrstuhl für Hochleistungsrechnen (Informatik 12)",
+    "Termine": [],
+    "id": "12.53769_Seminar_Aktuellen_Themen_im_Bereich_Hochleistungsrechnen"
+  },
+  {
+    "LV-Nr": "12.54303_Industrial_Intrusion_Detection",
+    "Fachname": "Industrial Intrusion Detection Lab",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Henze, Martin",
+    "Lehrstuhl": "",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "B057 (3011|057)"
+      }
+    ],
+    "id": "12.54303_Industrial_Intrusion_Detection"
+  },
+  {
+    "LV-Nr": "12.54307_Industrial_Data_Security",
+    "Fachname": "Industrial Data Security (Vorlesung)",
+    "Typ": "VO",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Henze, Martin",
+    "Lehrstuhl": "",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "AH I (2350|028)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "AH II (2350|111)"
+      }
+    ],
+    "id": "12.54307_Industrial_Data_Security"
+  },
+  {
+    "LV-Nr": "12.54308_Industrial_Data_Security",
+    "Fachname": "Industrial Data Security (Übung)",
+    "Typ": "UE",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Henze, Martin",
+    "Lehrstuhl": "",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "23.04.2026",
+        "end_datum": "21.05.2026",
+        "raum": "AH III (2350|314.1)"
+      }
+    ],
+    "id": "12.54308_Industrial_Data_Security"
+  },
+  {
+    "LV-Nr": "12.56283_Current_Topics_in_Computer_Graphics_and_Geometry",
+    "Fachname": "Current Topics in Computer Graphics and Geometry Processing",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Kobbelt, Leif",
+    "Lehrstuhl": "Lehrstuhl für Computergraphik, Geometrie und Multimedia (Informatik 8)",
+    "Termine": [],
+    "id": "12.56283_Current_Topics_in_Computer_Graphics_and_Geometry"
+  },
+  {
+    "LV-Nr": "12.58042_Aktuelle_Themen_in_der",
+    "Fachname": "Aktuelle Themen in der Fluidsimulation",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Bender, Jan Stephen",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Computer Animation",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Donnerstag",
+        "von": "14:30",
+        "bis": "16:00"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "10:30",
+        "bis": "13:00",
+        "start_datum": "11.06.2026",
+        "end_datum": "23.07.2026",
+        "raum": "5052 (2356|052)"
+      }
+    ],
+    "id": "12.58042_Aktuelle_Themen_in_der"
+  },
+  {
+    "LV-Nr": "12.99001_Theory_of_Machine_Learning_on",
+    "Fachname": "Theory of Machine Learning on Graphs",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Morris, Christopher",
+    "Lehrstuhl": "Lehrstuhl für Maschinelles Lernen auf Graphen",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Donnerstag",
+        "von": "11:00",
+        "bis": "12:30"
+      },
+      {
+        "typ": "Einzel",
+        "tag": "Dienstag",
+        "von": "12:00",
+        "bis": "13:30"
+      },
+      {
+        "typ": "Einzel",
+        "tag": "Mittwoch",
+        "von": "10:00",
+        "bis": "11:30"
+      }
+    ],
+    "id": "12.99001_Theory_of_Machine_Learning_on"
+  },
+  {
+    "LV-Nr": "13.00020_Quantum",
+    "Fachname": "Quantum Algorithms",
+    "Typ": "VU",
+    "SWS": 2,
+    "Vortragende": "Wegewijs, Maarten Rolf",
+    "Lehrstuhl": "Lehrstuhl für Theoretische Physik A und Institut für Theorie der statistischen Physik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "21.07.2026",
+        "raum": "MBP2 116 (4273|116)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "14:00",
+        "bis": "15:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "MBP2 116 (4273|116)"
+      }
+    ],
+    "id": "13.00020_Quantum"
+  },
+  {
+    "LV-Nr": "13.06243_Experimentalphysik_IV",
+    "Fachname": "Experimentalphysik IV : Atome, Moleküle, Kerne (Vorlesung)",
+    "Typ": "VO",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "von Plessen, Gero",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Physik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "Otto Fuchs-Hörsaal (H03) (1385|003)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "Otto Fuchs-Hörsaal (H03) (1385|003)"
+      }
+    ],
+    "id": "13.06243_Experimentalphysik_IV"
+  },
+  {
+    "LV-Nr": "13.29361_Computational",
+    "Fachname": "Computational Physics",
+    "SWS": 4,
+    "Vortragende": "Weßel, Stefan",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Theoretische Physik (kondensierte Materie)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "28B 110 (4282|110)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "MBP1 015 (4272|015)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "28B 110 (4282|110)"
+      }
+    ],
+    "id": "13.29361_Computational"
+  },
+  {
+    "LV-Nr": "13.33480_Quantum",
+    "Fachname": "Quantum Information",
+    "SWS": 4,
+    "Vortragende": "Berta, Mario Andrea",
+    "Lehrstuhl": "Lehrstuhl für Quanteninformationstheorie",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "MBP2 116 (4273|116)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "28.04.2026",
+        "raum": "MBP2 116 (4273|116)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "MBP2 116 (4273|116)"
+      }
+    ],
+    "id": "13.33480_Quantum"
+  },
+  {
+    "LV-Nr": "13.38568_Experimentalphysik_IV",
+    "Fachname": "Experimentalphysik IV : Atome, Moleküle, Kerne (Übungsgruppen)",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "von Plessen, Gero",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Physik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "28.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "ST 4 (1665|004)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "28.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "ST 4 (1665|004)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "28.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "S08 (1385|208)"
+      }
+    ],
+    "id": "13.38568_Experimentalphysik_IV"
+  },
+  {
+    "LV-Nr": "15.00210_Allgemeine_Technische_Chemie_und_Makromolekulare",
+    "Fachname": "Allgemeine Technische Chemie und Makromolekulare Chemie",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Hausoul, Peter Jozef; Mourran, Ahmed",
+    "Lehrstuhl": "Lehrstuhl für Makromolekulare Materialien und Systeme",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "38 A 2 (5381|U103)"
+      }
+    ],
+    "id": "15.00210_Allgemeine_Technische_Chemie_und_Makromolekulare"
+  },
+  {
+    "LV-Nr": "16.05646_Stoffproduktionen_und",
+    "Fachname": "Stoffproduktionen und Omics-Technologien",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Reiss, Monika",
+    "Lehrstuhl": "Lehrstuhl für Biotechnologie",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "15.07.2026",
+        "raum": "Online-Veranstaltung"
+      }
+    ],
+    "id": "16.05646_Stoffproduktionen_und"
+  },
+  {
+    "LV-Nr": "41.00147_Mechatronische_Systeme_in_der",
+    "Fachname": "Mechatronische Systeme in der Fahrzeugtechnik",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Jaeger, Nils; Pfaff, Raphael; Swierc, Daniel Ludwig; Zick, Robin Rudi",
+    "Lehrstuhl": "Lehrstuhl und Institut für Kraftfahrzeuge (ika)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "Knorr-Bremse-Hörsaal (H04) (1385|103)"
+      }
+    ],
+    "id": "41.00147_Mechatronische_Systeme_in_der"
+  },
+  {
+    "LV-Nr": "41.00346_Angewandte_Konstruktion_und_Produktentwicklung",
+    "Fachname": "Angewandte Konstruktion und Produktentwicklung I",
+    "Typ": "VO",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Behr, Marek; Bosse, Dennis; Corves, Burkhard; Heimes, Heiner Hans; Hüsing, Mathias; Kowalski, Julia; Reisgen, Uwe Kaspar; Schmitz, Katharina; Schröder, Kai-Uwe; Zerwas, Thilo Heiner Anton",
+    "Lehrstuhl": "Lehrstuhl und Institut für Maschinenelemente und Systementwicklung",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "14:30",
+        "bis": "18:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "MS (1220|009)"
+      }
+    ],
+    "id": "41.00346_Angewandte_Konstruktion_und_Produktentwicklung"
+  },
+  {
+    "LV-Nr": "41.00347_Angewandte_Konstruktion_und_Produktentwicklung_I",
+    "Fachname": "Angewandte Konstruktion und Produktentwicklung I Projektgruppe",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Behr, Marek; Bosse, Dennis; Corves, Burkhard; Heimes, Heiner Hans; Hüsing, Mathias; Kowalski, Julia; Moers, Frederik; Reisgen, Uwe Kaspar; Schmitz, Katharina; Schröder, Kai-Uwe",
+    "Lehrstuhl": "Lehrstuhl und Institut für Maschinenelemente und Systementwicklung",
+    "Termine": [],
+    "id": "41.00347_Angewandte_Konstruktion_und_Produktentwicklung_I"
+  },
+  {
+    "LV-Nr": "41.01325_Fahrzeugtechnik",
+    "Fachname": "Fahrzeugtechnik II",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Eckstein, Lutz; Yordanov, Ventseslav; Werner, Dominik",
+    "Lehrstuhl": "Lehrstuhl und Institut für Kraftfahrzeuge (ika)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "Knorr-Bremse-Hörsaal (H04) (1385|103)"
+      }
+    ],
+    "id": "41.01325_Fahrzeugtechnik"
+  },
+  {
+    "LV-Nr": "41.02401_Faserverbundwerkstoffe",
+    "Fachname": "Faserverbundwerkstoffe I",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Fischer, Kai; Hopmann, Christian; Brecher, Christian; Eckstein, Lutz; Schröder, Kai-Uwe",
+    "Lehrstuhl": "Lehrstuhl für Kunststoffverarbeitung",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Mittwoch",
+        "von": "08:30",
+        "bis": "10:00"
+      }
+    ],
+    "id": "41.02401_Faserverbundwerkstoffe"
+  },
+  {
+    "LV-Nr": "41.02431",
+    "Fachname": "Fabrikplanung",
+    "Typ": "VO",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Dannapfel, Heinrich Matthias; Kapella, Christopher Thomas; Kuck, Moritz; Walter, Alexander",
+    "Lehrstuhl": "Lehrstuhl für Produktionssystematik",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Freitag",
+        "von": "14:30",
+        "bis": "16:00"
+      }
+    ],
+    "id": "41.02431"
+  },
+  {
+    "LV-Nr": "41.02660_Fertigungstechnik",
+    "Fachname": "Fertigungstechnik II",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Bergs, Thomas",
+    "Lehrstuhl": "Lehrstuhl für Fertigungstechnologie",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "R 140 (1080|140)"
+      },
+      {
+        "typ": "Einzel",
+        "tag": "Mittwoch",
+        "von": "14:30",
+        "bis": "16:00"
+      }
+    ],
+    "id": "41.02660_Fertigungstechnik"
+  },
+  {
+    "LV-Nr": "41.02705_Vorlesung",
+    "Fachname": "Vorlesung Bioreaktortechnik",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Magnus, Jørgen Barsett",
+    "Lehrstuhl": "Lehrstuhl für Bioverfahrenstechnik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "38 A 2 (5381|U103)"
+      },
+      {
+        "typ": "Einzel",
+        "tag": "Freitag",
+        "von": "14:30",
+        "bis": "16:00"
+      }
+    ],
+    "id": "41.02705_Vorlesung"
+  },
+  {
+    "LV-Nr": "41.02736_Automotive_Engineering",
+    "Fachname": "Automotive Engineering II",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Eckstein, Lutz; Yordanov, Ventseslav; Werner, Dominik",
+    "Lehrstuhl": "Lehrstuhl und Institut für Kraftfahrzeuge (ika)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "Knorr-Bremse-Hörsaal (H04) (1385|103)"
+      }
+    ],
+    "id": "41.02736_Automotive_Engineering"
+  },
+  {
+    "LV-Nr": "41.03237_Übung",
+    "Fachname": "Übung Bioreaktortechnik",
+    "Typ": "UE",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Magnus, Jørgen Barsett",
+    "Lehrstuhl": "Lehrstuhl für Bioverfahrenstechnik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "24.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "38 A 1 (5381|U111)"
+      }
+    ],
+    "id": "41.03237_Übung"
+  },
+  {
+    "LV-Nr": "41.03896_Mechatronische_Systeme_in_der",
+    "Fachname": "Mechatronische Systeme in der Fahrzeugtechnik",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Eckstein, Lutz; Pfaff, Raphael; Jaeger, Nils",
+    "Lehrstuhl": "Lehrstuhl und Institut für Kraftfahrzeuge (ika)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "Knorr-Bremse-Hörsaal (H04) (1385|103)"
+      }
+    ],
+    "id": "41.03896_Mechatronische_Systeme_in_der"
+  },
+  {
+    "LV-Nr": "41.04350_Produktentwicklung_in_der",
+    "Fachname": "Produktentwicklung in der Verfahrenstechnik",
+    "Typ": "UE",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Keller, Robert Gregor",
+    "Lehrstuhl": "Lehrstuhl für Chemische Verfahrenstechnik und Institut für Verfahrenstechnik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "AH I (2350|028)"
+      }
+    ],
+    "id": "41.04350_Produktentwicklung_in_der"
+  },
+  {
+    "LV-Nr": "41.04448_Produktentwicklung_in_der",
+    "Fachname": "Produktentwicklung in der Verfahrenstechnik",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Keller, Robert Gregor",
+    "Lehrstuhl": "Lehrstuhl für Chemische Verfahrenstechnik und Institut für Verfahrenstechnik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "I (1010|101)"
+      }
+    ],
+    "id": "41.04448_Produktentwicklung_in_der"
+  },
+  {
+    "LV-Nr": "41.04485_RWTH_Computerunterstützte",
+    "Fachname": "RWTH: Computerunterstützte Chirurgietechnik",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Radermacher, Klaus Michael",
+    "Lehrstuhl": "Lehrstuhl für Medizintechnik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "09:00",
+        "bis": "12:00",
+        "start_datum": "21.04.2026",
+        "end_datum": "21.07.2026",
+        "raum": "t.b.d."
+      }
+    ],
+    "id": "41.04485_RWTH_Computerunterstützte"
+  },
+  {
+    "LV-Nr": "41.04487_Vorlesung_Online.Analytik_von",
+    "Fachname": "Vorlesung Online-Analytik von Fermentationsprozessen",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Steier, Valentin; Magnus, Jørgen Barsett; Mann, Marcel",
+    "Lehrstuhl": "Lehrstuhl für Bioverfahrenstechnik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "38 A 2 (5381|U103)"
+      }
+    ],
+    "id": "41.04487_Vorlesung_Online.Analytik_von"
+  },
+  {
+    "LV-Nr": "41.05156_Kunststoffverarbeitung",
+    "Fachname": "Kunststoffverarbeitung II",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Hopmann, Christian",
+    "Lehrstuhl": "Lehrstuhl für Kunststoffverarbeitung",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "t.b.d."
+      }
+    ],
+    "id": "41.05156_Kunststoffverarbeitung"
+  },
+  {
+    "LV-Nr": "41.05342_Fertigungstechnik",
+    "Fachname": "Fertigungstechnik II",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Bergs, Thomas",
+    "Lehrstuhl": "Lehrstuhl für Fertigungstechnologie",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "R 140 (1080|140)"
+      },
+      {
+        "typ": "Einzel",
+        "tag": "Mittwoch",
+        "von": "14:30",
+        "bis": "16:00"
+      }
+    ],
+    "id": "41.05342_Fertigungstechnik"
+  },
+  {
+    "LV-Nr": "41.05602_Faserverbundwerkstoffe",
+    "Fachname": "Faserverbundwerkstoffe I",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Fischer, Kai; Weber, Maximilian",
+    "Lehrstuhl": "Lehrstuhl für Kunststoffverarbeitung",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Mittwoch",
+        "von": "10:30",
+        "bis": "12:00"
+      },
+      {
+        "typ": "Einzel",
+        "tag": "Mittwoch",
+        "von": "08:30",
+        "bis": "10:00"
+      }
+    ],
+    "id": "41.05602_Faserverbundwerkstoffe"
+  },
+  {
+    "LV-Nr": "41.06258_Automotive_Engineering",
+    "Fachname": "Automotive Engineering II",
+    "Typ": "UE",
+    "SWS": 0,
+    "ECTS": 0.0,
+    "Vortragende": "Werner, Dominik; Yordanov, Ventseslav; Pouansi Majiade, Lionel Brice; Eckstein, Lutz",
+    "Lehrstuhl": "Lehrstuhl und Institut für Kraftfahrzeuge (ika)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "HKW 1 (1132|203)"
+      }
+    ],
+    "id": "41.06258_Automotive_Engineering"
+  },
+  {
+    "LV-Nr": "41.06947_Fahrzeugtechnik",
+    "Fachname": "Fahrzeugtechnik II",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Werner, Dominik; Yordanov, Ventseslav; Pouansi Majiade, Lionel Brice; Eckstein, Lutz",
+    "Lehrstuhl": "Lehrstuhl und Institut für Kraftfahrzeuge (ika)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "Knorr-Bremse-Hörsaal (H04) (1385|103)"
+      }
+    ],
+    "id": "41.06947_Fahrzeugtechnik"
+  },
+  {
+    "LV-Nr": "41.17507_Grundlagen_der_Biomechanik_des",
+    "Fachname": "Grundlagen der Biomechanik des Bewegungsapparates",
+    "Typ": "VU",
+    "SWS": 2,
+    "Vortragende": "Radermacher, Klaus Michael; Stoffel, Marcus",
+    "Lehrstuhl": "Lehrstuhl für Medizintechnik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "12:15",
+        "bis": "15:15",
+        "start_datum": "16.04.2026",
+        "end_datum": "21.05.2026",
+        "raum": "Extern Anmerkung: Findet im Seminarraum 2.70 (2.OG in der Pauwelsstraße 20) statt"
+      }
+    ],
+    "id": "41.17507_Grundlagen_der_Biomechanik_des"
+  },
+  {
+    "LV-Nr": "41.20320_Softwareentwicklung_in_der",
+    "Fachname": "Softwareentwicklung in der Medizintechnik",
+    "SWS": 0,
+    "ECTS": 0.0,
+    "Vortragende": "de la Fuente Klein, Matias",
+    "Lehrstuhl": "Lehrstuhl für Medizintechnik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "09:00",
+        "bis": "12:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "Online-Veranstaltung"
+      }
+    ],
+    "id": "41.20320_Softwareentwicklung_in_der"
+  },
+  {
+    "LV-Nr": "41.24703_Strömungsmechanik_I",
+    "Fachname": "Strömungsmechanik I (Bachelor-Studium)",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Krug, Dominik Johannes",
+    "Lehrstuhl": "Lehrstuhl für Strömungsmechanik und Aerodynamisches Institut",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "Großer Hörsaal AM (1420|210)"
+      }
+    ],
+    "id": "41.24703_Strömungsmechanik_I"
+  },
+  {
+    "LV-Nr": "41.24705_Strömungsmechanik_I",
+    "Fachname": "Strömungsmechanik I (Bachelor-Studium)",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Krug, Dominik Johannes",
+    "Lehrstuhl": "Lehrstuhl für Strömungsmechanik und Aerodynamisches Institut",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "Großer Hörsaal AM (1420|210)"
+      }
+    ],
+    "id": "41.24705_Strömungsmechanik_I"
+  },
+  {
+    "LV-Nr": "41.28865_Prozessentwicklung_in_der",
+    "Fachname": "Prozessentwicklung in der Verfahrenstechnik",
+    "SWS": 2,
+    "Vortragende": "Mitsos, Alexander; Ben Hicham, Karim Kristian; Ebeling, Katharina Maria; Seidenberg, Jan Raphael",
+    "Lehrstuhl": "Lehrstuhl für Systemverfahrenstechnik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "38 A 2 (5381|U103)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "AH VI (2356|051)"
+      }
+    ],
+    "id": "41.28865_Prozessentwicklung_in_der"
+  },
+  {
+    "LV-Nr": "41.28942_Einführung_in_die",
+    "Fachname": "Einführung in die Arbeitswissenschaft",
+    "Typ": "VU",
+    "SWS": 3,
+    "Vortragende": "Nitsch, Verena",
+    "Lehrstuhl": "Lehrstuhl und Institut für Arbeitswissenschaft",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "EA (1270|109)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "MS (1220|009)"
+      }
+    ],
+    "id": "41.28942_Einführung_in_die"
+  },
+  {
+    "LV-Nr": "41.28982",
+    "Fachname": "Luftverkehrssysteme",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Stumpf, Eike",
+    "Lehrstuhl": "Lehrstuhl und Institut für Luft- und Raumfahrtsysteme (ILR)",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "Lu (1320|301)"
+      }
+    ],
+    "id": "41.28982"
+  },
+  {
+    "LV-Nr": "41.29013_Mess._und_Prüfverfahren_in_der",
+    "Fachname": "Mess- und Prüfverfahren in der Textiltechnik",
+    "Typ": "UE",
+    "SWS": 0,
+    "ECTS": 0.0,
+    "Vortragende": "Veit, Dieter",
+    "Lehrstuhl": "Lehrstuhl für Textilmaschinenbau und Institut für Textiltechnik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "14:15",
+        "bis": "15:45",
+        "start_datum": "15.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "Seminarraum Nord/Süd im EG (4161|025)"
+      }
+    ],
+    "id": "41.29013_Mess._und_Prüfverfahren_in_der"
+  },
+  {
+    "LV-Nr": "41.29014_Mess._und_Prüfverfahren_in_der",
+    "Fachname": "Mess- und Prüfverfahren in der Textiltechnik",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Veit, Dieter",
+    "Lehrstuhl": "Lehrstuhl für Textilmaschinenbau und Institut für Textiltechnik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "15.07.2026",
+        "raum": "Seminarraum Nord/Süd im EG (4161|025)"
+      }
+    ],
+    "id": "41.29014_Mess._und_Prüfverfahren_in_der"
+  },
+  {
+    "LV-Nr": "41.31814_Medizintechnik_für_Studierende_der",
+    "Fachname": "Medizintechnik für Studierende der Informatik",
+    "Typ": "VO",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Radermacher, Klaus Michael",
+    "Lehrstuhl": "Lehrstuhl für Medizintechnik",
+    "Termine": [],
+    "id": "41.31814_Medizintechnik_für_Studierende_der"
+  },
+  {
+    "LV-Nr": "41.36311_Strömungsmechanik_I",
+    "Fachname": "Strömungsmechanik I (Bachelor-Studium)",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Krug, Dominik Johannes",
+    "Lehrstuhl": "Lehrstuhl für Strömungsmechanik und Aerodynamisches Institut",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "H01 (1385|101)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "H01 (1385|101)"
+      }
+    ],
+    "id": "41.36311_Strömungsmechanik_I"
+  },
+  {
+    "LV-Nr": "41.38297_Intelligente_Sensor_Systeme_für_Robotik",
+    "Fachname": "Intelligente Sensor Systeme für Robotik Anwendungen",
+    "Typ": "VU",
+    "SWS": 2,
+    "Vortragende": "Baraka, Ahmed Yasser Abdelghany Mohamed; Schmitt, Robert Heinrich",
+    "Lehrstuhl": "Lehrstuhl für Informations-, Qualitäts- und Sensorsysteme in der Produktion",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "Z4 (1420|301)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "HKW 1 (1132|203)"
+      }
+    ],
+    "id": "41.38297_Intelligente_Sensor_Systeme_für_Robotik"
+  },
+  {
+    "LV-Nr": "41.46347_Kunststoffverarbeitung",
+    "Fachname": "Kunststoffverarbeitung II",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Nillius, Uwe Jörg",
+    "Lehrstuhl": "Lehrstuhl für Kunststoffverarbeitung",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "09:30",
+        "bis": "10:30",
+        "start_datum": "20.04.2026",
+        "end_datum": "06.07.2026",
+        "raum": "t.b.d."
+      },
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "10:30",
+        "bis": "11:30",
+        "start_datum": "20.04.2026",
+        "end_datum": "13.07.2026",
+        "raum": "t.b.d. Anmerkung: Die Übung findet im IKV, Seffenter Weg 201 statt, Informationen im Lernraum zur Vorlesung"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "09:30",
+        "bis": "10:30",
+        "start_datum": "21.04.2026",
+        "end_datum": "14.07.2026",
+        "raum": "t.b.d. Anmerkung: Die Übung findet im IKV, Seffenter Weg 201 statt, Informationen im Lernraum zur Vorlesung"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "10:30",
+        "bis": "11:30",
+        "start_datum": "21.04.2026",
+        "end_datum": "14.07.2026",
+        "raum": "t.b.d. Anmerkung: Die Übung findet im IKV, Seffenter Weg 201 statt, Informationen im Lernraum zur Vorlesung"
+      }
+    ],
+    "id": "41.46347_Kunststoffverarbeitung"
+  },
+  {
+    "LV-Nr": "41.51521",
+    "Fachname": "Fabrikplanung",
+    "Typ": "UE",
+    "SWS": 0,
+    "ECTS": 0.0,
+    "Vortragende": "Kapella, Christopher Thomas; Dannapfel, Heinrich Matthias; Kuck, Moritz; Walter, Alexander",
+    "Lehrstuhl": "Lehrstuhl für Produktionssystematik",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Freitag",
+        "von": "16:30",
+        "bis": "18:00"
+      }
+    ],
+    "id": "41.51521"
+  },
+  {
+    "LV-Nr": "42.00004_Mathematical_Concepts_of_Machine",
+    "Fachname": "Mathematical Concepts of Machine Learning",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Solowjow, Friedrich",
+    "Lehrstuhl": "Lehrstuhl für Data Science im Maschinenbau",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Donnerstag",
+        "von": "14:00",
+        "bis": "16:00"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "14:00",
+        "bis": "17:00",
+        "start_datum": "04.05.2026",
+        "end_datum": "20.07.2026",
+        "raum": "423 (6074|423)"
+      }
+    ],
+    "id": "42.00004_Mathematical_Concepts_of_Machine"
+  },
+  {
+    "LV-Nr": "42.00015_Reinforcement_Learning_and_Learning.based",
+    "Fachname": "Reinforcement Learning and Learning-based Control",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Eisele, Artur; Frauenknecht, Bernd; Kruse, Paul Alexander",
+    "Lehrstuhl": "Lehrstuhl für Data Science im Maschinenbau",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "PPS H2 (2315|001)"
+      }
+    ],
+    "id": "42.00015_Reinforcement_Learning_and_Learning.based"
+  },
+  {
+    "LV-Nr": "42.00018_Continuum_Mechanical_Modeling_for_Simulation",
+    "Fachname": "Continuum Mechanical Modeling for Simulation Science",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Steldermann, Ingo",
+    "Lehrstuhl": "Lehrstuhl für Methoden der Modellbasierten Entwicklung in den Computergestützten Ingenieurwissenschaften",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "Be 225 (1140|225)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "H 201 (1401|201)"
+      }
+    ],
+    "id": "42.00018_Continuum_Mechanical_Modeling_for_Simulation"
+  },
+  {
+    "LV-Nr": "42.00040_Reinforcement_Learning_and_Learning.based",
+    "Fachname": "Reinforcement Learning and Learning-based Control",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Solowjow, Friedrich; Trimpe, Johann Sebastian",
+    "Lehrstuhl": "Lehrstuhl für Data Science im Maschinenbau",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "PPS H2 (2315|001)"
+      }
+    ],
+    "id": "42.00040_Reinforcement_Learning_and_Learning.based"
+  },
+  {
+    "LV-Nr": "42.35037_Continuum_Mechanical_Modeling_for_Simulation",
+    "Fachname": "Continuum Mechanical Modeling for Simulation Science",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Correa, Alan Jason; Chen, Qian",
+    "Lehrstuhl": "Lehrstuhl für Methoden der Modellbasierten Entwicklung in den Computergestützten Ingenieurwissenschaften",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "R 5 (1080|005)"
+      }
+    ],
+    "id": "42.35037_Continuum_Mechanical_Modeling_for_Simulation"
+  },
+  {
+    "LV-Nr": "54.04489_Spezielle_Aspekte_der",
+    "Fachname": "Spezielle Aspekte der Biowerkstoffkunde",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Fischer, Horst",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Zahnärztliche Werkstoffkunde und Biomaterialforschung",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "14:45",
+        "bis": "16:15",
+        "start_datum": "27.04.2026",
+        "end_datum": "29.06.2026",
+        "raum": "Hörsaal 5 (UKA|Fl26, R1)"
+      }
+    ],
+    "id": "54.04489_Spezielle_Aspekte_der"
+  },
+  {
+    "LV-Nr": "61.00041_Digitization_of_Energy_Distribution",
+    "Fachname": "Digitization of Energy Distribution Grids",
+    "Typ": "UE",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Sen, Ömer; Mahjoob, Amirali; Ulbig, Andreas",
+    "Lehrstuhl": "Lehrstuhl für Aktive Energieverteilnetze",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "EA (1270|109)"
+      }
+    ],
+    "id": "61.00041_Digitization_of_Energy_Distribution"
+  },
+  {
+    "LV-Nr": "61.00042_Digitization_of_Energy_Distribution",
+    "Fachname": "Digitization of Energy Distribution Grids",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Ulbig, Andreas; Sen, Ömer; Mahjoob, Amirali",
+    "Lehrstuhl": "Lehrstuhl für Aktive Energieverteilnetze",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "EA (1270|109)"
+      }
+    ],
+    "id": "61.00042_Digitization_of_Energy_Distribution"
+  },
+  {
+    "LV-Nr": "61.00263_Fehler_und_Stabilität_in",
+    "Fachname": "Fehler und Stabilität in Elektrizitätsversorgungssystemen",
+    "Typ": "UE",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Moser, Albert; Dohlen, Damian",
+    "Lehrstuhl": "Lehrstuhl für Übertragungsnetze und Energiewirtschaft",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "EA (1270|109)"
+      }
+    ],
+    "id": "61.00263_Fehler_und_Stabilität_in"
+  },
+  {
+    "LV-Nr": "61.02424_Theoretische_Informationstechnik",
+    "Fachname": "Theoretische Informationstechnik 2",
+    "Typ": "SP",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Schmeink, Anke",
+    "Lehrstuhl": "Lehrstuhl für Informationstheorie und Datenanalytik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "ICT Cubes 002 (2320|002)"
+      }
+    ],
+    "id": "61.02424_Theoretische_Informationstechnik"
+  },
+  {
+    "LV-Nr": "61.06535_Theoretische_Informationstechnik",
+    "Fachname": "Theoretische Informationstechnik 2",
+    "Typ": "SP",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Schmeink, Anke; El Hadj Khalifa, Hazem; Walger, Felix Peter Heinrich Gerhard; Zhang, Huanyu",
+    "Lehrstuhl": "Lehrstuhl für Informationstheorie und Datenanalytik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "14:15",
+        "bis": "15:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "ICT Cubes 002 (2320|002)"
+      }
+    ],
+    "id": "61.06535_Theoretische_Informationstechnik"
+  },
+  {
+    "LV-Nr": "61.06867_Fehler_und_Stabilität_in",
+    "Fachname": "Fehler und Stabilität in Elektrizitätsversorgungssystemen",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Moser, Albert; Dohlen, Damian",
+    "Lehrstuhl": "Lehrstuhl für Übertragungsnetze und Energiewirtschaft",
+    "Termine": [],
+    "id": "61.06867_Fehler_und_Stabilität_in"
+  },
+  {
+    "LV-Nr": "61.23028_Systemtheorie",
+    "Fachname": "Systemtheorie 1",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Ebenbauer, Christian Johannes; Reyer, Michael",
+    "Lehrstuhl": "Lehrstuhl für Intelligente Regelungssysteme",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "PPS H1 (2315|101)"
+      }
+    ],
+    "id": "61.23028_Systemtheorie"
+  },
+  {
+    "LV-Nr": "61.23030_Systemtheorie",
+    "Fachname": "Systemtheorie 1",
+    "Typ": "UE",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Reyer, Michael; Weber, Marc",
+    "Lehrstuhl": "Lehrstuhl für Intelligente Regelungssysteme",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "PPS H1 (2315|101)"
+      }
+    ],
+    "id": "61.23030_Systemtheorie"
+  },
+  {
+    "LV-Nr": "61.23106_Automation_of_Complex_Power",
+    "Fachname": "Automation of Complex Power Systems",
+    "Typ": "SP",
+    "SWS": 2,
+    "Vortragende": "Monti, Antonello; Yavuzer, Aytug; Pananchickal Sajeev, Sreejith",
+    "Lehrstuhl": "Lehrstuhl für Automation of Complex Power Systems",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "20.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "H08 (1385|219)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "24.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "H08 (1385|219)"
+      }
+    ],
+    "id": "61.23106_Automation_of_Complex_Power"
+  },
+  {
+    "LV-Nr": "61.30001_Grundlagen_Elektrischer",
+    "Fachname": "Grundlagen Elektrischer Maschinen",
+    "Typ": "SP",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Steentjes, Simon; Skrobacz, Aurelia",
+    "Lehrstuhl": "Lehrstuhl für Elektrische Maschinen und Antriebe und Institut für Elektrische Maschinen",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "H08 (1385|219)"
+      }
+    ],
+    "id": "61.30001_Grundlagen_Elektrischer"
+  },
+  {
+    "LV-Nr": "61.30002_Grundlagen_Elektrischer",
+    "Fachname": "Grundlagen Elektrischer Maschinen",
+    "Typ": "SP",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Skrobacz, Aurelia",
+    "Lehrstuhl": "Lehrstuhl für Elektrische Maschinen und Antriebe und Institut für Elektrische Maschinen",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "14:30",
+        "bis": "15:15",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "H11 (1385|218)"
+      }
+    ],
+    "id": "61.30002_Grundlagen_Elektrischer"
+  },
+  {
+    "LV-Nr": "61.30004_VLSI.Schaltungen_und",
+    "Fachname": "VLSI-Schaltungen und -Architekturen",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Gemmeke, Tobias",
+    "Lehrstuhl": "Lehrstuhl für Integrierte digitale Systeme und Schaltungsentwurf",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "H06 (1385|004)"
+      }
+    ],
+    "id": "61.30004_VLSI.Schaltungen_und"
+  },
+  {
+    "LV-Nr": "61.30010_VLSI.Schaltungen_und",
+    "Fachname": "VLSI-Schaltungen und -Architekturen",
+    "Typ": "UE",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Gemmeke, Tobias",
+    "Lehrstuhl": "Lehrstuhl für Integrierte digitale Systeme und Schaltungsentwurf",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "16:30",
+        "bis": "17:15",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "H06 (1385|004)"
+      }
+    ],
+    "id": "61.30010_VLSI.Schaltungen_und"
+  },
+  {
+    "LV-Nr": "61.31012_Advanced_Coding_and",
+    "Fachname": "Advanced Coding and Modulation",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Jax, Peter Johannes; Hahn, Johannes Christofer; Hardenbicker, Till Vincent",
+    "Lehrstuhl": "Lehrstuhl und Institut für Kommunikationssysteme",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "4G (2040|201)"
+      }
+    ],
+    "id": "61.31012_Advanced_Coding_and"
+  },
+  {
+    "LV-Nr": "61.31013_Advanced_Coding_and",
+    "Fachname": "Advanced Coding and Modulation",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Jax, Peter Johannes; Hahn, Johannes Christofer; Hardenbicker, Till Vincent",
+    "Lehrstuhl": "Lehrstuhl und Institut für Kommunikationssysteme",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "10:15",
+        "bis": "11:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "4G (2040|201)"
+      }
+    ],
+    "id": "61.31013_Advanced_Coding_and"
+  },
+  {
+    "LV-Nr": "61.33737_DSP_Design_Methodologies_and",
+    "Fachname": "DSP Design Methodologies and Tools",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Leupers, Rainer",
+    "Lehrstuhl": "Lehrstuhl für Software für Systeme auf Silizium",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "28.04.2026",
+        "raum": "ICT Cubes 002 (2320|002)"
+      }
+    ],
+    "id": "61.33737_DSP_Design_Methodologies_and"
+  },
+  {
+    "LV-Nr": "61.33738_DSP_Design_Methodologies_and",
+    "Fachname": "DSP Design Methodologies and Tools",
+    "Typ": "UE",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Melarcode Vaidyanathan, Arunkumar; Cubero-Cascante, José Andres",
+    "Lehrstuhl": "Lehrstuhl für Software für Systeme auf Silizium",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "12:30",
+        "bis": "13:15",
+        "start_datum": "14.04.2026",
+        "end_datum": "28.04.2026",
+        "raum": "ICT Cubes 002 (2320|002)"
+      }
+    ],
+    "id": "61.33738_DSP_Design_Methodologies_and"
+  },
+  {
+    "LV-Nr": "61.47434_Systemtheorie_1_.",
+    "Fachname": "Systemtheorie 1 - Kleingruppenübung",
+    "Typ": "TU",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Reyer, Michael; Weber, Marc",
+    "Lehrstuhl": "Lehrstuhl für Intelligente Regelungssysteme",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "18:30",
+        "bis": "20:00",
+        "start_datum": "23.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "ICT Cubes 001 (2320|001)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "18:30",
+        "bis": "20:00",
+        "start_datum": "28.04.2026",
+        "end_datum": "12.05.2026",
+        "raum": "ICT Cubes 002 (2320|002)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "18:30",
+        "bis": "20:00",
+        "start_datum": "04.05.2026",
+        "end_datum": "18.05.2026",
+        "raum": "ICT Cubes 002 (2320|002)"
+      }
+    ],
+    "id": "61.47434_Systemtheorie_1_."
+  },
+  {
+    "LV-Nr": "61.50001_Theoretische_Grundlagen_der_Hochfrequenztechnik",
+    "Fachname": "Theoretische Grundlagen der Hochfrequenztechnik (deutsch)",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Negra, Renato; Wei, Muh-Dey",
+    "Lehrstuhl": "Lehrstuhl für Höchstfrequenzelektronik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "12:15",
+        "bis": "14:15",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "Grüner Hörsaal AM (Gr) (1420|001)"
+      }
+    ],
+    "id": "61.50001_Theoretische_Grundlagen_der_Hochfrequenztechnik"
+  },
+  {
+    "LV-Nr": "61.54155_Theoretische_Grundlagen_der_Hochfrequenztechnik",
+    "Fachname": "Theoretische Grundlagen der Hochfrequenztechnik (deutsch)",
+    "Typ": "UE",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Negra, Renato; Thiel, Björn Thorsten",
+    "Lehrstuhl": "Lehrstuhl für Höchstfrequenzelektronik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Freitag",
+        "von": "12:30",
+        "bis": "13:15",
+        "start_datum": "17.04.2026",
+        "end_datum": "24.04.2026",
+        "raum": "Grüner Hörsaal AM (Gr) (1420|001)"
+      }
+    ],
+    "id": "61.54155_Theoretische_Grundlagen_der_Hochfrequenztechnik"
+  },
+  {
+    "LV-Nr": "71.10002_Seminar_Ethics_of_Economics",
+    "Fachname": "Seminar Ethics of Economics (Angewandte Ethik)",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Conradie, Niel Henk; Nagel, Saskia Kathi",
+    "Lehrstuhl": "Lehrstuhl für Angewandte Ethik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "21.07.2026",
+        "raum": "6070|303"
+      }
+    ],
+    "id": "71.10002_Seminar_Ethics_of_Economics"
+  },
+  {
+    "LV-Nr": "71.10010_Vorlesung_Lecture",
+    "Fachname": "Vorlesung/Lecture Ethics, Technology and Data (Angewandte Ethik/ Applied Ethics)",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Nagel, Saskia Kathi",
+    "Lehrstuhl": "Lehrstuhl für Angewandte Ethik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "H06 (1385|004)"
+      }
+    ],
+    "id": "71.10010_Vorlesung_Lecture"
+  },
+  {
+    "LV-Nr": "71.10014_Seminar_Methods_for_Moral_Philosophy_the",
+    "Fachname": "Seminar Methods for Moral Philosophy: the ethicist’s toolbox (Angewandte Ethik)",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Colombo, Camilla Francesca",
+    "Lehrstuhl": "Lehrstuhl für Angewandte Ethik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "20.07.2026",
+        "raum": "6070|303"
+      }
+    ],
+    "id": "71.10014_Seminar_Methods_for_Moral_Philosophy_the"
+  },
+  {
+    "LV-Nr": "71.10018_Seminar_Reading_Club_Advanced_Topics_in_Applied_Ethics",
+    "Fachname": "Seminar Reading Club: Advanced Topics in Applied Ethics (Angewandte Ethik)",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Nagel, Saskia Kathi",
+    "Lehrstuhl": "Lehrstuhl für Angewandte Ethik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "23.07.2026",
+        "raum": "6070|407"
+      }
+    ],
+    "id": "71.10018_Seminar_Reading_Club_Advanced_Topics_in_Applied_Ethics"
+  },
+  {
+    "LV-Nr": "71.20016_Vorlesung_Philosophy_of_Computational_Sciences",
+    "Fachname": "Vorlesung \"Philosophy of Computational Sciences\" (Wissenschaftstheorie und Technikphilosophie)",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Pantsar, Markus",
+    "Lehrstuhl": "Lehrstuhl für Wissenschaftstheorie und Technikphilosophie und Philosophisches Institut",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "Be 225 (1140|225)"
+      }
+    ],
+    "id": "71.20016_Vorlesung_Philosophy_of_Computational_Sciences"
+  },
+  {
+    "LV-Nr": "71.20038_Seminar_Modelling_for_Policy",
+    "Fachname": "Seminar \"Modelling for Policy\" (Wissenschaftstheorie und Technikphilosophie)",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Pantsar, Markus",
+    "Lehrstuhl": "Lehrstuhl für Wissenschaftstheorie und Technikphilosophie und Philosophisches Institut",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "10:30",
+        "bis": "12:30",
+        "start_datum": "14.04.2026",
+        "end_datum": "21.07.2026",
+        "raum": "6070|303"
+      },
+      {
+        "typ": "Einzel",
+        "tag": "Dienstag",
+        "von": "16:30",
+        "bis": "18:00"
+      }
+    ],
+    "id": "71.20038_Seminar_Modelling_for_Policy"
+  },
+  {
+    "LV-Nr": "75.00015_Individuals_and_Technology_._Advancing_Seminar",
+    "Fachname": "Individuals and Technology - Advancing Seminar (Technik und Individuum)",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Schiffer, Stefan; Rosenthal-von der Pütten, Astrid Marieke",
+    "Lehrstuhl": "Lehrstuhl für Technik und Individuum",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "10:30",
+        "bis": "11:15",
+        "start_datum": "15.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "6070|407"
+      }
+    ],
+    "id": "75.00015_Individuals_and_Technology_._Advancing_Seminar"
+  },
+  {
+    "LV-Nr": "75.00096_Seminar_Introduction_to_Human.Robot.Interaction",
+    "Fachname": "Seminar Introduction to Human-Robot-Interaction (Current Topics in Media Psychology)   (Technik und Individuum)",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Abrams, Anna Maria Helene; Rosenthal-von der Pütten, Astrid Marieke; Schenk, Ann-Sophie Lien",
+    "Lehrstuhl": "Lehrstuhl für Technik und Individuum",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "23.07.2026",
+        "raum": "Extern Anmerkung: Das Seminar findet am Theaterplatz 14 statt, Gebäude 6070, 2. Etage - Raum 216"
+      }
+    ],
+    "id": "75.00096_Seminar_Introduction_to_Human.Robot.Interaction"
+  },
+  {
+    "LV-Nr": "75.00097_Übung_Individuals_and_Technology_._Advancing_Seminar",
+    "Fachname": "Übung Individuals and Technology - Advancing Seminar (Technik und Individuum)",
+    "Typ": "UE",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Schiffer, Stefan; Rosenthal-von der Pütten, Astrid Marieke",
+    "Lehrstuhl": "Lehrstuhl für Technik und Individuum",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "11:15",
+        "bis": "12:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "6070|407"
+      }
+    ],
+    "id": "75.00097_Übung_Individuals_and_Technology_._Advancing_Seminar"
+  },
+  {
+    "LV-Nr": "76.16200_Research_Lab_Computational_Social_Science",
+    "Fachname": "Research Lab Computational Social Science (Applied Computational Social Sciences)",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Wagner, Claudia",
+    "Lehrstuhl": "Lehrstuhl für Angewandte computerbasierte Sozialwissenschaften",
+    "Termine": [],
+    "id": "76.16200_Research_Lab_Computational_Social_Science"
+  },
+  {
+    "LV-Nr": "81.00020_International",
+    "Fachname": "International Economics",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Lorz, Jens Oliver",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Internationale Wirtschaftsbeziehungen",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Donnerstag",
+        "von": "08:30",
+        "bis": "10:00"
+      }
+    ],
+    "id": "81.00020_International"
+  },
+  {
+    "LV-Nr": "81.00027_International",
+    "Fachname": "International Economics",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Lux, Samuel Kamal",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Internationale Wirtschaftsbeziehungen",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "07.05.2026",
+        "raum": "H07 (1385|104)"
+      }
+    ],
+    "id": "81.00027_International"
+  },
+  {
+    "LV-Nr": "81.00047_Projektmodul_Analytics_and_Optimization",
+    "Fachname": "Projektmodul: Analytics and Optimization Project",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Schneider, Michael David; Bomsdorf, Stefan; Pilot, Hans Stefan",
+    "Lehrstuhl": "Lehrstuhl für Computational Logistics",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Donnerstag",
+        "von": "15:30",
+        "bis": "17:00"
+      }
+    ],
+    "id": "81.00047_Projektmodul_Analytics_and_Optimization"
+  },
+  {
+    "LV-Nr": "81.06326_Künstliche_Organe_für_Naturwissenschaftler_und_Ingenieure",
+    "Fachname": "Künstliche Organe für Naturwissenschaftler und Ingenieure I",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Jansen, Sebastian Victor",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Kardiovaskuläre Technik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "Hörsaal 1 (UKA|Fl23, R1)"
+      }
+    ],
+    "id": "81.06326_Künstliche_Organe_für_Naturwissenschaftler_und_Ingenieure"
+  },
+  {
+    "LV-Nr": "81.10000_Portfolio",
+    "Fachname": "Portfolio Management",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Uddin, Sami",
+    "Lehrstuhl": "Lehrstuhl für Betriebswirtschaftslehre, insbesondere Betriebliche Finanzwirtschaft",
+    "Termine": [],
+    "id": "81.10000_Portfolio"
+  },
+  {
+    "LV-Nr": "81.11000_Portfolio",
+    "Fachname": "Portfolio Management",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Uddin, Sami",
+    "Lehrstuhl": "Lehrstuhl für Betriebswirtschaftslehre, insbesondere Betriebliche Finanzwirtschaft",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "AS (1050|U101)"
+      }
+    ],
+    "id": "81.11000_Portfolio"
+  },
+  {
+    "LV-Nr": "81.15000_Managerial_Accounting_and",
+    "Fachname": "Managerial Accounting and Controlling",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Letmathe, Peter; Baria, Yashvi",
+    "Lehrstuhl": "Lehrstuhl für Controlling",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "H06 (1385|004)"
+      }
+    ],
+    "id": "81.15000_Managerial_Accounting_and"
+  },
+  {
+    "LV-Nr": "81.15001_Managerial_Accounting_and",
+    "Fachname": "Managerial Accounting and Controlling",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Baria, Yashvi",
+    "Lehrstuhl": "Lehrstuhl für Controlling",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "H07 (1385|104)"
+      }
+    ],
+    "id": "81.15001_Managerial_Accounting_and"
+  },
+  {
+    "LV-Nr": "81.25183",
+    "Fachname": "Informationsmanagement",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Reimers, Kai",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Wirtschaftsinformatik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "Phil (1070|113)"
+      }
+    ],
+    "id": "81.25183"
+  },
+  {
+    "LV-Nr": "81.34040_IT_und",
+    "Fachname": "IT und Organisation",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Reimers, Kai",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Wirtschaftsinformatik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "Phil (1070|113)"
+      }
+    ],
+    "id": "81.34040_IT_und"
+  },
+  {
+    "LV-Nr": "81.34042_IT_und",
+    "Fachname": "IT und Organisation",
+    "Typ": "UE",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Reimers, Kai",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Wirtschaftsinformatik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "14:30",
+        "bis": "16:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "Fk 9 (1541|209)"
+      }
+    ],
+    "id": "81.34042_IT_und"
+  },
+  {
+    "LV-Nr": "81.38477_Operations_Research",
+    "Fachname": "Operations Research 2",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Lübbecke, Marco",
+    "Lehrstuhl": "Lehrstuhl für Operations Research",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "08:30",
+        "bis": "10:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "S15 (1385|215)"
+      },
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "klPhys (1090|334)"
+      }
+    ],
+    "id": "81.38477_Operations_Research"
+  },
+  {
+    "LV-Nr": "81.38478_Operations_Research",
+    "Fachname": "Operations Research 2",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Lübbecke, Marco",
+    "Lehrstuhl": "Lehrstuhl für Operations Research",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Dienstag",
+        "von": "10:30",
+        "bis": "12:00"
+      }
+    ],
+    "id": "81.38478_Operations_Research"
+  },
+  {
+    "LV-Nr": "81.39207_Projektmodul",
+    "Fachname": "Projektmodul: OR-Praktikum",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Lübbecke, Marco; Helber, Alexander; Donkiewicz, Tim",
+    "Lehrstuhl": "Lehrstuhl für Operations Research",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Montag",
+        "von": "10:30",
+        "bis": "12:00"
+      },
+      {
+        "typ": "Einzel",
+        "tag": "Montag",
+        "von": "12:30",
+        "bis": "14:00"
+      },
+      {
+        "typ": "Einzel",
+        "tag": "Montag",
+        "von": "12:30",
+        "bis": "16:00"
+      }
+    ],
+    "id": "81.39207_Projektmodul"
+  },
+  {
+    "LV-Nr": "81.44737",
+    "Fachname": "Informationsmanagement",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Reimers, Kai",
+    "Lehrstuhl": "Lehr- und Forschungsgebiet Wirtschaftsinformatik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "Fk 9 (1541|209)"
+      }
+    ],
+    "id": "81.44737"
+  },
+  {
+    "LV-Nr": "81.45931",
+    "Fachname": "Unternehmensbewertung",
+    "Typ": "VO",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Breuer, Wolfgang",
+    "Lehrstuhl": "Lehrstuhl für Betriebswirtschaftslehre, insbesondere Betriebliche Finanzwirtschaft",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "HKW 2 (1132|303)"
+      }
+    ],
+    "id": "81.45931"
+  },
+  {
+    "LV-Nr": "81.45934",
+    "Fachname": "Unternehmensbewertung",
+    "Typ": "UE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Algazzar, Ahmed Amr Mohamed",
+    "Lehrstuhl": "Lehrstuhl für Betriebswirtschaftslehre, insbesondere Betriebliche Finanzwirtschaft",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "20.05.2026",
+        "raum": "H05 (1385|105)"
+      }
+    ],
+    "id": "81.45934"
+  },
+  {
+    "LV-Nr": "81.49595_Praktische_Optimierung_mit",
+    "Fachname": "Praktische Optimierung mit Modellierungssprachen",
+    "SWS": 1,
+    "ECTS": 1.0,
+    "Vortragende": "Lübbecke, Marco",
+    "Lehrstuhl": "Lehrstuhl für Operations Research",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Dienstag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "14.04.2026",
+        "end_datum": "19.05.2026",
+        "raum": "HKW 1 (1132|203)"
+      }
+    ],
+    "id": "81.49595_Praktische_Optimierung_mit"
+  },
+  {
+    "LV-Nr": "81.49597_Praktische_Optimierung_mit",
+    "Fachname": "Praktische Optimierung mit Modellierungssprachen",
+    "SWS": 3,
+    "ECTS": 3.0,
+    "Vortragende": "Helber, Alexander",
+    "Lehrstuhl": "Lehrstuhl für Operations Research",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "16:30",
+        "bis": "18:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "18.05.2026",
+        "raum": "H08 (1385|219)"
+      }
+    ],
+    "id": "81.49597_Praktische_Optimierung_mit"
+  },
+  {
+    "LV-Nr": "92.00019_QP_Biomedizinische_Informatik_How_to_research_.Eine_Reise_durch_den",
+    "Fachname": "QP Biomedizinische Informatik: How to research? -Eine Reise durch den Werkzeugkasten für die patientenorientierte Forschung (BI014)",
+    "SWS": 20,
+    "Vortragende": "Lipprandt, Myriam; Röhrig, Rainer",
+    "Lehrstuhl": "Institut und Lehrstuhl für Medizinische Informatik",
+    "Termine": [],
+    "id": "92.00019_QP_Biomedizinische_Informatik_How_to_research_.Eine_Reise_durch_den"
+  },
+  {
+    "LV-Nr": "92.02555_Einführung_in_die_Medizinische_Informatik",
+    "Fachname": "Einführung in die Medizinische Informatik: Vorlesung",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Röhrig, Rainer",
+    "Lehrstuhl": "Institut und Lehrstuhl für Medizinische Informatik",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "12:30",
+        "bis": "14:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "13.07.2026",
+        "raum": "Hörsaal 6 (UKA|Fl26, R2)"
+      }
+    ],
+    "id": "92.02555_Einführung_in_die_Medizinische_Informatik"
+  },
+  {
+    "LV-Nr": "92.19003_Software_Lab_in",
+    "Fachname": "Software Lab in Bioinformatics",
+    "Typ": "PR",
+    "SWS": 4,
+    "ECTS": 4.0,
+    "Vortragende": "Gesteira Costa Filho, Ivan",
+    "Lehrstuhl": "Institut und Lehrstuhl für Computergestützte Genomik",
+    "Termine": [
+      {
+        "typ": "Einzel",
+        "tag": "Montag",
+        "von": "09:30",
+        "bis": "12:00"
+      },
+      {
+        "typ": "Einzel",
+        "tag": "Montag",
+        "von": "09:30",
+        "bis": "09:45"
+      }
+    ],
+    "id": "92.19003_Software_Lab_in"
+  },
+  {
+    "LV-Nr": "KP.00006_Seminar_Advanced_Topics_in",
+    "Fachname": "Seminar: Advanced Topics in Cryptography",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Nüsken, Michael",
+    "Lehrstuhl": "",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Montag",
+        "von": "16:00",
+        "bis": "18:00",
+        "start_datum": "13.04.2026",
+        "end_datum": "20.07.2026",
+        "raum": "Extern Anmerkung: b-it, room 0.107"
+      }
+    ],
+    "id": "KP.00006_Seminar_Advanced_Topics_in"
+  },
+  {
+    "LV-Nr": "KP.00010_Seminar_Text",
+    "Fachname": "Seminar: Text Mining",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Sifa, Rafet",
+    "Lehrstuhl": "",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "11:00",
+        "bis": "12:30",
+        "start_datum": "16.04.2026",
+        "end_datum": "23.07.2026",
+        "raum": "Extern Anmerkung: b-it in Bonn, room 2.113"
+      }
+    ],
+    "id": "KP.00010_Seminar_Text"
+  },
+  {
+    "LV-Nr": "KP.00011_Data_Science_for_Medical",
+    "Fachname": "Data Science for Medical Applications",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Sifa, Rafet",
+    "Lehrstuhl": "",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Donnerstag",
+        "von": "10:30",
+        "bis": "12:00",
+        "start_datum": "16.04.2026",
+        "end_datum": "23.07.2026",
+        "raum": "Extern Anmerkung: b-it in Bonn, room 0.108"
+      }
+    ],
+    "id": "KP.00011_Data_Science_for_Medical"
+  },
+  {
+    "LV-Nr": "KP.00016_Seminar_AI",
+    "Fachname": "Seminar: AI Ethics",
+    "Typ": "SE",
+    "SWS": 2,
+    "ECTS": 2.0,
+    "Vortragende": "Flek, Lucie",
+    "Lehrstuhl": "",
+    "Termine": [
+      {
+        "typ": "Serie",
+        "tag": "Mittwoch",
+        "von": "14:00",
+        "bis": "16:00",
+        "start_datum": "15.04.2026",
+        "end_datum": "22.07.2026",
+        "raum": "Extern Anmerkung: b-it in Bonn, room 2.113"
+      }
+    ],
+    "id": "KP.00016_Seminar_AI"
+  },
+  {
+    "LV-Nr": "KP.00018_Fraunhofer_Lab_Design",
+    "Fachname": "Fraunhofer Lab: Design Thinking",
+    "Typ": "PR",
+    "SWS": 5,
+    "ECTS": 5.0,
+    "Vortragende": "Decker, Stefan Josef",
+    "Lehrstuhl": "",
+    "Termine": [],
+    "id": "KP.00018_Fraunhofer_Lab_Design"
+  }
+]

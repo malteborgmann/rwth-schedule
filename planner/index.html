@@ -16,7 +16,7 @@
         <header id="app-header">
             <div class="header-left">
                 <div class="logo">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
                         <line x1="16" y1="2" x2="16" y2="6"></line>
                         <line x1="8" y1="2" x2="8" y2="6"></line>
@@ -25,7 +25,7 @@
                 </div>
                 <div class="header-title">
                     <h1>Stundenplan-Planer</h1>
-                    <span class="header-subtitle">RWTH Aachen • WS 2025/26</span>
+                    <span class="header-subtitle">RWTH Aachen • SS 2026</span>
                 </div>
             </div>
             <div class="header-right">
@@ -35,7 +35,7 @@
                         <span class="stat-label">Kurse</span>
                     </div>
                     <div class="stat-divider"></div>
-                    <div class="stat" id="stat-ects">
+                    <div class="stat" id="stat-hours">
                         <span class="stat-value">0</span>
                         <span class="stat-label">Std/Woche</span>
                     </div>
@@ -45,16 +45,8 @@
                         <span class="stat-label">Konflikte</span>
                     </div>
                 </div>
-                <button id="btn-import" class="btn btn-primary" title="CSV/JSON importieren">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="17 8 12 3 7 8"></polyline>
-                        <line x1="12" y1="3" x2="12" y2="15"></line>
-                    </svg>
-                    Import
-                </button>
-                <button id="btn-export" class="btn btn-secondary" title="Stundenplan exportieren">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <button id="btn-export" class="btn btn-secondary" title="Stundenplan als JSON exportieren">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                         <polyline points="7 10 12 15 17 10"></polyline>
                         <line x1="12" y1="15" x2="12" y2="3"></line>
@@ -70,103 +62,61 @@
             <aside id="course-panel">
                 <div class="panel-header">
                     <h2>Verfügbare Kurse</h2>
-                    <span class="course-count" id="course-count">0 Kurse</span>
+                    <span class="course-count" id="course-count">0</span>
                 </div>
                 
-                <!-- Search & Filter -->
                 <div class="search-container">
                     <div class="search-box">
-                        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <circle cx="11" cy="11" r="8"></circle>
                             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                         </svg>
-                        <input type="text" id="search-input" placeholder="Kurs suchen..." autocomplete="off">
-                        <button id="search-clear" class="search-clear hidden" title="Suche zurücksetzen">×</button>
+                        <input type="text" id="search-input" placeholder="Kurs, Prof oder Lehrstuhl suchen..." autocomplete="off">
+                        <button id="search-clear" class="search-clear hidden" title="Löschen">×</button>
                     </div>
                     <div class="filter-row">
                         <select id="filter-type" class="filter-select">
                             <option value="">Alle Typen</option>
-                            <option value="VO">Vorlesung (VO)</option>
-                            <option value="UE">Übung (UE)</option>
-                            <option value="SE">Seminar (SE)</option>
-                            <option value="VU">VU</option>
-                            <option value="PR">Praktikum (PR)</option>
-                            <option value="PJ">Projekt (PJ)</option>
                         </select>
                         <select id="filter-lehrstuhl" class="filter-select">
                             <option value="">Alle Lehrstühle</option>
                         </select>
+                        <select id="filter-schedule" class="filter-select">
+                            <option value="">Alle</option>
+                            <option value="has">Mit Terminen</option>
+                            <option value="none">Ohne Termine</option>
+                        </select>
                     </div>
                 </div>
 
-                <!-- Course List -->
-                <div id="course-list" class="course-list">
-                    <div class="empty-state" id="empty-state">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.4">
-                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                            <polyline points="17 8 12 3 7 8"></polyline>
-                            <line x1="12" y1="3" x2="12" y2="15"></line>
-                        </svg>
-                        <p>CSV oder JSON Datei importieren</p>
-                        <p class="hint">Klicke auf "Import" oder ziehe eine Datei hierher</p>
-                    </div>
-                </div>
+                <div id="course-list" class="course-list"></div>
             </aside>
 
             <!-- Right Panel: Schedule Grid -->
             <section id="schedule-panel">
-                <div class="schedule-header">
-                    <h2>Dein Stundenplan</h2>
-                    <div class="schedule-actions">
-                        <button id="btn-clear-schedule" class="btn btn-ghost" title="Stundenplan leeren">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <div class="schedule-wrapper">
+                    <div id="schedule-grid" class="schedule-grid"></div>
+                </div>
+
+                <div class="selected-courses-section">
+                    <div class="selected-header">
+                        <h3>Ausgewählte Kurse</h3>
+                        <button id="btn-clear" class="btn btn-ghost btn-sm" title="Alle entfernen">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <polyline points="3 6 5 6 21 6"></polyline>
                                 <path d="M19 6l-2 14H7L5 6"></path>
-                                <path d="M10 11v6"></path>
-                                <path d="M14 11v6"></path>
                             </svg>
                             Leeren
                         </button>
                     </div>
-                </div>
-                
-                <div id="schedule-grid" class="schedule-grid">
-                    <!-- Time labels column -->
-                    <div class="grid-corner"></div>
-                    <div class="grid-day-header">Mo</div>
-                    <div class="grid-day-header">Di</div>
-                    <div class="grid-day-header">Mi</div>
-                    <div class="grid-day-header">Do</div>
-                    <div class="grid-day-header">Fr</div>
-                    <!-- Time rows will be generated by JS -->
-                </div>
-
-                <!-- Drop zone overlay -->
-                <div id="schedule-drop-zone" class="schedule-drop-zone hidden">
-                    <div class="drop-zone-content">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <line x1="12" y1="5" x2="12" y2="19"></line>
-                            <line x1="5" y1="12" x2="19" y2="12"></line>
-                        </svg>
-                        <span>Kurs hier ablegen</span>
-                    </div>
-                </div>
-
-                <!-- Selected courses list below grid -->
-                <div class="selected-courses-section">
-                    <h3>Ausgewählte Kurse</h3>
-                    <div id="selected-courses-list" class="selected-courses-list">
-                        <p class="no-courses-msg">Ziehe Kurse aus der Liste oder klicke auf + um sie hinzuzufügen</p>
+                    <div id="selected-list" class="selected-list">
+                        <p class="empty-hint">Klicke auf <strong>+</strong> um Kurse hinzuzufügen</p>
                     </div>
                 </div>
             </section>
         </main>
     </div>
 
-    <!-- Hidden file input -->
-    <input type="file" id="file-input" accept=".csv,.json" style="display:none">
-
-    <!-- Toast container -->
     <div id="toast-container" class="toast-container"></div>
 
     <script src="app.js"></script>

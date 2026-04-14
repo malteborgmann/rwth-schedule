@@ -1,814 +1,409 @@
 /**
- * RWTH Stundenplan-Planer – Application Logic
- * 
- * Features:
- * - Import courses from CSV or JSON
- * - Drag & Drop courses into the schedule
- * - Automatic conflict detection (greyed out conflicting courses)
- * - Weekly schedule grid visualization
- * - Export schedule
+ * RWTH Stundenplan-Planer — Application Logic
+ *
+ * Auto-loads course data from kurse_komplett.json.
+ * Supports click-to-add, conflict detection, and schedule grid rendering.
  */
 
-// ══════════════════════════════════════
-// STATE
-// ══════════════════════════════════════
+// ══════════ STATE ══════════
 
-const state = {
-    allCourses: [],           // All imported courses
-    selectedCourses: [],      // Courses added to the schedule
-    colorIndex: 0,            // For assigning colors
-    searchQuery: '',
+const S = {
+    all: [],
+    selected: [],
+    search: '',
     filterType: '',
-    filterLehrstuhl: '',
+    filterLS: '',
+    filterSched: '',
 };
 
 const DAYS = ['Mo', 'Di', 'Mi', 'Do', 'Fr'];
-const DAY_MAP = {
-    'Mo': 0, 'Mo.': 0, 'Montag': 0, 'Monday': 0, 'Mon': 0,
-    'Di': 1, 'Di.': 1, 'Dienstag': 1, 'Tuesday': 1, 'Tue': 1,
-    'Mi': 2, 'Mi.': 2, 'Mittwoch': 2, 'Wednesday': 2, 'Wed': 2,
-    'Do': 3, 'Do.': 3, 'Donnerstag': 3, 'Thursday': 3, 'Thu': 3,
-    'Fr': 4, 'Fr.': 4, 'Freitag': 4, 'Friday': 4, 'Fri': 4,
-    'Sa': 5, 'Sa.': 5, 'Samstag': 5, 'Saturday': 5, 'Sat': 5,
+const DAY_FULL = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag'];
+const DAY_SHORT_MAP = {
+    'Montag': 0, 'Dienstag': 1, 'Mittwoch': 2, 'Donnerstag': 3, 'Freitag': 4, 'Samstag': 5,
+    'Mo': 0, 'Di': 1, 'Mi': 2, 'Do': 3, 'Fr': 4, 'Sa': 5,
 };
+const T_START = 8, T_END = 20;
+const COLORS = ['#4f8ff7','#a78bfa','#34d399','#fbbf24','#22d3ee','#f43f5e','#818cf8','#fb923c','#2dd4bf','#f472b6'];
 
-const TIME_START = 8;
-const TIME_END = 20;
-const COURSE_COLORS = [
-    '#3b82f6', '#8b5cf6', '#10b981', '#f59e0b', '#06b6d4',
-    '#f43f5e', '#6366f1', '#f97316', '#14b8a6', '#ec4899',
-];
+// ══════════ INIT ══════════
 
-// ══════════════════════════════════════
-// INIT
-// ══════════════════════════════════════
+document.addEventListener('DOMContentLoaded', async () => {
+    buildGrid();
+    bindEvents();
 
-document.addEventListener('DOMContentLoaded', () => {
-    buildScheduleGrid();
-    setupEventListeners();
-    loadFromLocalStorage();
+    // Try to load from localStorage first, then fetch JSON
+    if (!loadState()) {
+        await fetchCourses();
+    }
+    render();
 });
 
-function setupEventListeners() {
-    // Import button
-    document.getElementById('btn-import').addEventListener('click', () => {
-        document.getElementById('file-input').click();
-    });
-    document.getElementById('file-input').addEventListener('change', handleFileImport);
+async function fetchCourses() {
+    try {
+        const res = await fetch('kurse_komplett.json');
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+        S.all = data.map((c, i) => ({ ...c, id: c.id || c['LV-Nr'] || `c${i}` }));
+        populateFilters();
+        saveState();
+        toast(`${S.all.length} Kurse geladen`, 'success');
+    } catch (e) {
+        console.error('Failed to load courses:', e);
+        toast('Kursdaten konnten nicht geladen werden. Starte einen lokalen Server.', 'error');
+    }
+}
 
-    // Export button
-    document.getElementById('btn-export').addEventListener('click', exportSchedule);
-
-    // Clear schedule
-    document.getElementById('btn-clear-schedule').addEventListener('click', clearSchedule);
-
-    // Search
-    const searchInput = document.getElementById('search-input');
-    searchInput.addEventListener('input', (e) => {
-        state.searchQuery = e.target.value.toLowerCase();
-        const clearBtn = document.getElementById('search-clear');
-        clearBtn.classList.toggle('hidden', !e.target.value);
-        renderCourseList();
+function bindEvents() {
+    const si = document.getElementById('search-input');
+    si.addEventListener('input', e => {
+        S.search = e.target.value.toLowerCase();
+        document.getElementById('search-clear').classList.toggle('hidden', !e.target.value);
+        renderList();
     });
     document.getElementById('search-clear').addEventListener('click', () => {
-        searchInput.value = '';
-        state.searchQuery = '';
+        si.value = ''; S.search = '';
         document.getElementById('search-clear').classList.add('hidden');
-        renderCourseList();
+        renderList();
     });
-
-    // Filters
-    document.getElementById('filter-type').addEventListener('change', (e) => {
-        state.filterType = e.target.value;
-        renderCourseList();
-    });
-    document.getElementById('filter-lehrstuhl').addEventListener('change', (e) => {
-        state.filterLehrstuhl = e.target.value;
-        renderCourseList();
-    });
-
-    // Global drag & drop for file import
-    document.body.addEventListener('dragover', (e) => {
-        e.preventDefault();
-        if (e.dataTransfer.types.includes('Files')) {
-            document.body.classList.add('drag-over');
-        }
-    });
-    document.body.addEventListener('dragleave', (e) => {
-        if (e.relatedTarget === null || !document.body.contains(e.relatedTarget)) {
-            document.body.classList.remove('drag-over');
-        }
-    });
-    document.body.addEventListener('drop', (e) => {
-        e.preventDefault();
-        document.body.classList.remove('drag-over');
-        if (e.dataTransfer.files.length) {
-            handleFile(e.dataTransfer.files[0]);
-        }
-    });
+    document.getElementById('filter-type').addEventListener('change', e => { S.filterType = e.target.value; renderList(); });
+    document.getElementById('filter-lehrstuhl').addEventListener('change', e => { S.filterLS = e.target.value; renderList(); });
+    document.getElementById('filter-schedule').addEventListener('change', e => { S.filterSched = e.target.value; renderList(); });
+    document.getElementById('btn-export').addEventListener('click', exportSchedule);
+    document.getElementById('btn-clear').addEventListener('click', clearAll);
 }
 
-// ══════════════════════════════════════
-// SCHEDULE GRID
-// ══════════════════════════════════════
+// ══════════ GRID ══════════
 
-function buildScheduleGrid() {
-    const grid = document.getElementById('schedule-grid');
-    // Clear existing time rows (keep header row = 6 elements)
-    while (grid.children.length > 6) {
-        grid.removeChild(grid.lastChild);
-    }
-
-    for (let hour = TIME_START; hour < TIME_END; hour++) {
-        // Time label
-        const timeLabel = document.createElement('div');
-        timeLabel.className = 'grid-time-label';
-        timeLabel.textContent = `${hour}:00`;
-        grid.appendChild(timeLabel);
-
-        // Day cells
-        for (let day = 0; day < 5; day++) {
-            const cell = document.createElement('div');
-            cell.className = 'grid-cell';
-            cell.dataset.day = day;
-            cell.dataset.hour = hour;
-            grid.appendChild(cell);
+function buildGrid() {
+    const g = document.getElementById('schedule-grid');
+    g.innerHTML = '';
+    // Corner
+    g.appendChild(el('div', 'g-corner'));
+    // Day headers
+    DAYS.forEach(d => { const e = el('div', 'g-day'); e.textContent = d; g.appendChild(e); });
+    // Update grid template rows
+    const rows = T_END - T_START;
+    g.style.gridTemplateRows = `32px repeat(${rows}, var(--grid-row-h))`;
+    // Time rows
+    for (let h = T_START; h < T_END; h++) {
+        const t = el('div', 'g-time');
+        t.textContent = `${h}:00`;
+        t.style.gridRow = (h - T_START + 2);
+        g.appendChild(t);
+        for (let d = 0; d < 5; d++) {
+            const c = el('div', 'g-cell');
+            c.style.gridRow = (h - T_START + 2);
+            c.style.gridColumn = (d + 2);
+            g.appendChild(c);
         }
     }
 }
 
-// ══════════════════════════════════════
-// FILE IMPORT
-// ══════════════════════════════════════
+// ══════════ SLOTS & CONFLICTS ══════════
 
-function handleFileImport(e) {
-    const file = e.target.files[0];
-    if (file) handleFile(file);
-    e.target.value = ''; // Reset
+function getSlots(course) {
+    return (course.Termine || []).map(t => {
+        const day = DAY_SHORT_MAP[t.tag];
+        if (day === undefined || day > 4) return null;
+        const s = parseT(t.von), e = parseT(t.bis);
+        if (s == null || e == null) return null;
+        return { day, start: s, end: e, t };
+    }).filter(Boolean);
 }
 
-function handleFile(file) {
-    const reader = new FileReader();
-    reader.onload = (e) => {
-        const content = e.target.result;
-        try {
-            if (file.name.endsWith('.json')) {
-                parseJSON(content);
-            } else if (file.name.endsWith('.csv')) {
-                parseCSV(content);
-            } else {
-                showToast('Nur CSV und JSON Dateien werden unterstützt', 'error');
-            }
-        } catch (err) {
-            console.error('Parse error:', err);
-            showToast('Fehler beim Einlesen der Datei: ' + err.message, 'error');
-        }
-    };
-    reader.readAsText(file);
+function parseT(s) {
+    if (!s) return null;
+    const [h, m] = s.split(':').map(Number);
+    return h + m / 60;
 }
 
-function parseCSV(content) {
-    const lines = content.split(/\r?\n/).filter(l => l.trim());
-    if (lines.length < 2) {
-        showToast('CSV-Datei ist leer', 'error');
-        return;
-    }
-
-    // Parse header
-    const header = parseCSVLine(lines[0]);
-    const courses = [];
-
-    for (let i = 1; i < lines.length; i++) {
-        const values = parseCSVLine(lines[i]);
-        if (values.length < 2) continue;
-
-        const course = {};
-        header.forEach((h, idx) => {
-            course[h.trim()] = (values[idx] || '').trim();
-        });
-
-        // Parse Termine from CSV format: "Mo 10:00-12:00 | Di 14:00-16:00"
-        if (course['Termine'] && typeof course['Termine'] === 'string') {
-            course['Termine'] = parseTermineString(course['Termine']);
-        } else {
-            course['Termine'] = [];
-        }
-
-        if (course['Fachname']) {
-            course.id = course['LV-Nr'] || `course_${i}`;
-            courses.push(course);
-        }
-    }
-
-    state.allCourses = courses;
-    populateLehrstuhlFilter();
-    renderCourseList();
-    updateStats();
-    saveToLocalStorage();
-    showToast(`${courses.length} Kurse importiert`, 'success');
-}
-
-function parseJSON(content) {
-    const data = JSON.parse(content);
-    const courses = Array.isArray(data) ? data : [data];
-
-    courses.forEach((c, i) => {
-        c.id = c['LV-Nr'] || c.id || `course_${i}`;
-        if (!c['Termine']) c['Termine'] = [];
-        if (typeof c['Termine'] === 'string') {
-            c['Termine'] = parseTermineString(c['Termine']);
-        }
-    });
-
-    state.allCourses = courses.filter(c => c['Fachname']);
-    populateLehrstuhlFilter();
-    renderCourseList();
-    updateStats();
-    saveToLocalStorage();
-    showToast(`${state.allCourses.length} Kurse importiert`, 'success');
-}
-
-function parseCSVLine(line) {
-    const result = [];
-    let current = '';
-    let inQuotes = false;
-    
-    for (let i = 0; i < line.length; i++) {
-        const char = line[i];
-        if (char === '"') {
-            if (inQuotes && i + 1 < line.length && line[i + 1] === '"') {
-                current += '"';
-                i++;
-            } else {
-                inQuotes = !inQuotes;
-            }
-        } else if (char === ';' && !inQuotes) {
-            result.push(current);
-            current = '';
-        } else {
-            current += char;
-        }
-    }
-    result.push(current);
-    return result.map(v => v.replace(/^"|"$/g, ''));
-}
-
-function parseTermineString(str) {
-    if (!str || str.trim() === '') return [];
-    
-    const termine = [];
-    const parts = str.split('|').map(s => s.trim()).filter(Boolean);
-    
-    for (const part of parts) {
-        // Try: "Mo 10:00-12:00 (Raum 123)"
-        const match = part.match(
-            /^(Mo|Di|Mi|Do|Fr|Sa|So|Montag|Dienstag|Mittwoch|Donnerstag|Freitag)\.?\s*(\d{1,2}:\d{2})\s*[-–]\s*(\d{1,2}:\d{2})(?:\s*\((.*?)\))?/i
-        );
-        if (match) {
-            termine.push({
-                tag: match[1].replace('.', ''),
-                von: match[2],
-                bis: match[3],
-                raum: match[4] || ''
-            });
-        } else {
-            // Try extracting day and time from raw text
-            const dayMatch = part.match(/(Mo|Di|Mi|Do|Fr|Sa|So|Montag|Dienstag|Mittwoch|Donnerstag|Freitag)\.?/i);
-            const timeMatch = part.match(/(\d{1,2}:\d{2})\s*[-–]\s*(\d{1,2}:\d{2})/);
-            if (dayMatch && timeMatch) {
-                termine.push({
-                    tag: dayMatch[1].replace('.', ''),
-                    von: timeMatch[1],
-                    bis: timeMatch[2],
-                    raw: part
-                });
-            }
-        }
-    }
-    return termine;
-}
-
-// ══════════════════════════════════════
-// CONFLICT DETECTION
-// ══════════════════════════════════════
-
-function getTimeSlots(course) {
-    const slots = [];
-    const termine = course['Termine'] || [];
-    
-    for (const t of termine) {
-        const dayIdx = DAY_MAP[t.tag] ?? DAY_MAP[t.tag + '.'] ?? -1;
-        if (dayIdx < 0 || dayIdx > 4) continue;
-        
-        const start = parseTime(t.von);
-        const end = parseTime(t.bis);
-        if (start === null || end === null) continue;
-        
-        slots.push({ day: dayIdx, start, end, termin: t });
-    }
-    return slots;
-}
-
-function parseTime(timeStr) {
-    if (!timeStr) return null;
-    const parts = timeStr.split(':');
-    if (parts.length !== 2) return null;
-    return parseInt(parts[0]) + parseInt(parts[1]) / 60;
-}
-
-function hasConflict(courseA, courseB) {
-    const slotsA = getTimeSlots(courseA);
-    const slotsB = getTimeSlots(courseB);
-    
-    for (const a of slotsA) {
-        for (const b of slotsB) {
-            if (a.day === b.day) {
-                // Check time overlap
-                if (a.start < b.end && a.end > b.start) {
-                    return true;
-                }
-            }
-        }
-    }
+function conflicts(a, b) {
+    const sa = getSlots(a), sb = getSlots(b);
+    for (const x of sa) for (const y of sb)
+        if (x.day === y.day && x.start < y.end && x.end > y.start) return true;
     return false;
 }
 
-function getConflictingCourseIds() {
-    const conflicting = new Set();
-    
-    for (const course of state.allCourses) {
-        if (state.selectedCourses.find(s => s.id === course.id)) continue;
-        
-        const slots = getTimeSlots(course);
-        if (slots.length === 0) continue;
-        
-        for (const selected of state.selectedCourses) {
-            if (hasConflict(course, selected)) {
-                conflicting.add(course.id);
-                break;
-            }
-        }
+function conflictIds() {
+    const set = new Set();
+    for (const c of S.all) {
+        if (S.selected.some(s => s.id === c.id)) continue;
+        if (getSlots(c).length === 0) continue;
+        for (const sel of S.selected) if (conflicts(c, sel)) { set.add(c.id); break; }
     }
-    return conflicting;
+    return set;
 }
 
-function countScheduleConflicts() {
-    let conflicts = 0;
-    for (let i = 0; i < state.selectedCourses.length; i++) {
-        for (let j = i + 1; j < state.selectedCourses.length; j++) {
-            if (hasConflict(state.selectedCourses[i], state.selectedCourses[j])) {
-                conflicts++;
-            }
-        }
-    }
-    return conflicts;
+function conflictCount() {
+    let n = 0;
+    for (let i = 0; i < S.selected.length; i++)
+        for (let j = i + 1; j < S.selected.length; j++)
+            if (conflicts(S.selected[i], S.selected[j])) n++;
+    return n;
 }
 
-// ══════════════════════════════════════
-// RENDERING
-// ══════════════════════════════════════
+// ══════════ RENDER ══════════
 
-function renderCourseList() {
-    const container = document.getElementById('course-list');
-    const conflicting = getConflictingCourseIds();
-    
-    let filtered = state.allCourses.filter(c => {
-        if (state.searchQuery) {
-            const searchable = [
-                c['Fachname'], c['Vortragende'], c['Lehrstuhl'], c['LV-Nr']
-            ].join(' ').toLowerCase();
-            if (!searchable.includes(state.searchQuery)) return false;
+function render() {
+    renderList();
+    renderGrid();
+    renderSelected();
+    updateStats();
+}
+
+function renderList() {
+    const box = document.getElementById('course-list');
+    const cIds = conflictIds();
+
+    let items = S.all.filter(c => {
+        if (S.search) {
+            const hay = [c.Fachname, c.Vortragende, c.Lehrstuhl, c['LV-Nr']].join(' ').toLowerCase();
+            if (!hay.includes(S.search)) return false;
         }
-        if (state.filterType && c['Typ'] !== state.filterType) return false;
-        if (state.filterLehrstuhl && c['Lehrstuhl'] !== state.filterLehrstuhl) return false;
+        if (S.filterType && c.Typ !== S.filterType) return false;
+        if (S.filterLS && c.Lehrstuhl !== S.filterLS) return false;
+        if (S.filterSched === 'has' && !(c.Termine && c.Termine.length)) return false;
+        if (S.filterSched === 'none' && c.Termine && c.Termine.length) return false;
         return true;
     });
 
-    // Sort: selected first, then conflicting last, then alphabetical
-    filtered.sort((a, b) => {
-        const aSelected = state.selectedCourses.find(s => s.id === a.id) ? 1 : 0;
-        const bSelected = state.selectedCourses.find(s => s.id === b.id) ? 1 : 0;
-        if (aSelected !== bSelected) return bSelected - aSelected;
-        
-        const aConflict = conflicting.has(a.id) ? 1 : 0;
-        const bConflict = conflicting.has(b.id) ? 1 : 0;
-        if (aConflict !== bConflict) return aConflict - bConflict;
-        
-        return (a['Fachname'] || '').localeCompare(b['Fachname'] || '');
+    // Sort: selected first, conflicts last, then alphabetic
+    items.sort((a, b) => {
+        const as = S.selected.some(s => s.id === a.id) ? 1 : 0;
+        const bs = S.selected.some(s => s.id === b.id) ? 1 : 0;
+        if (as !== bs) return bs - as;
+        const ac = cIds.has(a.id) ? 1 : 0, bc = cIds.has(b.id) ? 1 : 0;
+        if (ac !== bc) return ac - bc;
+        return (a.Fachname || '').localeCompare(b.Fachname || '');
     });
 
-    // Update count
-    document.getElementById('course-count').textContent = `${filtered.length} Kurse`;
+    document.getElementById('course-count').textContent = items.length;
+    box.innerHTML = '';
 
-    if (filtered.length === 0 && state.allCourses.length === 0) {
-        container.innerHTML = `
-            <div class="empty-state" id="empty-state">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.4">
-                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                    <polyline points="17 8 12 3 7 8"></polyline>
-                    <line x1="12" y1="3" x2="12" y2="15"></line>
-                </svg>
-                <p>CSV oder JSON Datei importieren</p>
-                <p class="hint">Klicke auf "Import" oder ziehe eine Datei hierher</p>
-            </div>`;
+    if (!items.length) {
+        box.innerHTML = `<div style="text-align:center;padding:40px 16px;color:var(--text-4);font-size:0.78rem;">
+            ${S.all.length ? 'Keine Kurse gefunden' : 'Lade Kursdaten...'}</div>`;
         return;
     }
 
-    if (filtered.length === 0) {
-        container.innerHTML = `
-            <div class="empty-state">
-                <p>Keine Kurse gefunden</p>
-                <p class="hint">Versuche andere Suchbegriffe oder Filter</p>
-            </div>`;
-        return;
-    }
+    for (const c of items) {
+        const isSel = S.selected.some(s => s.id === c.id);
+        const isCon = cIds.has(c.id);
+        const hasSched = (c.Termine && c.Termine.length > 0);
+        const ci = isSel ? S.selected.findIndex(s => s.id === c.id) % COLORS.length : hashCI(c.id);
+        const color = COLORS[ci];
 
-    container.innerHTML = '';
+        const card = el('div', `course-card${isSel ? ' selected' : ''}${isCon ? ' conflicting' : ''}${!hasSched ? ' no-schedule' : ''}`);
+        card.style.setProperty('--card-color', color);
 
-    for (const course of filtered) {
-        const isSelected = !!state.selectedCourses.find(s => s.id === course.id);
-        const isConflicting = conflicting.has(course.id);
-        const termine = course['Termine'] || [];
-        const hasSchedule = termine.length > 0;
-        const colorIdx = isSelected 
-            ? state.selectedCourses.findIndex(s => s.id === course.id) % COURSE_COLORS.length
-            : hashColor(course.id);
-        const color = COURSE_COLORS[colorIdx];
-
-        const card = document.createElement('div');
-        card.className = `course-card${isSelected ? ' added' : ''}${isConflicting ? ' conflicting' : ''}${!hasSchedule ? ' no-schedule' : ''}`;
-        card.style.setProperty('--card-accent', color);
-        card.draggable = true;
-        card.dataset.courseId = course.id;
-
-        // Schedule tags
-        let scheduleTags = '';
-        if (hasSchedule) {
-            scheduleTags = `<div class="course-schedule-tags">${
-                termine.map(t => {
-                    const dayName = t.tag || '?';
-                    const time = t.von && t.bis ? `${t.von}–${t.bis}` : '';
-                    return `<span class="schedule-tag">${dayName} ${time}</span>`;
-                }).join('')
-            }</div>`;
-        } else {
-            scheduleTags = `<div class="course-schedule-tags">
-                <span class="schedule-tag">Keine Termine</span>
-            </div>`;
-        }
+        const tags = hasSched
+            ? (c.Termine || []).map(t => {
+                const d = (t.tag || '').substring(0, 2);
+                return `<span class="tag">${d} ${t.von||''}–${t.bis||''}</span>`;
+            }).join('')
+            : '<span class="tag no-schedule-tag">Keine Termine</span>';
 
         card.innerHTML = `
-            <div class="course-card-header">
-                <span class="course-name">${escapeHtml(course['Fachname'] || '')}</span>
-                ${course['Typ'] ? `<span class="course-type-badge" style="background:${color}">${course['Typ']}</span>` : ''}
+            <div class="card-top">
+                <span class="card-name">${esc(c.Fachname||'')}</span>
+                ${c.Typ ? `<span class="card-badge">${c.Typ}</span>` : ''}
             </div>
-            <div class="course-meta">
-                ${course['Vortragende'] ? `
-                    <div class="course-meta-row">
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="12" cy="7" r="4"></circle>
-                        </svg>
-                        <span class="truncate">${escapeHtml(course['Vortragende'])}</span>
-                    </div>` : ''}
-                ${course['Lehrstuhl'] ? `
-                    <div class="course-meta-row">
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                        </svg>
-                        <span class="truncate">${escapeHtml(course['Lehrstuhl'])}</span>
-                    </div>` : ''}
+            <div class="card-meta">
+                ${c.Vortragende ? `<div class="card-meta-row"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>${esc(c.Vortragende)}</span></div>` : ''}
+                ${c.Lehrstuhl ? `<div class="card-meta-row"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg><span>${esc(c.Lehrstuhl)}</span></div>` : ''}
+                ${c.SWS ? `<div class="card-meta-row" style="gap:8px"><span>${c.SWS} SWS</span>${c.ECTS ? `<span>${c.ECTS} ECTS</span>` : ''}</div>` : ''}
             </div>
-            ${scheduleTags}
-            <div class="course-card-actions">
-                ${isConflicting ? '<span style="font-size:0.65rem;color:var(--conflict-color)">⚠ Konflikt</span>' : ''}
-                ${isSelected 
-                    ? `<button class="btn-add added" title="Entfernen" onclick="removeCourse('${course.id}')">✓</button>`
-                    : `<button class="btn-add${isConflicting ? ' conflict' : ''}" title="${isConflicting ? 'Konflikt mit bestehendem Kurs' : 'Zum Stundenplan hinzufügen'}" onclick="${isConflicting ? '' : `addCourse('${course.id}')`}">+</button>`
-                }
+            <div class="card-tags">${tags}</div>
+            <div class="card-actions">
+                ${isCon ? '<span class="card-conflict-label">⚠ Zeitkonflikt</span>' : ''}
+                <button class="btn-add-card ${isSel ? 'is-selected' : ''}${isCon ? ' is-conflict' : ''}"
+                    title="${isSel ? 'Entfernen' : isCon ? 'Konflikt' : 'Hinzufügen'}">${isSel ? '✓' : '+'}</button>
             </div>`;
 
-        // Drag events
-        card.addEventListener('dragstart', (e) => {
-            if (isConflicting || isSelected) {
-                e.preventDefault();
-                return;
-            }
-            e.dataTransfer.setData('text/plain', course.id);
-            e.dataTransfer.effectAllowed = 'move';
-            card.classList.add('dragging');
-            document.getElementById('schedule-drop-zone').classList.remove('hidden');
-        });
-        card.addEventListener('dragend', () => {
-            card.classList.remove('dragging');
-            document.getElementById('schedule-drop-zone').classList.add('hidden');
-        });
+        const btn = card.querySelector('.btn-add-card');
+        if (isSel) {
+            btn.onclick = (e) => { e.stopPropagation(); removeCourse(c.id); };
+        } else if (!isCon) {
+            btn.onclick = (e) => { e.stopPropagation(); addCourse(c.id); };
+        }
 
-        container.appendChild(card);
+        box.appendChild(card);
     }
-
-    // Setup drop zone
-    const dropZone = document.getElementById('schedule-drop-zone');
-    dropZone.addEventListener('dragover', (e) => {
-        e.preventDefault();
-        e.dataTransfer.dropEffect = 'move';
-    });
-    dropZone.addEventListener('drop', (e) => {
-        e.preventDefault();
-        const courseId = e.dataTransfer.getData('text/plain');
-        if (courseId) addCourse(courseId);
-        dropZone.classList.add('hidden');
-    });
 }
 
-function renderScheduleGrid() {
-    // Remove existing blocks
-    document.querySelectorAll('.schedule-block').forEach(el => el.remove());
+function renderGrid() {
+    // Remove old blocks
+    document.querySelectorAll('.schedule-block').forEach(e => e.remove());
 
     const grid = document.getElementById('schedule-grid');
-    const gridRect = grid.getBoundingClientRect();
-    const colWidth = (gridRect.width - 56) / 5; // 56px = time label column
-    const rowHeight = 48; // --grid-row-height
+    const rect = grid.getBoundingClientRect();
+    const colW = (rect.width - 50) / 5;
+    const rowH = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--grid-row-h'));
 
-    for (const course of state.selectedCourses) {
-        const slots = getTimeSlots(course);
-        const colorIdx = state.selectedCourses.indexOf(course) % COURSE_COLORS.length;
-        const color = COURSE_COLORS[colorIdx];
+    for (const course of S.selected) {
+        const slots = getSlots(course);
+        const ci = S.selected.indexOf(course) % COLORS.length;
+        const color = COLORS[ci];
 
         for (const slot of slots) {
             if (slot.day > 4) continue;
+            const top = 32 + (slot.start - T_START) * rowH + 1;
+            const height = (slot.end - slot.start) * rowH - 2;
+            const left = 50 + slot.day * colW + 2;
+            if (height <= 0) continue;
 
-            const top = 36 + (slot.start - TIME_START) * rowHeight + 1; // 36 = header row
-            const height = (slot.end - slot.start) * rowHeight - 2;
-            const left = 56 + slot.day * colWidth + 2; // 56 = time column
+            const hasCon = S.selected.some(o => o.id !== course.id && conflicts(course, o));
 
-            if (top < 36 || height <= 0) continue;
-
-            const block = document.createElement('div');
-            block.className = 'schedule-block';
-            block.style.top = `${top}px`;
-            block.style.left = `${left}px`;
-            block.style.width = `${colWidth - 4}px`;
-            block.style.height = `${height}px`;
-            block.style.background = `${color}20`;
-            block.style.borderColor = `${color}60`;
-            block.style.borderWidth = '1px';
-            block.style.borderStyle = 'solid';
-            block.style.color = color;
-
-            // Check if this block overlaps with another
-            for (const otherCourse of state.selectedCourses) {
-                if (otherCourse.id === course.id) continue;
-                if (hasConflict(course, otherCourse)) {
-                    block.classList.add('conflict-block');
-                    break;
-                }
-            }
-
-            const timeStr = slot.termin.von && slot.termin.bis 
-                ? `${slot.termin.von} – ${slot.termin.bis}` : '';
-
-            block.innerHTML = `
-                <span class="block-title">${escapeHtml(course['Fachname'] || '')}</span>
-                <span class="block-time">${timeStr}</span>
-                ${course['Typ'] ? `<span class="block-type">${course['Typ']}</span>` : ''}
-                <button class="block-remove" onclick="removeCourse('${course.id}')" title="Entfernen">×</button>
+            const b = el('div', `schedule-block${hasCon ? ' has-conflict' : ''}`);
+            b.style.cssText = `
+                top:${top}px; left:${left}px; width:${colW - 4}px; height:${height}px;
+                background:${color}18; border-color:${color}50; color:${color};
             `;
 
-            block.addEventListener('click', () => {
-                // Could show details popup
-            });
-
-            grid.appendChild(block);
+            const room = slot.t.raum || '';
+            b.innerHTML = `
+                <span class="sb-name">${esc(course.Fachname||'')}</span>
+                <span class="sb-time">${slot.t.von||''} – ${slot.t.bis||''}</span>
+                ${course.Typ ? `<span class="sb-type">${course.Typ}</span>` : ''}
+                ${room ? `<span class="sb-room">${esc(room)}</span>` : ''}
+                <button class="sb-remove" title="Entfernen">×</button>
+            `;
+            b.querySelector('.sb-remove').onclick = (e) => { e.stopPropagation(); removeCourse(course.id); };
+            grid.appendChild(b);
         }
     }
 }
 
-function renderSelectedCoursesList() {
-    const container = document.getElementById('selected-courses-list');
-    
-    if (state.selectedCourses.length === 0) {
-        container.innerHTML = '<p class="no-courses-msg">Ziehe Kurse aus der Liste oder klicke auf + um sie hinzuzufügen</p>';
+function renderSelected() {
+    const box = document.getElementById('selected-list');
+    if (!S.selected.length) {
+        box.innerHTML = '<p class="empty-hint">Klicke auf <strong>+</strong> um Kurse hinzuzufügen</p>';
         return;
     }
-
-    container.innerHTML = '';
-    for (const course of state.selectedCourses) {
-        const colorIdx = state.selectedCourses.indexOf(course) % COURSE_COLORS.length;
-        const color = COURSE_COLORS[colorIdx];
-        const termine = (course['Termine'] || []);
-        const scheduleStr = termine.map(t => `${t.tag || ''} ${t.von || ''}-${t.bis || ''}`).join(', ');
-
-        const item = document.createElement('div');
-        item.className = 'selected-course-item';
+    box.innerHTML = '';
+    for (const c of S.selected) {
+        const ci = S.selected.indexOf(c) % COLORS.length;
+        const schedStr = (c.Termine||[]).map(t => `${(t.tag||'').substring(0,2)} ${t.von||''}-${t.bis||''}`).join(', ');
+        const item = el('div', 'sel-item');
         item.innerHTML = `
-            <div class="selected-course-color" style="background:${color}"></div>
-            <div class="selected-course-info">
-                <div class="selected-course-name">${escapeHtml(course['Fachname'] || '')}</div>
-                <div class="selected-course-detail">${course['Typ'] || ''} ${scheduleStr ? '• ' + scheduleStr : ''}</div>
+            <div class="sel-dot" style="background:${COLORS[ci]}"></div>
+            <div class="sel-info">
+                <div class="sel-name">${esc(c.Fachname||'')}</div>
+                <div class="sel-detail">${c.Typ||''} ${schedStr ? '• '+schedStr : '• Keine Termine'}</div>
             </div>
-            <button class="btn-remove" onclick="removeCourse('${course.id}')" title="Entfernen">×</button>
-        `;
-        container.appendChild(item);
+            <button class="sel-remove" title="Entfernen">×</button>`;
+        item.querySelector('.sel-remove').onclick = () => removeCourse(c.id);
+        box.appendChild(item);
     }
 }
 
 function updateStats() {
-    const courseCount = state.selectedCourses.length;
-    const conflicts = countScheduleConflicts();
-    
-    // Calculate total hours per week
-    let totalHours = 0;
-    for (const course of state.selectedCourses) {
-        const slots = getTimeSlots(course);
-        for (const slot of slots) {
-            totalHours += slot.end - slot.start;
-        }
-    }
+    const n = S.selected.length;
+    const cc = conflictCount();
+    let hrs = 0;
+    for (const c of S.selected) for (const sl of getSlots(c)) hrs += sl.end - sl.start;
 
-    document.querySelector('#stat-courses .stat-value').textContent = courseCount;
-    document.querySelector('#stat-ects .stat-value').textContent = totalHours.toFixed(1);
-    
-    const conflictEl = document.querySelector('#stat-conflicts .stat-value');
-    conflictEl.textContent = conflicts;
-    conflictEl.classList.toggle('has-conflicts', conflicts > 0);
+    document.querySelector('#stat-courses .stat-value').textContent = n;
+    document.querySelector('#stat-hours .stat-value').textContent = hrs % 1 === 0 ? hrs : hrs.toFixed(1);
+    const cv = document.querySelector('#stat-conflicts .stat-value');
+    cv.textContent = cc;
+    cv.classList.toggle('has-conflicts', cc > 0);
 }
 
-// ══════════════════════════════════════
-// COURSE ACTIONS
-// ══════════════════════════════════════
+// ══════════ ACTIONS ══════════
 
-function addCourse(courseId) {
-    const course = state.allCourses.find(c => c.id === courseId);
-    if (!course) return;
-    if (state.selectedCourses.find(c => c.id === courseId)) return;
-
-    state.selectedCourses.push(course);
-    
-    renderCourseList();
-    renderScheduleGrid();
-    renderSelectedCoursesList();
-    updateStats();
-    saveToLocalStorage();
-    
-    showToast(`"${course['Fachname']}" hinzugefügt`, 'success');
+function addCourse(id) {
+    const c = S.all.find(x => x.id === id);
+    if (!c || S.selected.some(x => x.id === id)) return;
+    S.selected.push(c);
+    saveState(); render();
+    toast(`"${c.Fachname}" hinzugefügt`, 'success');
 }
 
-window.addCourse = addCourse;
-
-function removeCourse(courseId) {
-    const idx = state.selectedCourses.findIndex(c => c.id === courseId);
-    if (idx < 0) return;
-    
-    const course = state.selectedCourses[idx];
-    state.selectedCourses.splice(idx, 1);
-    
-    renderCourseList();
-    renderScheduleGrid();
-    renderSelectedCoursesList();
-    updateStats();
-    saveToLocalStorage();
-    
-    showToast(`"${course['Fachname']}" entfernt`, 'info');
+function removeCourse(id) {
+    const i = S.selected.findIndex(x => x.id === id);
+    if (i < 0) return;
+    const c = S.selected[i];
+    S.selected.splice(i, 1);
+    saveState(); render();
+    toast(`"${c.Fachname}" entfernt`, 'info');
 }
 
-window.removeCourse = removeCourse;
-
-function clearSchedule() {
-    if (state.selectedCourses.length === 0) return;
+function clearAll() {
+    if (!S.selected.length) return;
     if (!confirm('Alle Kurse aus dem Stundenplan entfernen?')) return;
-    
-    state.selectedCourses = [];
-    renderCourseList();
-    renderScheduleGrid();
-    renderSelectedCoursesList();
-    updateStats();
-    saveToLocalStorage();
-    showToast('Stundenplan geleert', 'info');
+    S.selected = [];
+    saveState(); render();
+    toast('Stundenplan geleert', 'info');
 }
-
-// ══════════════════════════════════════
-// EXPORT
-// ══════════════════════════════════════
 
 function exportSchedule() {
-    if (state.selectedCourses.length === 0) {
-        showToast('Keine Kurse im Stundenplan', 'warning');
-        return;
-    }
-
-    const exportData = {
-        exportDate: new Date().toISOString(),
-        courses: state.selectedCourses.map(c => ({
-            'LV-Nr': c['LV-Nr'],
-            'Fachname': c['Fachname'],
-            'Typ': c['Typ'],
-            'Vortragende': c['Vortragende'],
-            'Lehrstuhl': c['Lehrstuhl'],
-            'Termine': c['Termine'],
+    if (!S.selected.length) { toast('Keine Kurse ausgewählt', 'error'); return; }
+    const data = {
+        exported: new Date().toISOString(),
+        courses: S.selected.map(c => ({
+            'LV-Nr': c['LV-Nr'], Fachname: c.Fachname, Typ: c.Typ,
+            SWS: c.SWS, ECTS: c.ECTS, Vortragende: c.Vortragende,
+            Lehrstuhl: c.Lehrstuhl, Termine: c.Termine,
         }))
     };
-
-    const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
     const a = document.createElement('a');
-    a.href = url;
-    a.download = 'stundenplan_export.json';
+    a.href = URL.createObjectURL(blob);
+    a.download = 'stundenplan.json';
     a.click();
-    URL.revokeObjectURL(url);
-    
-    showToast('Stundenplan exportiert', 'success');
+    URL.revokeObjectURL(a.href);
+    toast('Stundenplan exportiert', 'success');
 }
 
-// ══════════════════════════════════════
-// FILTER POPULATION
-// ══════════════════════════════════════
+// ══════════ FILTERS ══════════
 
-function populateLehrstuhlFilter() {
-    const select = document.getElementById('filter-lehrstuhl');
-    const lehrstuehle = [...new Set(state.allCourses.map(c => c['Lehrstuhl']).filter(Boolean))].sort();
-    
-    select.innerHTML = '<option value="">Alle Lehrstühle</option>';
-    for (const ls of lehrstuehle) {
-        const opt = document.createElement('option');
-        opt.value = ls;
-        opt.textContent = ls.length > 50 ? ls.substring(0, 50) + '...' : ls;
-        select.appendChild(opt);
-    }
+function populateFilters() {
+    // Types
+    const types = [...new Set(S.all.map(c => c.Typ).filter(Boolean))].sort();
+    const tSel = document.getElementById('filter-type');
+    tSel.innerHTML = '<option value="">Alle Typen</option>';
+    types.forEach(t => { const o = document.createElement('option'); o.value = t; o.textContent = t; tSel.appendChild(o); });
+
+    // Lehrstühle
+    const lss = [...new Set(S.all.map(c => c.Lehrstuhl).filter(Boolean))].sort();
+    const lSel = document.getElementById('filter-lehrstuhl');
+    lSel.innerHTML = '<option value="">Alle Lehrstühle</option>';
+    lss.forEach(l => { const o = document.createElement('option'); o.value = l; o.textContent = l.length > 45 ? l.substring(0,45)+'…' : l; lSel.appendChild(o); });
 }
 
-// ══════════════════════════════════════
-// LOCAL STORAGE
-// ══════════════════════════════════════
+// ══════════ PERSISTENCE ══════════
 
-function saveToLocalStorage() {
+function saveState() {
     try {
-        localStorage.setItem('rwth_planner_courses', JSON.stringify(state.allCourses));
-        localStorage.setItem('rwth_planner_selected', JSON.stringify(state.selectedCourses.map(c => c.id)));
-    } catch (e) {
-        console.warn('LocalStorage save failed:', e);
-    }
+        localStorage.setItem('rwth_pl_all', JSON.stringify(S.all));
+        localStorage.setItem('rwth_pl_sel', JSON.stringify(S.selected.map(c => c.id)));
+    } catch (e) { /* quota */ }
 }
 
-function loadFromLocalStorage() {
+function loadState() {
     try {
-        const courses = localStorage.getItem('rwth_planner_courses');
-        const selectedIds = localStorage.getItem('rwth_planner_selected');
-        
-        if (courses) {
-            state.allCourses = JSON.parse(courses);
-            populateLehrstuhlFilter();
-            
-            if (selectedIds) {
-                const ids = JSON.parse(selectedIds);
-                state.selectedCourses = ids
-                    .map(id => state.allCourses.find(c => c.id === id))
-                    .filter(Boolean);
-            }
-            
-            renderCourseList();
-            renderScheduleGrid();
-            renderSelectedCoursesList();
-            updateStats();
-        }
-    } catch (e) {
-        console.warn('LocalStorage load failed:', e);
-    }
+        const raw = localStorage.getItem('rwth_pl_all');
+        if (!raw) return false;
+        S.all = JSON.parse(raw);
+        const ids = JSON.parse(localStorage.getItem('rwth_pl_sel') || '[]');
+        S.selected = ids.map(id => S.all.find(c => c.id === id)).filter(Boolean);
+        populateFilters();
+        return true;
+    } catch (e) { return false; }
 }
 
-// ══════════════════════════════════════
-// UTILITIES
-// ══════════════════════════════════════
+// ══════════ UTILS ══════════
 
-function escapeHtml(str) {
-    const div = document.createElement('div');
-    div.textContent = str;
-    return div.innerHTML;
-}
+function el(tag, cls) { const e = document.createElement(tag); if (cls) e.className = cls; return e; }
+function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+function hashCI(s) { let h = 0; for (let i = 0; i < s.length; i++) h = s.charCodeAt(i) + ((h << 5) - h); return Math.abs(h) % COLORS.length; }
 
-function hashColor(str) {
-    let hash = 0;
-    for (let i = 0; i < str.length; i++) {
-        hash = str.charCodeAt(i) + ((hash << 5) - hash);
-    }
-    return Math.abs(hash) % COURSE_COLORS.length;
-}
-
-function showToast(message, type = 'info') {
-    const container = document.getElementById('toast-container');
-    const toast = document.createElement('div');
-    toast.className = `toast ${type}`;
-    
-    const icons = { success: '✅', error: '❌', warning: '⚠️', info: 'ℹ️' };
-    toast.innerHTML = `
-        <span class="toast-icon">${icons[type] || 'ℹ️'}</span>
-        <span>${escapeHtml(message)}</span>
-    `;
-    
-    container.appendChild(toast);
-    
-    setTimeout(() => {
-        toast.classList.add('fade-out');
-        setTimeout(() => toast.remove(), 300);
-    }, 3000);
+function toast(msg, type = 'info') {
+    const c = document.getElementById('toast-container');
+    const t = el('div', `toast ${type}`);
+    const icons = { success: '✅', error: '❌', info: 'ℹ️' };
+    t.innerHTML = `<span>${icons[type]||'ℹ️'}</span><span>${esc(msg)}</span>`;
+    c.appendChild(t);
+    setTimeout(() => { t.classList.add('fade-out'); setTimeout(() => t.remove(), 250); }, 2500);
 }
