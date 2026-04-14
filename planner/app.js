@@ -23,7 +23,7 @@ const DAY_SHORT_MAP = {
     'Mo': 0, 'Di': 1, 'Mi': 2, 'Do': 3, 'Fr': 4, 'Sa': 5,
 };
 const T_START = 8, T_END = 20;
-const COLORS = ['#4f8ff7','#a78bfa','#34d399','#fbbf24','#22d3ee','#f43f5e','#818cf8','#fb923c','#2dd4bf','#f472b6'];
+const COLORS = ['#4f8ff7', '#a78bfa', '#34d399', '#fbbf24', '#22d3ee', '#f43f5e', '#818cf8', '#fb923c', '#2dd4bf', '#f472b6'];
 
 // ══════════ INIT ══════════
 
@@ -199,13 +199,13 @@ function renderList() {
         const tags = hasSched
             ? (c.Termine || []).map(t => {
                 const d = (t.tag || '').substring(0, 2);
-                return `<span class="tag">${d} ${t.von||''}–${t.bis||''}</span>`;
+                return `<span class="tag">${d} ${t.von || ''}–${t.bis || ''}</span>`;
             }).join('')
             : '<span class="tag no-schedule-tag">Keine Termine</span>';
 
         card.innerHTML = `
             <div class="card-top">
-                <span class="card-name">${esc(c.Fachname||'')}</span>
+                <span class="card-name">${esc(c.Fachname || '')}</span>
                 ${c.Typ ? `<span class="card-badge">${c.Typ}</span>` : ''}
             </div>
             <div class="card-meta">
@@ -223,8 +223,12 @@ function renderList() {
         const btn = card.querySelector('.btn-add-card');
         if (isSel) {
             btn.onclick = (e) => { e.stopPropagation(); removeCourse(c.id); };
-        } else if (!isCon) {
-            btn.onclick = (e) => { e.stopPropagation(); addCourse(c.id); };
+        } else {
+            btn.onclick = (e) => {
+                e.stopPropagation();
+                addCourse(c.id);
+                if (isCon) toast(`⚠ "${c.Fachname}" hat Zeitkonflikte`, 'error');
+            };
         }
 
         box.appendChild(card);
@@ -240,37 +244,62 @@ function renderGrid() {
     const colW = (rect.width - 50) / 5;
     const rowH = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--grid-row-h'));
 
+    // Build a flat list of all (course, slot) pairs
+    const allEntries = [];
     for (const course of S.selected) {
-        const slots = getSlots(course);
         const ci = S.selected.indexOf(course) % COLORS.length;
-        const color = COLORS[ci];
-
-        for (const slot of slots) {
+        for (const slot of getSlots(course)) {
             if (slot.day > 4) continue;
-            const top = 32 + (slot.start - T_START) * rowH + 1;
-            const height = (slot.end - slot.start) * rowH - 2;
-            const left = 50 + slot.day * colW + 2;
-            if (height <= 0) continue;
-
-            const hasCon = S.selected.some(o => o.id !== course.id && conflicts(course, o));
-
-            const b = el('div', `schedule-block${hasCon ? ' has-conflict' : ''}`);
-            b.style.cssText = `
-                top:${top}px; left:${left}px; width:${colW - 4}px; height:${height}px;
-                background:${color}18; border-color:${color}50; color:${color};
-            `;
-
-            const room = slot.t.raum || '';
-            b.innerHTML = `
-                <span class="sb-name">${esc(course.Fachname||'')}</span>
-                <span class="sb-time">${slot.t.von||''} – ${slot.t.bis||''}</span>
-                ${course.Typ ? `<span class="sb-type">${course.Typ}</span>` : ''}
-                ${room ? `<span class="sb-room">${esc(room)}</span>` : ''}
-                <button class="sb-remove" title="Entfernen">×</button>
-            `;
-            b.querySelector('.sb-remove').onclick = (e) => { e.stopPropagation(); removeCourse(course.id); };
-            grid.appendChild(b);
+            allEntries.push({ course, slot, ci });
         }
+    }
+
+    // For each entry, find all others that overlap on the same day/time
+    // and assign a column index + total column count for splitting
+    for (let i = 0; i < allEntries.length; i++) {
+        const a = allEntries[i];
+
+        const group = allEntries.filter(b =>
+            b.slot.day === a.slot.day &&
+            b.slot.start < a.slot.end &&
+            b.slot.end > a.slot.start
+        );
+
+        group.sort((x, y) => S.selected.indexOf(x.course) - S.selected.indexOf(y.course));
+
+        a._colIndex = group.indexOf(a);
+        a._colCount = group.length;
+    }
+
+    // Render each entry with its split position
+    for (const { course, slot, ci, _colIndex, _colCount } of allEntries) {
+        const top = 32 + (slot.start - T_START) * rowH + 1;
+        const height = (slot.end - slot.start) * rowH - 2;
+        if (height <= 0) continue;
+
+        const slotW = (colW - 4) / _colCount;
+        const left = 50 + slot.day * colW + 2 + _colIndex * slotW;
+        const width = slotW - (_colCount > 1 ? 2 : 0);
+
+        const color = COLORS[ci];
+        const hasCon = _colCount > 1;
+
+        const b = el('div', `schedule-block${hasCon ? ' has-conflict' : ''}`);
+        b.style.cssText = `
+            top:${top}px; left:${left}px; width:${width}px; height:${height}px;
+            background:${color}18; border-color:${color}50; color:${color};
+        `;
+
+        const room = slot.t.raum || '';
+        b.innerHTML = `
+            <span class="sb-name">${esc(course.Fachname || '')}</span>
+            <span class="sb-time">${slot.t.von || ''} – ${slot.t.bis || ''}</span>
+            ${course.Typ ? `<span class="sb-type">${course.Typ}</span>` : ''}
+            ${room ? `<span class="sb-room">${esc(room)}</span>` : ''}
+            <button class="sb-remove" title="Entfernen">×</button>
+        `;
+        b.querySelector('.sb-remove').onclick = (e) => { e.stopPropagation(); removeCourse(course.id); };
+        grid.appendChild(b);
     }
 }
 
@@ -283,13 +312,13 @@ function renderSelected() {
     box.innerHTML = '';
     for (const c of S.selected) {
         const ci = S.selected.indexOf(c) % COLORS.length;
-        const schedStr = (c.Termine||[]).map(t => `${(t.tag||'').substring(0,2)} ${t.von||''}-${t.bis||''}`).join(', ');
+        const schedStr = (c.Termine || []).map(t => `${(t.tag || '').substring(0, 2)} ${t.von || ''}-${t.bis || ''}`).join(', ');
         const item = el('div', 'sel-item');
         item.innerHTML = `
             <div class="sel-dot" style="background:${COLORS[ci]}"></div>
             <div class="sel-info">
-                <div class="sel-name">${esc(c.Fachname||'')}</div>
-                <div class="sel-detail">${c.Typ||''} ${schedStr ? '• '+schedStr : '• Keine Termine'}</div>
+                <div class="sel-name">${esc(c.Fachname || '')}</div>
+                <div class="sel-detail">${c.Typ || ''} ${schedStr ? '• ' + schedStr : '• Keine Termine'}</div>
             </div>
             <button class="sel-remove" title="Entfernen">×</button>`;
         item.querySelector('.sel-remove').onclick = () => removeCourse(c.id);
@@ -369,7 +398,7 @@ function populateFilters() {
     const lss = [...new Set(S.all.map(c => c.Lehrstuhl).filter(Boolean))].sort();
     const lSel = document.getElementById('filter-lehrstuhl');
     lSel.innerHTML = '<option value="">Alle Lehrstühle</option>';
-    lss.forEach(l => { const o = document.createElement('option'); o.value = l; o.textContent = l.length > 45 ? l.substring(0,45)+'…' : l; lSel.appendChild(o); });
+    lss.forEach(l => { const o = document.createElement('option'); o.value = l; o.textContent = l.length > 45 ? l.substring(0, 45) + '…' : l; lSel.appendChild(o); });
 }
 
 // ══════════ PERSISTENCE ══════════
@@ -403,7 +432,7 @@ function toast(msg, type = 'info') {
     const c = document.getElementById('toast-container');
     const t = el('div', `toast ${type}`);
     const icons = { success: '✅', error: '❌', info: 'ℹ️' };
-    t.innerHTML = `<span>${icons[type]||'ℹ️'}</span><span>${esc(msg)}</span>`;
+    t.innerHTML = `<span>${icons[type] || 'ℹ️'}</span><span>${esc(msg)}</span>`;
     c.appendChild(t);
     setTimeout(() => { t.classList.add('fade-out'); setTimeout(() => t.remove(), 250); }, 2500);
 }
